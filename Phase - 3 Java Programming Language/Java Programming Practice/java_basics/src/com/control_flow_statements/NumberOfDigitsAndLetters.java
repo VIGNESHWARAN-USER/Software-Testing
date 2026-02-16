@@ -2,6 +2,15 @@ package com.control_flow_statements;
 
 import java.util.*;
 
+/*
+ * Level: Medium
+ * 8. Accepts a string and calculate the number of digits and letters.
+ * Sample I/O:
+ * Enter String: India became independent in 1947
+ * Output:
+ * Letters: 24, Digits: 4, Other Symbols: 4
+*/
+
 public class NumberOfDigitsAndLetters {
 	public static void main(String args[])
 	{

@@ -2,6 +2,12 @@ package com.control_flow_statements;
 
 import java.util.Scanner;
 
+/*
+ * Level: Easy
+ * 8. Write a program to check whether the given Character is an Alphabet/ Digit /Special
+ * Symbol using if-else-if statement.
+*/
+
 public class AlphabetDigitOrSpeacialSymbol {
 	public static void main(String args[])
 	{

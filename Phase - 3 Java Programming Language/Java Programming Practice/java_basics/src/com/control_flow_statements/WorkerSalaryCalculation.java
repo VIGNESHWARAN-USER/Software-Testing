@@ -2,6 +2,12 @@ package com.control_flow_statements;
 
 import java.util.Scanner;
 
+/* 
+* Level: Easy
+* 1. Write a program to get employee details, wages and number of days worked from user
+* 	 and find total salary
+*/
+
 class Worker
 {
 	private int id;

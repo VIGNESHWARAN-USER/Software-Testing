@@ -2,6 +2,13 @@ package com.control_flow_statements;
 
 import java.util.*;
 
+/*
+ * Level: Medium
+ * To check whether the given number is Armstrong number or not.
+ * Note: Armstrong number is 3 digit number, the sum of cubes of each digit is equal to
+ * the number itself.
+*/
+
 
 public class ArmstrongNumber {
 	

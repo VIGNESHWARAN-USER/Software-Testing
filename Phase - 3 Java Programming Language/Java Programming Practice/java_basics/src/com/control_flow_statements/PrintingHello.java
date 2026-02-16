@@ -2,6 +2,14 @@ package com.control_flow_statements;
 
 import java.util.*;
 
+/*
+ * Level: Easy
+ * 6. Write a program that reads an integer continuously and displays "Hello" as many times
+ * as the value of the integer. If the user enters a negative number, the insertion of
+ * integers should end and the program should display the total number of the displayed
+ * "Hello".
+*/
+
 public class PrintingHello {
 	public static void main(String args[])
 	{

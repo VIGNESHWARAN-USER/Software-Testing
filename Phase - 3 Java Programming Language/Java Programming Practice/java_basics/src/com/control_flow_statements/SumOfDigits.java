@@ -2,6 +2,11 @@ package com.control_flow_statements;
 
 import java.util.*;
 
+/*
+ * Level: Easy
+ * 9. Write a program to print sum of digits of a given number.
+*/
+
 public class SumOfDigits {
 	
 	public static int sumOfDigits(int val)

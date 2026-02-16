@@ -2,6 +2,11 @@ package com.control_flow_statements;
 
 import java.util.*;
 
+/*
+ * Level: Easy
+ * 4. Write a program using do-while loop to evaluate the series 1+2+3+…..+i.
+*/
+
 public class SumOfSeries {
 	public static void main(String args[])
 	{

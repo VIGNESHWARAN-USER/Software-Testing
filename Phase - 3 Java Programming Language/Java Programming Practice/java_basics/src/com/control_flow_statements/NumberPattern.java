@@ -2,6 +2,18 @@ package com.control_flow_statements;
 
 import java.util.*;
 
+/*
+ * Level: Easy
+ * 10. Write a program to print the following number pattern
+ * Sample I/O
+ * Enter the N value: 5
+ * 1
+ * 2 2
+ * 3 3 3
+ * 4 4 4 4
+ * 5 5 5 5 5
+*/
+
 public class NumberPattern {
 	public static void main(String args[])
 	{

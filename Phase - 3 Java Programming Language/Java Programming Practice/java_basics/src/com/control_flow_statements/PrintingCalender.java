@@ -2,6 +2,15 @@ package com.control_flow_statements;
 
 import java.util.*;
 
+/*
+ * Level: Medium
+ * 5. Write a program that reads continuously a month number (1 = Jan, 12 = Dec), the day
+ * that the month begins (1 = Mon, 7 = Sun), and displays the calendar for that month. If
+ * the selected month is February, the program should prompt the user to enter the
+ * month’s number of days, that is, 28 or 29. If the given month is out of [1, 12], the
+ * program should terminate.
+*/
+
 public class PrintingCalender {
 	public static void main(String args[])
 	{
