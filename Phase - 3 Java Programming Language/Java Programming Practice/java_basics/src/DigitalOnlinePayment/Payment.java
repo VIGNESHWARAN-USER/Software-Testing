@@ -5,12 +5,10 @@ abstract class Payment {
 	private double amount;
 	private String customerName;
 	private String paymentStatus;
-	public Payment(String transactionId, double amount, String customerName, String paymentStatus) {
-		super();
+	public Payment(String transactionId, double amount, String customerName) {
 		this.transactionId = transactionId;
 		this.amount = amount;
 		this.customerName = customerName;
-		this.paymentStatus = paymentStatus;
 	}
 	
 	abstract public boolean validatePayment();
@@ -18,7 +16,18 @@ abstract class Payment {
 	
 	public void executeTransaction()
 	{
-		
+		if (validatePayment()) { 
+			if (processPayment()) { 
+				setPaymentStatus("Success");
+			} 
+			else { 
+				setPaymentStatus("Failed");
+			} 
+			} 
+		else { 
+		setPaymentStatus("Validation Failed");
+		} 
+		generateReceipt();
 	}
 
 	public String getTransactionId() {
