@@ -1,20 +1,20 @@
 package com.oops;
 
-final class DemoClass
+class DemoClass
 {
 	
 }
 
 class Sample extends DemoClass
 {
-	final void display()
+	void display()
 	{
 		
 	}
 }
 
 public class FinalKeyword  extends Sample{
-	final double pi = 3.14;
+	static double pi = 3.14;
 	
 	void display()
 	{
