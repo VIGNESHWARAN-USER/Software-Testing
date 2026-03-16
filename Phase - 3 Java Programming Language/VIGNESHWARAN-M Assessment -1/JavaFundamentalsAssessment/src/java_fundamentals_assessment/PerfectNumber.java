@@ -1,12 +1,16 @@
 package java_fundamentals_assessment;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 public class PerfectNumber {
-	public static void main(String args[])
+	public static void main(String args[]) throws NumberFormatException, IOException
 	{
-		Scanner sc = new Scanner(System.in);
+		BufferedReader bf = new BufferedReader(new FileReader("src/java_fundamentals_assessment/PerfectNumber.txt"));
+		
 		System.out.print("Enter the number: ");
-		int val = sc.nextInt();
+		int val = Integer.parseInt(bf.readLine());
 		int sum = 0;
 		for(int i=1; i<val; i++)
 		{

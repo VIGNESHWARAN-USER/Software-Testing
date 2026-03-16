@@ -1,5 +1,8 @@
 package java_fundamentals_assessment;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 
 public class LuckyDraw {
@@ -25,16 +28,22 @@ public class LuckyDraw {
 		return sum;
 	}
 	
-	public static void main(String args[])
+	public static void main(String args[]) throws IOException
 	{
-		Scanner sc = new Scanner(System.in);
+		BufferedReader bf = new BufferedReader(new FileReader("src/java_fundamentals_assessment/LuckyDraw.txt"));
+		
+		int n = Integer.parseInt(bf.readLine());
+		
 		System.out.print("No. of Participants: ");
-		int n = sc.nextInt();
+		System.out.println(n);
+		
+		String[] array = bf.readLine().split(" ");
 		int[] arr = new int[n];
 		System.out.print("Token Number for "+n+" participants: ");
 		for(int i=0; i<n; i++)
 		{
-			arr[i] = sc.nextInt();
+			arr[i] = Integer.parseInt(array[i]);
+			System.out.print(arr[i]+" ");
 			if(arr[i] < 1000 || arr[i] > 9999)
 			{
 				System.out.println("Invalid Input");
@@ -57,7 +66,7 @@ public class LuckyDraw {
 				thirdPrize = arr[i];
 			}
 		}
-		System.out.println("First Prize is to token: "+firstPrize);
+		System.out.println("\nFirst Prize is to token: "+firstPrize);
 		System.out.println("Second Prize is to token: "+secondPrize);
 		System.out.println("Third Prize is to token: "+thirdPrize);
 	}

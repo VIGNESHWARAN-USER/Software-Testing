@@ -1,5 +1,8 @@
 package java_fundamentals_assessment;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 
 public class PinGeneration {
@@ -38,27 +41,32 @@ public class PinGeneration {
 		return min;
 	}
 	
-	public static void main(String args[])
+	public static void main(String args[]) throws IOException
 	{
-		Scanner sc = new Scanner(System.in);
+		BufferedReader bf = new BufferedReader(new FileReader("src/java_fundamentals_assessment/PinGeneration.txt"));
+		
+		String[] array = bf.readLine().split(" ");
 		
 		System.out.println("The input must have only 3 digits.");
 		System.out.print("Enter Input 1: ");
-		int input1 = sc.nextInt();
+		int input1 = Integer.parseInt(array[0]);
+		System.out.println(input1);
 		if(input1 < 100 || input1 > 999)
 		{
 			System.out.println("Invalid Input");
 			return;
 		}
 		System.out.print("Enter Input 2: ");
-		int input2 = sc.nextInt();
+		int input2 = Integer.parseInt(array[1]);
+		System.out.println(input2);
 		if(input1 < 100 || input1 > 999)
 		{
 			System.out.println("Invalid Input");
 			return;
 		}
 		System.out.print("Enter Input 3: ");
-		int input3 = sc.nextInt();
+		int input3 = Integer.parseInt(array[2]);
+		System.out.println(input3);
 		if(input1 < 100 || input1 > 999)
 		{
 			System.out.println("Invalid Input");

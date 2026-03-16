@@ -1,19 +1,30 @@
 package java_fundamentals_assessment;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 
 public class ProcessingScore {
-	public static void main(String args[])
+	public static void main(String args[]) throws IOException
 	{
-		Scanner sc = new Scanner(System.in);
+		BufferedReader bf = new BufferedReader(new FileReader("src/java_fundamentals_assessment/ProcessingScore.txt"));
+		
+		String[] array = bf.readLine().split(" ");
+		
 		ArrayList<Integer> scores = new ArrayList<>();
+		
+		int x = 0;
 		
 		System.out.println("Enter the scores (enter a negative number to stop input)");
 		while(true)
 		{
-			int val = sc.nextInt();
+			int val = Integer.parseInt(array[x]);
+			System.out.println(val);
 			if(val < 0) break;
 			scores.add(val);
+			
+			x++;
 		}
 		
 		System.out.println("The scores before processing are: ");

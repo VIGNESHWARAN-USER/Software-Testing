@@ -28,7 +28,7 @@ public class AccountManagement {
 		
 		Scanner sc=new Scanner(System.in);
 		
-		System.out.print("Enter amount to withdraw : ");
+		System.out.print("Enter Withdrawl Amount : ");
 		double amount=sc.nextDouble();
 		
 		try {
