@@ -1,24 +1,29 @@
 package CustomerAndAccount;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 
 public class CustomerAndAccountManagement {
 	public static Account account;
 	
-	public static void main(String args[])
+	public static void main(String args[]) throws IOException
 	{
-		Scanner sc = new Scanner(System.in);
+		BufferedReader bf = new BufferedReader(new FileReader("src/CustomerAndAccount/input.txt"));
+		
+		String[] accountDetails = bf.readLine().split(" ");
 		
 		System.out.print("Enter account id: ");
-		int account_ID = sc.nextInt();
+		int account_ID = Integer.parseInt(accountDetails[0]);
 		System.out.print("Enter customer id: ");
-		int customer_ID = sc.nextInt();
+		int customer_ID = Integer.parseInt(accountDetails[1]);
 		System.out.print("Enter customer name: ");
-		String name = sc.next();
+		String name = accountDetails[2];
 		System.out.println("Enter customer gender: ");
-		char gender = sc.next().charAt(0);
+		char gender = accountDetails[3].charAt(0);
 		System.out.print("Enter account balance: ");
-		double balance = sc.nextDouble();
+		double balance = Double.parseDouble(accountDetails[4]);
 		
 		account = new Account(account_ID, new Customer(customer_ID, name, gender), balance);
 		
@@ -32,18 +37,19 @@ public class CustomerAndAccountManagement {
 		{
 			int choice = 0;
 			System.out.println("Enter your choice: ");
-			choice = sc.nextInt();
+			String[] array = bf.readLine().split(" ");
+			choice = Integer.parseInt(array[0]);
 			
 			switch(choice)
 			{
 				case 1:
 					System.out.print("Enter the amount to withdraw: ");
-					double amount = sc.nextDouble();
+					double amount = Integer.parseInt(array[1]);
 					account.withdraw(amount);
 					break;
 				case 2:
 					System.out.print("Enter the amount to deposit: ");
-					amount = sc.nextDouble();
+					amount = Integer.parseInt(array[1]);
 					account.deposit(amount);
 					break;
 				case 3: 
