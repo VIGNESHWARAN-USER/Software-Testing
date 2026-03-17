@@ -1,0 +1,2 @@
+Write Java code to define yet another Set s. Insert 3 floating 
+point numbers in s, and using an iterator, find the sum of the numbers in s.
