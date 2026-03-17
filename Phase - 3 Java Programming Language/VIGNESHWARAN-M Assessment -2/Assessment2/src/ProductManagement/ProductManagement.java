@@ -26,6 +26,7 @@ public class ProductManagement {
         	String[] array = bf.readLine().split(" ");
         	System.out.print("Enter your choice: ");
         	choice = Integer.parseInt(array[0]);
+        	System.out.println(choice);
         	
         	switch(choice)
         	{
