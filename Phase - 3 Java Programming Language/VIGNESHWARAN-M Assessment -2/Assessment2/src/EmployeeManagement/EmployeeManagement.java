@@ -1,22 +1,31 @@
 package EmployeeManagement;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 
 public class EmployeeManagement {
 	public static Employee employee;
 	
-	public static void main(String args[])
+	public static void main(String args[]) throws IOException
 	{
-		Scanner sc = new Scanner(System.in);
+		BufferedReader bf = new BufferedReader(new FileReader("src/EmployeeManagement/input.txt"));
+		
+		String[] employeeDetails = bf.readLine().split(" ");
 		
 		System.out.print("Enter employee Id: ");
-		int id = sc.nextInt();
+		int id = Integer.parseInt(employeeDetails[0]);
+		System.out.println(id);
 		System.out.print("Enter employee name: ");
-		String name = sc.next();
+		String name = employeeDetails[1];
+		System.out.println(name);
 		System.out.print("Enter employee designation: ");
-		String designation = sc.next();
+		String designation = employeeDetails[2];
+		System.out.println(designation);
 		System.out.print("Enter employee salary: ");
-		double salary = sc.nextDouble();
+		double salary = Double.parseDouble(employeeDetails[3]);
+		System.out.println(salary);
 		
 		employee = new Employee(id, name, designation, salary);
 		
@@ -29,21 +38,26 @@ public class EmployeeManagement {
 		while(true)
 		{
 			int choice;
+			String[] array = bf.readLine().split(" ");
 			System.out.print("Enter your choice: ");
-			choice = sc.nextInt();
+			choice = Integer.parseInt(array[0]);
+			System.out.println(choice);
 			
 			switch(choice)
 			{
 				case 1:
 					System.out.print("Enter the percentage of salary increament: ");
-					double percentage = sc.nextDouble();
+					double percentage = Double.parseDouble(array[1]);
+					System.out.println(percentage);
 					employee.increaseSalary(percentage);
 					break;
 				case 2:
 					System.out.print("Enter the percentage of salary increament: ");
-					percentage = sc.nextDouble();
+					percentage = Double.parseDouble(array[1]);
+					System.out.println(percentage);
 					System.out.print("Enter the bonus: ");
-					double bonus = sc.nextDouble();
+					double bonus = Double.parseDouble(array[1]);
+					System.out.println(bonus);
 					employee.increaseSalary(percentage, bonus);
 					break;
 				case 3:
