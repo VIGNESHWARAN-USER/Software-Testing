@@ -3,7 +3,6 @@ package CustomerAndAccount;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
 
 public class CustomerAndAccountManagement {
 	public static Account account;
@@ -16,14 +15,19 @@ public class CustomerAndAccountManagement {
 		
 		System.out.print("Enter account id: ");
 		int account_ID = Integer.parseInt(accountDetails[0]);
+		System.out.println(account_ID);
 		System.out.print("Enter customer id: ");
 		int customer_ID = Integer.parseInt(accountDetails[1]);
+		System.out.println(customer_ID);
 		System.out.print("Enter customer name: ");
 		String name = accountDetails[2];
+		System.out.println(name);
 		System.out.println("Enter customer gender: ");
 		char gender = accountDetails[3].charAt(0);
+		System.out.println(gender);
 		System.out.print("Enter account balance: ");
 		double balance = Double.parseDouble(accountDetails[4]);
+		System.out.println(balance);
 		
 		account = new Account(account_ID, new Customer(customer_ID, name, gender), balance);
 		
@@ -39,17 +43,20 @@ public class CustomerAndAccountManagement {
 			System.out.println("Enter your choice: ");
 			String[] array = bf.readLine().split(" ");
 			choice = Integer.parseInt(array[0]);
+			if(choice == -1) break;
 			
 			switch(choice)
 			{
 				case 1:
 					System.out.print("Enter the amount to withdraw: ");
 					double amount = Integer.parseInt(array[1]);
+					System.out.println(amount);
 					account.withdraw(amount);
 					break;
 				case 2:
 					System.out.print("Enter the amount to deposit: ");
 					amount = Integer.parseInt(array[1]);
+					System.out.println(amount);
 					account.deposit(amount);
 					break;
 				case 3: 
