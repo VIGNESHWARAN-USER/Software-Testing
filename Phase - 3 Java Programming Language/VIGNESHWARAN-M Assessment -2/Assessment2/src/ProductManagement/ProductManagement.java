@@ -1,11 +1,15 @@
 package ProductManagement;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 
 public class ProductManagement {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
     	
-    	Scanner sc = new Scanner(System.in);
+    	BufferedReader bf = new BufferedReader(new FileReader("src/ProductManagement/input.txt"));
+		
     	
         ArrayList<ElectronicProduct> ep = new ArrayList<>();
         ArrayList<ClothingProduct> cp = new ArrayList<>();
@@ -19,20 +23,25 @@ public class ProductManagement {
         while(true)
         {
         	int choice;
+        	String[] array = bf.readLine().split(" ");
         	System.out.print("Enter your choice: ");
-        	choice = sc.nextInt();
+        	choice = Integer.parseInt(array[0]);
         	
         	switch(choice)
         	{
         		case 1:
         			System.out.print("Enter Product ID: ");
-        			int id = sc.nextInt();
+        			int id = Integer.parseInt(array[1]);
+        			System.out.println(id);
         			System.out.print("Enter product name: ");
-        			String name = sc.next();
+        			String name = array[2];
+        			System.out.println(name);
         			System.out.print("Enter Product price: ");
-        			double price = sc.nextDouble();
+        			double price = Double.parseDouble(array[3]);
+        			System.out.println(price);
         			System.out.print("Enter warranty period: ");
-        			int warrantyPeriod = sc.nextInt();
+        			int warrantyPeriod = Integer.parseInt(array[4]);
+        			System.out.println(warrantyPeriod);
         			
         			ep.add(new ElectronicProduct(id, name, price, warrantyPeriod));
         			
@@ -42,15 +51,20 @@ public class ProductManagement {
         		case 2:
         			
         			System.out.print("Enter Product ID: ");
-        			id = sc.nextInt();
+        			id = Integer.parseInt(array[1]);
+        			System.out.println(id);
         			System.out.print("Enter product name: ");
-        			name = sc.next();
+        			name = array[2];
+        			System.out.println(name);
         			System.out.print("Enter Product price: ");
-        			price = sc.nextDouble();
+        			price = Double.parseDouble(array[3]);
+        			System.out.println(price);
         			System.out.print("Enter size: ");
-        			String size = sc.next();
+        			String size = array[4];
+        			System.out.println(size);
         			System.out.print("Enter Material: ");
-        			String material = sc.next();
+        			String material = array[5];
+        			System.out.println(material);
         			
         			cp.add(new ClothingProduct(id, name, price, size, material));
         			
