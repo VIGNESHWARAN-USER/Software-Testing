@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shelf - My Book Collection</title>
+</head>
+<body>
+    <h1>Book Shelf</h1>
+    <p>Your Personal Book Collection Manager</p>
+
+    <ul>
+        <li><a href="#collection">My Collection</a></li>
+        <li><a href="#addbook">Add a Book</a></li>
+        <li><a href="">Reading Stats</a></li>
+        <li><a href="">About</a></li>
+    </ul>
+
+    <h2 id="collection">My Book Collection</h2>
+    <p>Currently ranking 6 books across different genres.</p>
+
+    <dl>
+        <dt><h3>The Pragmatic Programmer</h3></dt>
+        <dd><img src="./prag.png" alt="The Pragmatic Programmer"></dd>
+        <dd><caption>20th Anniversary Edition</caption></dd>
+    </dl>
+    
+    <dl>
+        <dt>Author</dt>
+        <dd>David Thomas & Andew Hunt</dd>
+    </dl>
+    <dl>
+        <dt>Genre</dt>
+        <dd>Technology</dd>
+    </dl>
+    <dl>
+        <dt>Date Added</dt>
+        <dd>January 15, 2025</dd>
+    </dl>
+    <dl>
+        <dt>Rating</dt>
+        <dd>&#9733; &#9733; &#9733; &#9733; &#9733; (5/5)</dd>
+    </dl>
+    <dl>
+        <dt>Status</dt>
+        <dd><mark>Currently Reading</mark></dd>
+    </dl>
+
+    <p>A Classic guide to software craftmanship &mdash; full of practical advice that stays relevant across decades and technologies</p>
+
+    <dl>
+        <dt><h3>Atomic Habits</h3></dt>
+        <dd><img src="./atomichabits.png" alt="Atomic Habits"></dd>
+        <dd><caption>An Easy and Proven way to build good habits</caption></dd>
+    </dl>
+    
+    <dl>
+        <dt>Author</dt>
+        <dd>James Clear</dd>
+    </dl>
+    <dl>
+        <dt>Genre</dt>
+        <dd>Self-Help</dd>
+    </dl>
+    <dl>
+        <dt>Date Added</dt>
+        <dd>November 20, 2024</dd>
+    </dl>
+    <dl>
+        <dt>Rating</dt>
+        <dd>&#9733; &#9733; &#9733; &#9733; &#9734; (4/5)</dd>
+    </dl>
+    <dl>
+        <dt>Status</dt>
+        <dd><mark>Finished</mark></dd>
+    </dl>
+    <p>Tiny changes, remarkable results. A practical framework for improving every day through the compound effect of small habits.</p>
+
+
+    <h2 id="addbook">Add a New Book</h2>
+    <p>Fill in the details below to add a book to your collection.</p>
+
+    <form action="">
+        <fieldset>
+            <legend>Book Information</legend>
+                <div>
+                    <label for="">Book Title</label>
+                    <input type="text" name="book_title" id="" placeholder="e.g., The Great Gatsby">
+                </div>
+                <div>
+                    <label for="">Author</label>
+                    <input type="text" name="author" id="" placeholder="e.g., F. Scott Fitzgerald">
+                </div>
+                <div>
+                    <label for="">ISBN (13 Digits)</label>
+                    <input type="text" name="isbn" id="" placeholder="e.g., 1234567890123">
+                    <span>Option &mdash; 13-digit number found on the book cover</span>
+                </div>
+                <div>
+                    <label for="">Genre</label>
+                    <select name="genre" id="">
+                        <option value="">-- Select a Genre --</option>
+                        <option value="Thriller">Thriller</option>
+                        <option value="Crime">Crime</option>
+                        <option value="Sci-Fi">Sci-Fi</option>
+                        <option value="Comedy">Comedy</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Number of pages</label>
+                    <input type="number" name="number of pages" id="" placeholder="e.g., 320">
+                </div>
+                <div>
+                    <label for="">Book Cover Image</label>
+                    <input type="number" name="number of pages" id="" placeholder="e.g., 320">
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend>Reading Details</legend>
+                <div>
+                    <label for="">Date Added</label>
+                    <input type="date" name="date_added" id=""  >
+                </div>
+                <div>
+                    <label for="">Your Rating (1-5)</label>
+                    <input type="range" name="author" id="" min="0" max="5">
+                </div>
+                <fieldset>
+                    <legend>Reading Status</legend>
+
+                    <input type="radio" id="want" name="status">
+                    <label for="want">Want to Read</label>
+
+                    <input type="radio" id="current" name="status">
+                    <label for="current">Currently Reading</label>
+
+                    <input type="radio" id="finished" name="status">
+                    <label for="finished">Finished</label>
+
+                    <input type="radio" id="abandoned" name="status">
+                    <label for="abandoned">Abandoned</label>
+                </fieldset>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Mark as Favorite</label>
+                </div>
+                <div>
+                    <label for="">Personal Notes</label>
+                    <textarea name="" id="" placeholder="Your thoughts about this book..."></textarea>
+                </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Recommend to a Friend (Optional)</legend>
+                <div>
+                    <label for="">Friend's Name</label>
+                    <input type="text" placeholder="e.g., Jane Smith" id=""  >
+                </div>
+                <div>
+                    <label for="">Friend's Email</label>
+                    <input type="email" placeholder="jane@example.com">
+                </div>
+                <div>
+                    <label for="">Friend's Phone</label>
+                    <input type="text" placeholder="+91 1234567890">
+                </div>
+        </fieldset>
+        <button>Add Book to Collection</button>
+        <button>Clear Form</button>
+    </form>
+
+    <h2>Reading Statistics</h2>
+
+    <table>
+        <tr>
+        <td colspan="4">Books read genre in 2024-2025</td>
+        </tr>
+        <tr>
+            <th>Genre</th>
+            <th>Books Read</th>
+            <th>Total Pages</th>
+            <th>Avg. Rating</th>
+        </tr>
+        <tr>
+            <th>Technology</th>
+            <td>4</td>
+            <td>1450</td>
+            <td>&#9733; &#9733; &#9733; &#9733; &#9734; 4.2</td>
+        </tr>
+        <tr>
+            <th>Science Fiction</th>
+            <td>3</td>
+            <td>1820</td>
+            <td>&#9733; &#9733; &#9733; &#9733; &#9733; 4.8</td>
+        </tr>
+        <tr>
+            <th>Self-Help</th>
+            <td>2</td>
+            <td>580</td>
+            <td>&#9733; &#9733; &#9733; &#9734; &#9734; 3.5</td>
+        </tr>
+        <tr>
+            <th>Fiction</th>
+            <td>5</td>
+            <td>1950</td>
+            <td>&#9733; &#9733; &#9733; &#9733; &#9734; 4.1</td>
+        </tr>
+        <tr>
+            <th>Biography</th>
+            <td>1</td>
+            <td>380</td>
+            <td>&#9733; &#9733; &#9733; &#9734; &#9734; 3.0</td>
+        </tr>
+    </table>
+</body>
+</html>
