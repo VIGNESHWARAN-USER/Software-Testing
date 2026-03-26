@@ -3,31 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Book Shelf - My Book Collection</title>
+    <meta name="description" content="Manage your personal book collection and track reading progress.">
+
+    <meta property="og:title" content="Book Shelf - My Book Collection">
+    <meta property="og:description" content="Track and manage your reading journey.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
 </head>
+
 <body>
-    <h1>Book Shelf</h1>
-    <p>Your Personal Book Collection Manager</p>
 
-    <ul>
-        <li><a href="#collection">My Collection</a></li>
-        <li><a href="#addbook">Add a Book</a></li>
-        <li><a href="">Reading Stats</a></li>
-        <li><a href="">About</a></li>
-    </ul>
+    <header>
+        <h1>Book Shelf</h1>
+        <p>Your Personal Book Collection Manager</p>
 
-    <h2 id="collection">My Book Collection</h2>
+        <nav aria-label="Primary Navigation">
+            <ul>
+                <li><a href="#collection">My Collection</a></li>
+                <li><a href="#addbook">Add a Book</a></li>
+                <li><a href="#stats">Reading Stats</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+    <section id="collection" aria-labelledby="collection-heading">
+    <h2 id="collection-heading">My Book Collection</h2>
     <p>Currently ranking 6 books across different genres.</p>
 
+    <article aria-labelledby="book1-title">
     <dl>
-        <dt><h3>The Pragmatic Programmer</h3></dt>
-        <dd><img src="./prag.png" alt="The Pragmatic Programmer"></dd>
-        <dd><caption>20th Anniversary Edition</caption></dd>
+        <dt><h3 id="book1-title">The Pragmatic Programmer</h3></dt>
+        <dd>
+            <img src="./prag.png" alt="Cover of The Pragmatic Programmer">
+        </dd>
+        <dd>
+            <span>20th Anniversary Edition</span>
+        </dd>
     </dl>
     
     <dl>
         <dt>Author</dt>
-        <dd>David Thomas & Andew Hunt</dd>
+        <dd>David Thomas & Andrew Hunt</dd>
     </dl>
     <dl>
         <dt>Genre</dt>
@@ -39,7 +61,7 @@
     </dl>
     <dl>
         <dt>Rating</dt>
-        <dd>&#9733; &#9733; &#9733; &#9733; &#9733; (5/5)</dd>
+        <dd aria-label="5 out of 5 stars">&#9733; &#9733; &#9733; &#9733; &#9733; (5/5)</dd>
     </dl>
     <dl>
         <dt>Status</dt>
@@ -47,11 +69,17 @@
     </dl>
 
     <p>A Classic guide to software craftmanship &mdash; full of practical advice that stays relevant across decades and technologies</p>
+    </article>
 
+    <article aria-labelledby="book2-title">
     <dl>
-        <dt><h3>Atomic Habits</h3></dt>
-        <dd><img src="./atomichabits.png" alt="Atomic Habits"></dd>
-        <dd><caption>An Easy and Proven way to build good habits</caption></dd>
+        <dt><h3 id="book2-title">Atomic Habits</h3></dt>
+        <dd>
+            <img src="./atomichabits.png" alt="Cover of Atomic Habits">
+        </dd>
+        <dd>
+            <span>An Easy and Proven way to build good habits</span>
+        </dd>
     </dl>
     
     <dl>
@@ -68,37 +96,44 @@
     </dl>
     <dl>
         <dt>Rating</dt>
-        <dd>&#9733; &#9733; &#9733; &#9733; &#9734; (4/5)</dd>
+        <dd aria-label="4 out of 5 stars">&#9733; &#9733; &#9733; &#9733; &#9734; (4/5)</dd>
     </dl>
     <dl>
         <dt>Status</dt>
         <dd><mark>Finished</mark></dd>
     </dl>
     <p>Tiny changes, remarkable results. A practical framework for improving every day through the compound effect of small habits.</p>
+    </article>
 
+    </section>
 
-    <h2 id="addbook">Add a New Book</h2>
+    <section id="addbook" aria-labelledby="addbook-heading">
+    <h2 id="addbook-heading">Add a New Book</h2>
     <p>Fill in the details below to add a book to your collection.</p>
 
-    <form action="">
+    <form action="" aria-labelledby="addbook-heading">
         <fieldset>
             <legend>Book Information</legend>
+
                 <div>
-                    <label for="">Book Title</label>
-                    <input type="text" name="book_title" id="" placeholder="e.g., The Great Gatsby">
+                    <label for="book_title">Book Title</label>
+                    <input type="text" name="book_title" id="book_title" required>
                 </div>
+
                 <div>
-                    <label for="">Author</label>
-                    <input type="text" name="author" id="" placeholder="e.g., F. Scott Fitzgerald">
+                    <label for="author">Author</label>
+                    <input type="text" name="author" id="author" required>
                 </div>
+
                 <div>
-                    <label for="">ISBN (13 Digits)</label>
-                    <input type="text" name="isbn" id="" placeholder="e.g., 1234567890123">
-                    <span>Option &mdash; 13-digit number found on the book cover</span>
+                    <label for="isbn">ISBN (13 Digits)</label>
+                    <input type="text" name="isbn" id="isbn" pattern="\d{13}" aria-describedby="isbn-help">
+                    <span id="isbn-help">13-digit number found on the book cover</span>
                 </div>
+
                 <div>
-                    <label for="">Genre</label>
-                    <select name="genre" id="">
+                    <label for="genre">Genre</label>
+                    <select name="genre" id="genre">
                         <option value="">-- Select a Genre --</option>
                         <option value="Thriller">Thriller</option>
                         <option value="Crime">Crime</option>
@@ -106,25 +141,32 @@
                         <option value="Comedy">Comedy</option>
                     </select>
                 </div>
+
                 <div>
-                    <label for="">Number of pages</label>
-                    <input type="number" name="number of pages" id="" placeholder="e.g., 320">
+                    <label for="pages">Number of pages</label>
+                    <input type="number" name="pages" id="pages">
                 </div>
+
                 <div>
-                    <label for="">Book Cover Image</label>
-                    <input type="number" name="number of pages" id="" placeholder="e.g., 320">
+                    <label for="cover">Book Cover Image</label>
+                    <input type="file" name="cover" id="cover" accept="image/*">
                 </div>
+
         </fieldset>
+
         <fieldset>
             <legend>Reading Details</legend>
+
                 <div>
-                    <label for="">Date Added</label>
-                    <input type="date" name="date_added" id=""  >
+                    <label for="date_added">Date Added</label>
+                    <input type="date" name="date_added" id="date_added">
                 </div>
+
                 <div>
-                    <label for="">Your Rating (1-5)</label>
-                    <input type="range" name="author" id="" min="0" max="5">
+                    <label for="rating">Your Rating (1-5)</label>
+                    <input type="range" name="rating" id="rating" min="1" max="5">
                 </div>
+
                 <fieldset>
                     <legend>Reading Status</legend>
 
@@ -140,77 +182,104 @@
                     <input type="radio" id="abandoned" name="status">
                     <label for="abandoned">Abandoned</label>
                 </fieldset>
+
                 <div>
-                    <input type="checkbox">
-                    <label for="">Mark as Favorite</label>
+                    <input type="checkbox" id="favorite">
+                    <label for="favorite">Mark as Favorite</label>
                 </div>
+
                 <div>
-                    <label for="">Personal Notes</label>
-                    <textarea name="" id="" placeholder="Your thoughts about this book..."></textarea>
+                    <label for="notes">Personal Notes</label>
+                    <textarea id="notes"></textarea>
                 </div>
+
         </fieldset>
 
         <fieldset>
             <legend>Recommend to a Friend (Optional)</legend>
+
                 <div>
-                    <label for="">Friend's Name</label>
-                    <input type="text" placeholder="e.g., Jane Smith" id=""  >
+                    <label for="friend_name">Friend's Name</label>
+                    <input type="text" id="friend_name">
                 </div>
+
                 <div>
-                    <label for="">Friend's Email</label>
-                    <input type="email" placeholder="jane@example.com">
+                    <label for="friend_email">Friend's Email</label>
+                    <input type="email" id="friend_email">
                 </div>
+
                 <div>
-                    <label for="">Friend's Phone</label>
-                    <input type="text" placeholder="+91 1234567890">
+                    <label for="friend_phone">Friend's Phone</label>
+                    <input type="text" id="friend_phone">
                 </div>
+
         </fieldset>
-        <button>Add Book to Collection</button>
-        <button>Clear Form</button>
+
+        <button type="submit">Add Book to Collection</button>
+        <button type="reset">Clear Form</button>
     </form>
 
-    <h2>Reading Statistics</h2>
+    </section>
+
+    <section id="stats" aria-labelledby="stats-heading">
+    <h2 id="stats-heading">Reading Statistics</h2>
 
     <table>
+        <caption>Books read genre in 2024-2025</caption>
+
         <tr>
-        <td colspan="4">Books read genre in 2024-2025</td>
+            <th colspan="4">Books read genre in 2024-2025</th>
         </tr>
         <tr>
-            <th>Genre</th>
-            <th>Books Read</th>
-            <th>Total Pages</th>
-            <th>Avg. Rating</th>
+            <th scope="col">Genre</th>
+            <th scope="col">Books Read</th>
+            <th scope="col">Total Pages</th>
+            <th scope="col">Avg. Rating</th>
         </tr>
-        <tr>
-            <th>Technology</th>
-            <td>4</td>
-            <td>1450</td>
-            <td>&#9733; &#9733; &#9733; &#9733; &#9734; 4.2</td>
+
+        <tr> 
+            <th>Technology</th> 
+            <td>4</td> 
+            <td>1450</td> 
+            <td>&#9733; &#9733; &#9733; &#9733; &#9734; 4.2</td> 
+        </tr> 
+        
+        <tr> 
+            <th>Science Fiction</th> 
+            <td>3</td> 
+            <td>1820</td> 
+            <td>&#9733; &#9733; &#9733; &#9733; &#9733; 4.8</td> 
+        </tr> 
+        
+        <tr> 
+            <th>Self-Help</th> 
+            <td>2</td> 
+            <td>580</td> 
+            <td>&#9733; &#9733; &#9733; &#9734; &#9734; 3.5</td> 
+        </tr> 
+        
+        <tr> 
+            <th>Fiction</th> 
+            <td>5</td> 
+            <td>1950</td> 
+            <td>&#9733; &#9733; &#9733; &#9733; &#9734; 4.1</td> 
+        </tr> 
+        
+        <tr> 
+            <th>Biography</th> 
+            <td>1</td> 
+            <td>380</td> 
+            <td>&#9733; &#9733; &#9733; &#9734; &#9734; 3.0</td> 
         </tr>
-        <tr>
-            <th>Science Fiction</th>
-            <td>3</td>
-            <td>1820</td>
-            <td>&#9733; &#9733; &#9733; &#9733; &#9733; 4.8</td>
-        </tr>
-        <tr>
-            <th>Self-Help</th>
-            <td>2</td>
-            <td>580</td>
-            <td>&#9733; &#9733; &#9733; &#9734; &#9734; 3.5</td>
-        </tr>
-        <tr>
-            <th>Fiction</th>
-            <td>5</td>
-            <td>1950</td>
-            <td>&#9733; &#9733; &#9733; &#9733; &#9734; 4.1</td>
-        </tr>
-        <tr>
-            <th>Biography</th>
-            <td>1</td>
-            <td>380</td>
-            <td>&#9733; &#9733; &#9733; &#9734; &#9734; 3.0</td>
-        </tr>
+
     </table>
+    </section>
+
+    </main>
+
+    <footer id="about">
+        <p>&copy; 2026 Book Shelf</p>
+    </footer>
+
 </body>
 </html>
