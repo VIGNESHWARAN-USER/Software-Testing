@@ -16,8 +16,7 @@ public class SubstringAndConcatenation {
 		
 		if(val.length() < 2)
 		{
-			val = val + "@@"
-					;
+			val = val + "@@";
 		}
 		
 		System.out.println("The substring is: "+val.substring(0, 2));
