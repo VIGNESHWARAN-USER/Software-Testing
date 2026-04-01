@@ -7,7 +7,7 @@ import java.io.IOException;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TestDemo {
+public class TestWithFile {
 	public static void main(String args[]) throws IOException
 	{
 		
@@ -15,10 +15,14 @@ public class TestDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com/");
-		System.out.println("Page title is: "+driver.getTitle());
-		System.out.println(driver.getPageSource());
-		System.out.println("URL: "+driver.getCurrentUrl());
-		System.out.println("EOF");
-		driver.close();
+		file.write("Page title is: "+driver.getTitle());
+		file.append("\n");
+		file.append(driver.getPageSource());
+		file.append("\n");
+		file.append("URL: "+driver.getCurrentUrl());
+		file.append("\n\n");
+		file.append("EOF");
+		//driver.close();
+		file.close();
 	}
 }
