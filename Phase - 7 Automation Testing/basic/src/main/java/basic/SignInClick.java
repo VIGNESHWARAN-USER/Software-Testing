@@ -9,7 +9,7 @@ public class SignInClick {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.co.in");
-		WebElement signIn = driver.findElement(By.);
+		WebElement signIn = driver.findElement(By.className("gb_A"));
 		signIn.click();
 		WebElement emailInput = driver.findElement(By.id("identifierId"));
 		emailInput.sendKeys("vigneshwaran.coder@gmail.com", Keys.ENTER);
