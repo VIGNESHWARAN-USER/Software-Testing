@@ -19,8 +19,14 @@ public class RelativeLocator {
 		lastName.sendKeys("M");
 		WebElement password = driver.findElement(By.xpath("//div/input[@type=\"password\"]"));
 		WebElement email = driver.findElement(with(By.tagName("input")).above(password));
+		WebElement rePassword = driver.findElement(with(By.tagName("input")).below(password));
 		email.sendKeys("vigneshwaran.coder@gmail.com");
 		password.sendKeys("12345678");
+		rePassword.sendKeys("12345678");
+		WebElement clearButton = driver.findElement(By.xpath("//button[@type = \"reset\"][1]"));
+		WebElement resetButton = driver.findElement(By.xpath("//button[@type = \"reset\"][2]"));
+		WebElement registerButton = driver.findElement(with(By.tagName("button")).near(clearButton));
+		registerButton.click();
 		//driver.close();
 	}
 }
