@@ -40,19 +40,19 @@ public class WaitAutomation {
 	
 	public static void waitForTextChange(WebDriver driver)
 	{
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-	    By textLocator = By.id("j_idt87:j_idt99");
+	    
 
-	    System.out.println("Before: " + driver.findElement(textLocator).getText());
+	    System.out.println("Before: " + driver.findElement(By.id("j_idt87:j_idt99")).getText());
 
 	    driver.findElement(By.id("j_idt87:j_idt98")).click();
 
 	    wait.until(ExpectedConditions.textToBePresentInElementLocated(
-	        textLocator, "Did you notice?"
+	    		By.id("j_idt87:j_idt99"), "Did you notice?"
 	    ));
 
-	    System.out.println("After: " + driver.findElement(textLocator).getText());
+	    System.out.println("After: " + driver.findElement(By.id("j_idt87:j_idt99")).getText());
 	}
 	
 	public static void main(String args[]) throws InterruptedException
