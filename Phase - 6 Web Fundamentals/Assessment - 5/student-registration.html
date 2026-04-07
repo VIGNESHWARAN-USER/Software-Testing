@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./validate.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+        <p>This is a student registration form for college</p>
+    </header>
+    <main>
+            <form action="">
+            <div id = "nameDiv">
+                <label for="">Full Name</label>
+                <input type="text" id = "fullName">
+            </div>
+            <br>
+            <div id = "emailDiv">
+                <label for="">Email</label>
+                <input type="email" id = "email">
+            </div>
+            <br>
+            <div id = "dobDiv">
+                <label for="">Date of Birth</label>
+                <input type="date" id = "dob">
+            </div>
+            <br>
+            <div>
+                <label for="">Gender</label>
+                <input type="radio" name = "gender"> Male
+                <input type="radio" name = "gender"> Female
+                <input type="radio" name = "gender"> Other
+            </div>
+            <br>
+            <div>
+                <label for="">Languages Known</label>
+                <input type="checkbox"> Tamil
+                <input type="checkbox"> English
+                <input type="checkbox"> Hindi
+            </div>
+            <br>
+            <div id = "courseDiv">
+                <label for="">Select Course</label>
+                <select id = "course">
+                    <option value="">-- Select Course --</option>
+                    <option value="B.E.">B.E.</option>
+                    <option value="M.E.">M.E.</option>
+                    <option value="MCA">MCA</option>
+                    <option value="MBA">MBA</option>
+                </select>
+            </div>
+            <br>
+            <button type = "submit" id = "submit">Submit</button>
+        </form>
+
+        <p><b>Campus Facilities</b></p>
+        <ul>
+            <li>Our campus have COE based labs</li>
+            <li>Our campus have auditorium</li>
+            <li>Our campus have hoster</li>
+        </ul>
+    </main>
+    <footer>
+        <p><em>VIGNESHWARAN</em> <b>2026</b></p>
+    </footer>
+</body>
+</html>
