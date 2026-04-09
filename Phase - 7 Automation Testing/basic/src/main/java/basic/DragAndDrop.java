@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
 public class DragAndDrop {
@@ -20,9 +21,11 @@ public class DragAndDrop {
 		
 		//act.dragAndDrop(src, target).perform();
 		
-		//act.clickAndHold(src).moveToElement(target).release().build().perform();
+		Action click = act.clickAndHold(src).moveToElement(target).release().build();
 		
-		act.dragAndDropBy(src, -400, -100).perform();
+		click.perform();
+		
+		//act.dragAndDropBy(src, -400, -100).perform();
 		
 		
 		System.out.println(driver.findElement(By.xpath("//p[text() = \"Dropped!\"]")).getText());
