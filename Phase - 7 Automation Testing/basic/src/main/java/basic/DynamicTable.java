@@ -43,5 +43,6 @@ public class DynamicTable {
         	if(x%size == 0) System.out.println();
         }
         
+        driver.quit();
 	}
 }
