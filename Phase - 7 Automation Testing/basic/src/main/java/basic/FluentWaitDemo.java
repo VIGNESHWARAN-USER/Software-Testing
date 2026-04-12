@@ -34,5 +34,7 @@ public class FluentWaitDemo {
 		          input.sendKeys("Displayed");
 		          return true;
 		        });
+		    
+		    driver.quit();
 	}
 }

@@ -16,5 +16,7 @@ public class ContextClickDemo {
 		
 		WebElement search = driver.findElement(By.xpath("//input[@name = \"q\"]"));
 		act.moveToElement(search).contextClick().perform();
+		
+		driver.quit();
 	}
 }

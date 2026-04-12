@@ -29,5 +29,7 @@ public class DragAndDrop {
 		
 		
 		System.out.println(driver.findElement(By.xpath("//p[text() = \"Dropped!\"]")).getText());
+		
+		driver.quit();
 	}
 }

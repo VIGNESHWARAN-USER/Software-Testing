@@ -22,6 +22,7 @@ public class Delhivery {
 		{
 			System.out.println(false);
 		}
-		//driver.close();
+		
+		driver.quit();
 	}
 }

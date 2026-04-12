@@ -32,5 +32,7 @@ public class DynamicHTML {
 		
 		if(expectedColor.equals(box.getCssValue("background-color"))) System.out.println("Expected color found");
 		else System.out.println("Expected color not	 found");
+		
+		driver.quit();
 	}
 }

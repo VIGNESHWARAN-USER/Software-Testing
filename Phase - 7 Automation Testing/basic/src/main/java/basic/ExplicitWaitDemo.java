@@ -25,6 +25,6 @@ public class ExplicitWaitDemo {
 		
 		button.click();
 		
-		
+		driver.quit();
 	}
 }

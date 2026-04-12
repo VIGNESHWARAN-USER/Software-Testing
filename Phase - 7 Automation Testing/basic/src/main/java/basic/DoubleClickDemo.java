@@ -17,5 +17,7 @@ public class DoubleClickDemo {
 			
 		WebElement button = driver.findElement(By.xpath("//button[text() = \" Double click Here   \"]"));
 		act.moveToElement(button).doubleClick().perform();
+		
+		driver.quit();
 	}
 }

@@ -21,5 +21,7 @@ public class ActionsDemo {
 		act.moveToElement(element).perform();
 		WebElement option2 = driver.findElement(By.xpath("//li/a[@href = \"https://selenium-by-arun.blogspot.com/\"]"));
 		act.moveToElement(option2).click().build().perform();
+		
+		driver.quit();
 	}
 }

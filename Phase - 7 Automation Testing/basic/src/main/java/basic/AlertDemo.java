@@ -22,5 +22,7 @@ public class AlertDemo {
         String res = alert.getText();
         
         System.out.println(res);
+        
+        driver.quit();
 	}
 }
