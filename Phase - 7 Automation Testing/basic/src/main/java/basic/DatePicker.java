@@ -27,7 +27,8 @@ public class DatePicker {
         
         js.executeScript("document.querySelector(\".ui-datepicker-calendar tbody tr:nth-child(4) td:nth-child(2\").click()");
         
-        System.out.println(js.executeScript("return document.getElementsByClassName(\".hasDatepicker\")[0]").toString());
+        System.out.println(js.executeScript("return document.getElementsByClassName(\"hasDatepicker\")[0].value").toString());
         
+        driver.quit();
 	}
 }
