@@ -48,6 +48,6 @@ public class WithoutSelect {
             }
         }
         
-        // driver.quit(); 
+       driver.quit(); 
     }
 }

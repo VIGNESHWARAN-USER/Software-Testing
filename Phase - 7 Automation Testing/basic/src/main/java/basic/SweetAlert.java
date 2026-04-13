@@ -22,5 +22,7 @@ public class SweetAlert {
         
         Thread.sleep(2000);
         driver.findElement(By.id("j_idt88:j_idt108")).click();
+        
+        driver.quit();
 	}
 }

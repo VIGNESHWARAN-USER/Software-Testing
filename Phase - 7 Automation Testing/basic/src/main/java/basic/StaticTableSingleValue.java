@@ -15,9 +15,9 @@ public class StaticTableSingleValue {
         driver.get("https://omayo.blogspot.com/");
         
         WebElement singleValue = driver.findElement(By.xpath("//table[@id = \"table1\"]/tbody/tr[2]/td[3]"));
-        
-       
+      
         System.out.println(singleValue.getText());
         
+        driver.quit();
 	}
 }

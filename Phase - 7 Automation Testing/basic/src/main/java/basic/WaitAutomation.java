@@ -63,5 +63,7 @@ public class WaitAutomation {
 		waitForVisibility(driver);
 		waitForInVisibility(driver);
 		waitForTextChange(driver);
+		
+		driver.quit();
 	}
 }

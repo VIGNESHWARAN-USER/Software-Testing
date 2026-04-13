@@ -19,8 +19,6 @@ public class DatePicker {
         
         JavascriptExecutor js = (JavascriptExecutor) driver;
         
-        
-        
         driver.findElement(By.cssSelector("input#datepicker")).click();
         
         driver.findElement(By.cssSelector(".ui-icon.ui-icon-circle-triangle-e")).click();

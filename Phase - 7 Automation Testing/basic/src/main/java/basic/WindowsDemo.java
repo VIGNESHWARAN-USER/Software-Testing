@@ -33,5 +33,7 @@ public class WindowsDemo {
 		
 		System.out.println(driver.findElement(By.tagName("body")).getText());
 		
+		driver.quit();
+		
 	}
 }

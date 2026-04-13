@@ -26,6 +26,6 @@ public class WordDisappear {
 		
 		button.click();
 		
-		
+		driver.quit();
 	}
 }

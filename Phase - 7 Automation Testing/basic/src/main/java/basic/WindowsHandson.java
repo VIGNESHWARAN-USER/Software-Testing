@@ -52,5 +52,7 @@ public class WindowsHandson {
 		}
 		
 		System.out.println("Child window title: "+driver.getTitle());
+		
+		driver.quit();
 	}
 }

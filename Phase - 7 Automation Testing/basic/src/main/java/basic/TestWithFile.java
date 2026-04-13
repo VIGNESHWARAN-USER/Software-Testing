@@ -22,7 +22,7 @@ public class TestWithFile {
 		file.append("URL: "+driver.getCurrentUrl());
 		file.append("\n\n");
 		file.append("EOF");
-		//driver.close();
+		driver.close();
 		file.close();
 	}
 }

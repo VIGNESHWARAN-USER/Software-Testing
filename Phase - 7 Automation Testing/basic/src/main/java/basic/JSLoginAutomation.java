@@ -36,5 +36,7 @@ public class JSLoginAutomation {
         
         WebElement facebook = (WebElement) js.executeScript("return document.querySelector('.fa.fa-facebook')");
         js.executeScript("arguments[0].scrollIntoView(true);", facebook);
+        
+        driver.quit();
 	}
 }
