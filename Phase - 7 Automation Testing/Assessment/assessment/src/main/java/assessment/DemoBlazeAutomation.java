@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.WebElement;
 
-public class LoignAutomation {
+public class DemoBlazeAutomation {
 	public static void main(String args[])
 	{
 		WebDriver driver = new ChromeDriver();
