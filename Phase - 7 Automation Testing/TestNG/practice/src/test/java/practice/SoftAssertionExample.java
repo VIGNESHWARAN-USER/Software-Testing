@@ -1,6 +1,7 @@
 package practice;
 
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Ignore;
 
@@ -14,14 +15,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 
-public class NewTest {
+public class SoftAssertionExample {
 	
 	WebDriver driver;
 	WebDriverWait wait;
+	
+	SoftAssert sa = new SoftAssert();
 		
 	
 		@Test
@@ -38,11 +40,11 @@ public class NewTest {
 		  
 		  wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("nameofuser")));
 		  
-		  String expectedMessage = "Welcome admin";
+		  String expectedMessage = "Welcome";
 		  String actualMessage = driver.findElement(By.id("nameofuser")).getText();
 		  
 		  
-		  Assert.assertEquals(actualMessage, expectedMessage);
+		  sa.assertEquals(actualMessage, expectedMessage);
 	  }
 	  
 	  
@@ -61,12 +63,14 @@ public class NewTest {
 		  wait.until(ExpectedConditions.alertIsPresent());
 		  Alert alert = driver.switchTo().alert();
 		  
-		  String expectedMessage = "User does not exist.";
+		  String expectedMessage = "User does not";
 		  String actualMessage = alert.getText();
 		  
 		  alert.accept();
 		  
-		  Assert.assertEquals(actualMessage, expectedMessage);
+		  sa.assertEquals(actualMessage, expectedMessage);
+		  
+		  sa.assertAll();
 		  
 	  }
 	  
@@ -85,15 +89,15 @@ public class NewTest {
 		  wait.until(ExpectedConditions.alertIsPresent());
 		  Alert alert = driver.switchTo().alert();
 		  
-		  String expectedMessage = "Wrong password.";
+		  String expectedMessage = "Wrong pass";
 		  String actualMessage = alert.getText();
 		  
 		  alert.accept();
 		  
-		  Assert.assertEquals(actualMessage, expectedMessage);
+		  sa.assertEquals(actualMessage, expectedMessage);
 		  
 		  
-		 
+		 sa.assertAll();
 	  }
 	  
 	  

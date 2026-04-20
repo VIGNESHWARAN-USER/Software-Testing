@@ -3,7 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="practice.SequenceCheck"/>
+      <class name="practice.SoftAssertionExample"/>
+      <class name="practice.HierarchyCheck"/>
       <class name="practice.NewTest"/>
+      <class name="practice.AssertExample"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
