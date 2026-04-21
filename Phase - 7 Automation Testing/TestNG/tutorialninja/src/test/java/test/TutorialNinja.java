@@ -38,10 +38,10 @@ public class TutorialNinja {
 		
 		System.out.println(correctUsername+" "+correctPassword);
 
-		String expectedURL = "https://tutorialsninja.com/demo/index.php?route=account/account";
-		String actualURL = driver.getCurrentUrl();
+		String expectedMessage = "My Account";
+		String actualMessage = driver.findElement(By.xpath("//div[@id = \"content\"]/h2[text() = \"My Account\"]")).getText();
 
-		Assert.assertTrue(actualURL.equals(expectedURL));
+		Assert.assertTrue(expectedMessage.equals(actualMessage));
 		
 		System.out.println("User Logged in");
 	}
