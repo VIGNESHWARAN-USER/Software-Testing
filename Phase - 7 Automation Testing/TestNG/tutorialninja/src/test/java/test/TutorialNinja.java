@@ -29,7 +29,7 @@ public class TutorialNinja {
 	@Test(dataProvider = "validDataSet", dataProviderClass = DPExceldata.class)
 	public void validLoginTest(String correctUsername, String correctPassword) {
 
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text() = \"My Account\"]"))).click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title = \"My Account\"]"))).click();
 		driver.findElement(By.xpath("//ul[@class = \"dropdown-menu dropdown-menu-right\"]/li/a[text() = \"Login\"]")).click();
 
 		driver.findElement(By.xpath("//input[@name = \"email\"]")).sendKeys(correctUsername);
@@ -52,7 +52,7 @@ public class TutorialNinja {
 		
 		//div[@class = "alert alert-danger alert-dismissible"]
 		
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text() = \"My Account\"]"))).click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@title = \"My Account\"]"))).click();
 		driver.findElement(By.xpath("//ul[@class = \"dropdown-menu dropdown-menu-right\"]/li/a[text() = \"Login\"]")).click();
 
 		driver.findElement(By.xpath("//input[@name = \"email\"]")).sendKeys(username);
@@ -99,8 +99,8 @@ public class TutorialNinja {
 	public void beforeMethod() {
 
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--start-maximized");
-		//options.addArguments("--headless");
+		options.addArguments("--start-fullscreen");
+		options.addArguments("--headless");
 		
 		Map<String, Object> prefs = new HashMap<>();
 		prefs.put("credentials_enable_service", false);
