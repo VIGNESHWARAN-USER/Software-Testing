@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="6" failed="4" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-21T20:59:52 IST" name="Default suite" finished-at="2026-04-21T21:00:44 IST" duration-ms="51670">
+  <suite started-at="2026-04-21T21:52:47 IST" name="Default suite" finished-at="2026-04-21T21:53:33 IST" duration-ms="45627">
     <groups>
     </groups>
-    <test started-at="2026-04-21T20:59:52 IST" name="Default test" finished-at="2026-04-21T21:00:44 IST" duration-ms="51670">
+    <test started-at="2026-04-21T21:52:47 IST" name="Default test" finished-at="2026-04-21T21:53:33 IST" duration-ms="45627">
       <class name="test.TutorialNinja">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T20:59:53 IST" name="beforeMethod" finished-at="2026-04-21T20:59:58 IST" duration-ms="4816" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:52:49 IST" name="beforeMethod" finished-at="2026-04-21T21:52:54 IST" duration-ms="5314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T20:59:58 IST" name="invalidLoginTest" data-provider="invalidDataSet" finished-at="2026-04-21T21:00:00 IST" duration-ms="1650" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:52:54 IST" name="invalidLoginTest" data-provider="invalidDataSet" finished-at="2026-04-21T21:52:57 IST" duration-ms="2908" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:00 IST" name="afterMehod" finished-at="2026-04-21T21:00:00 IST" duration-ms="426" status="PASS">
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:52:57 IST" name="afterMehod" finished-at="2026-04-21T21:52:57 IST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:00 IST" name="beforeMethod" finished-at="2026-04-21T21:00:03 IST" duration-ms="2490" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:52:57 IST" name="beforeMethod" finished-at="2026-04-21T21:53:00 IST" duration-ms="2705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:03 IST" name="invalidLoginTest" data-provider="invalidDataSet" finished-at="2026-04-21T21:00:09 IST" duration-ms="6619" status="PASS">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:00 IST" name="invalidLoginTest" data-provider="invalidDataSet" finished-at="2026-04-21T21:53:02 IST" duration-ms="1826" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:09 IST" name="afterMehod" finished-at="2026-04-21T21:00:10 IST" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:02 IST" name="afterMehod" finished-at="2026-04-21T21:53:02 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:10 IST" name="beforeMethod" finished-at="2026-04-21T21:00:12 IST" duration-ms="2442" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:02 IST" name="beforeMethod" finished-at="2026-04-21T21:53:05 IST" duration-ms="2790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchTestWithInvalidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:12 IST" name="searchTestWithInvalidDataSet" data-provider="invalidSearchDataSet" finished-at="2026-04-21T21:00:13 IST" duration-ms="568" status="PASS">
+        <test-method signature="searchTestWithInvalidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:05 IST" name="searchTestWithInvalidDataSet" data-provider="invalidSearchDataSet" finished-at="2026-04-21T21:53:05 IST" duration-ms="404" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,15 +70,53 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTestWithInvalidDataSet -->
-        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:13 IST" name="afterMehod" finished-at="2026-04-21T21:00:13 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:05 IST" name="afterMehod" finished-at="2026-04-21T21:53:06 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:13 IST" name="beforeMethod" finished-at="2026-04-21T21:00:16 IST" duration-ms="2735" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:06 IST" name="beforeMethod" finished-at="2026-04-21T21:53:07 IST" duration-ms="1670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchTestWithValidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:16 IST" name="searchTestWithValidDataSet" data-provider="validSearchDataSet" finished-at="2026-04-21T21:00:17 IST" duration-ms="906" status="PASS">
+        <test-method signature="searchTestWithInvalidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:07 IST" name="searchTestWithInvalidDataSet" data-provider="invalidSearchDataSet" finished-at="2026-04-21T21:53:08 IST" duration-ms="1244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestWithInvalidDataSet -->
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:08 IST" name="afterMehod" finished-at="2026-04-21T21:53:09 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMehod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:09 IST" name="beforeMethod" finished-at="2026-04-21T21:53:11 IST" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTestWithInvalidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:11 IST" name="searchTestWithInvalidDataSet" data-provider="invalidSearchDataSet" finished-at="2026-04-21T21:53:13 IST" duration-ms="2474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestWithInvalidDataSet -->
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:13 IST" name="afterMehod" finished-at="2026-04-21T21:53:13 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMehod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:13 IST" name="beforeMethod" finished-at="2026-04-21T21:53:15 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTestWithValidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:15 IST" name="searchTestWithValidDataSet" data-provider="validSearchDataSet" finished-at="2026-04-21T21:53:16 IST" duration-ms="1485" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,15 +127,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTestWithValidDataSet -->
-        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:17 IST" name="afterMehod" finished-at="2026-04-21T21:00:17 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:16 IST" name="afterMehod" finished-at="2026-04-21T21:53:17 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:17 IST" name="beforeMethod" finished-at="2026-04-21T21:00:20 IST" duration-ms="3618" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:17 IST" name="beforeMethod" finished-at="2026-04-21T21:53:19 IST" duration-ms="2520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchTestWithValidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:20 IST" name="searchTestWithValidDataSet" data-provider="validSearchDataSet" finished-at="2026-04-21T21:00:22 IST" duration-ms="1749" status="PASS">
+        <test-method signature="searchTestWithValidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:19 IST" name="searchTestWithValidDataSet" data-provider="validSearchDataSet" finished-at="2026-04-21T21:53:20 IST" duration-ms="454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,15 +146,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTestWithValidDataSet -->
-        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:22 IST" name="afterMehod" finished-at="2026-04-21T21:00:22 IST" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:20 IST" name="afterMehod" finished-at="2026-04-21T21:53:20 IST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:22 IST" name="beforeMethod" finished-at="2026-04-21T21:00:26 IST" duration-ms="3211" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:20 IST" name="beforeMethod" finished-at="2026-04-21T21:53:23 IST" duration-ms="2451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchTestWithValidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:26 IST" name="searchTestWithValidDataSet" data-provider="validSearchDataSet" finished-at="2026-04-21T21:00:26 IST" duration-ms="690" status="PASS">
+        <test-method signature="searchTestWithValidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:23 IST" name="searchTestWithValidDataSet" data-provider="validSearchDataSet" finished-at="2026-04-21T21:53:23 IST" duration-ms="715" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,137 +165,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTestWithValidDataSet -->
-        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:26 IST" name="afterMehod" finished-at="2026-04-21T21:00:26 IST" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:23 IST" name="afterMehod" finished-at="2026-04-21T21:53:24 IST" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:26 IST" name="beforeMethod" finished-at="2026-04-21T21:00:30 IST" duration-ms="3297" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:24 IST" name="beforeMethod" finished-at="2026-04-21T21:53:26 IST" duration-ms="2585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchTestWithValidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:30 IST" name="searchTestWithValidDataSet" data-provider="validSearchDataSet" finished-at="2026-04-21T21:00:30 IST" duration-ms="504" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Laptop]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at test.TutorialNinja.searchTestWithValidDataSet(TutorialNinja.java:85)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchTestWithValidDataSet -->
-        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:30 IST" name="afterMehod" finished-at="2026-04-21T21:00:31 IST" duration-ms="280" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMehod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:31 IST" name="beforeMethod" finished-at="2026-04-21T21:00:34 IST" duration-ms="3130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="searchTestWithValidDataSet(java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:34 IST" name="searchTestWithValidDataSet" data-provider="validSearchDataSet" finished-at="2026-04-21T21:00:34 IST" duration-ms="461" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mobile]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at test.TutorialNinja.searchTestWithValidDataSet(TutorialNinja.java:85)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchTestWithValidDataSet -->
-        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:34 IST" name="afterMehod" finished-at="2026-04-21T21:00:34 IST" duration-ms="206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMehod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:34 IST" name="beforeMethod" finished-at="2026-04-21T21:00:37 IST" duration-ms="2934" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:37 IST" name="validLoginTest" data-provider="validDataSet" finished-at="2026-04-21T21:00:40 IST" duration-ms="2653" status="FAIL">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:26 IST" name="validLoginTest" data-provider="validDataSet" finished-at="2026-04-21T21:53:28 IST" duration-ms="2045" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -270,60 +186,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at test.TutorialNinja.validLoginTest(TutorialNinja.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:40 IST" name="afterMehod" finished-at="2026-04-21T21:00:40 IST" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:28 IST" name="afterMehod" finished-at="2026-04-21T21:53:29 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:40 IST" name="beforeMethod" finished-at="2026-04-21T21:00:43 IST" duration-ms="2426" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:29 IST" name="beforeMethod" finished-at="2026-04-21T21:53:30 IST" duration-ms="1466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:43 IST" name="validLoginTest" data-provider="validDataSet" finished-at="2026-04-21T21:00:44 IST" duration-ms="821" status="FAIL">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:30 IST" name="validLoginTest" data-provider="validDataSet" finished-at="2026-04-21T21:53:33 IST" duration-ms="2635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -336,52 +210,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at test.TutorialNinja.validLoginTest(TutorialNinja.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:744)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:00:44 IST" name="afterMehod" finished-at="2026-04-21T21:00:44 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:test.TutorialNinja@14cd1699]" started-at="2026-04-21T21:53:33 IST" name="afterMehod" finished-at="2026-04-21T21:53:33 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMehod -->

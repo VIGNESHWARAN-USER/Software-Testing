@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -28,7 +29,7 @@ public class TutorialNinja {
 	@Test(dataProvider = "validDataSet", dataProviderClass = DPExceldata.class)
 	public void validLoginTest(String correctUsername, String correctPassword) {
 
-		driver.findElement(By.xpath("//span[text() = \"My Account\"]")).click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text() = \"My Account\"]"))).click();
 		driver.findElement(By.xpath("//ul[@class = \"dropdown-menu dropdown-menu-right\"]/li/a[text() = \"Login\"]")).click();
 
 		driver.findElement(By.xpath("//input[@name = \"email\"]")).sendKeys(correctUsername);
@@ -51,7 +52,7 @@ public class TutorialNinja {
 		
 		//div[@class = "alert alert-danger alert-dismissible"]
 		
-		driver.findElement(By.xpath("//span[text() = \"My Account\"]")).click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text() = \"My Account\"]"))).click();
 		driver.findElement(By.xpath("//ul[@class = \"dropdown-menu dropdown-menu-right\"]/li/a[text() = \"Login\"]")).click();
 
 		driver.findElement(By.xpath("//input[@name = \"email\"]")).sendKeys(username);
