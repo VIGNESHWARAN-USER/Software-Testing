@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<parameter name="correctUsername" value="admin"></parameter>
+  	<parameter name="correctPassword" value="admin"></parameter>
+  	<parameter name="wrongUsername" value="vetri23667"></parameter>
+  	<parameter name="wrongPassword" value="vetri23667"></parameter>
+  	<parameter name="baseURL" value="https://demoblaze.com"></parameter>
+  	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.DemoBlaze"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

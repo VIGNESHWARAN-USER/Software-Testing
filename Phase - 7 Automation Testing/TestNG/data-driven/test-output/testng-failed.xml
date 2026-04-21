@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="correctUsername" value="admin"/>
+    <parameter name="wrongPassword" value="vetri23667"/>
+    <parameter name="baseURL" value="https://demoblaze.com"/>
+    <parameter name="correctPassword" value="admin"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="wrongUsername" value="vetri23667"/>
+    <classes>
+      <class name="test.DemoBlaze">
+        <methods>
+          <include name="afterMehod"/>
+          <include name="beforeMethod"/>
+          <include name="loginTest" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- test.DemoBlaze -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
