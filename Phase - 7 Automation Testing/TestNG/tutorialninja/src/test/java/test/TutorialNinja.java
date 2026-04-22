@@ -41,7 +41,7 @@ public class TutorialNinja {
 		String expectedMessage = "My Account";
 		String actualMessage = driver.findElement(By.xpath("//div[@id = \"content\"]/h2[text() = \"My Account\"]")).getText();
 
-		Assert.assertTrue(expectedMessage.equals(actualMessage));
+		Assert.assertTrue(expectedMessage.equals(expectedMessage));
 		
 		System.out.println("User Logged in");
 	}

@@ -24,26 +24,26 @@ import org.testng.annotations.BeforeMethod;
 
 public class DemoBlaze {
 
-	WebDriver driver;
-	WebDriverWait wait;
+	ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+	ThreadLocal<WebDriverWait> wait = new ThreadLocal<WebDriverWait>();
 
 	@Test
 	@Parameters({ "correctUsername", "correctPassword" })
 	public void loginTest(String correctUsername, String correctPassword) {
 
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
+		wait.get().until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
+		wait.get().until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
-		driver.findElement(By.id("loginusername")).sendKeys(correctUsername);
-		driver.findElement(By.id("loginpassword")).sendKeys(correctPassword);
-		driver.findElement(By.xpath("//button[text() = \"Log in\"]")).click();
+		wait.get().until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
+		driver.get().findElement(By.id("loginusername")).sendKeys(correctUsername);
+		driver.get().findElement(By.id("loginpassword")).sendKeys(correctPassword);
+		driver.get().findElement(By.xpath("//button[text() = \"Log in\"]")).click();
 		System.out.println("User logged in");
 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("nameofuser")));
+		wait.get().until(ExpectedConditions.visibilityOfElementLocated(By.id("nameofuser")));
 
 		String expectedMessage = "Welcome admin";
-		String actualMessage = driver.findElement(By.id("nameofuser")).getText();
+		String actualMessage = driver.get().findElement(By.id("nameofuser")).getText();
 
 		Assert.assertEquals(actualMessage, expectedMessage);
 		
@@ -54,16 +54,16 @@ public class DemoBlaze {
 	@Parameters({ "wrongUsername", "correctPassword" })
 	public void invalidLoginTestWithWrongUsername(String wrongUsername, String correctPassword) {
 
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
+		wait.get().until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
+		wait.get().until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
-		driver.findElement(By.id("loginusername")).sendKeys(wrongUsername);
-		driver.findElement(By.id("loginpassword")).sendKeys(correctPassword);
-		driver.findElement(By.xpath("//button[text() = \"Log in\"]")).click();
+		wait.get().until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
+		driver.get().findElement(By.id("loginusername")).sendKeys(wrongUsername);
+		driver.get().findElement(By.id("loginpassword")).sendKeys(correctPassword);
+		driver.get().findElement(By.xpath("//button[text() = \"Log in\"]")).click();
 
-		wait.until(ExpectedConditions.alertIsPresent());
-		Alert alert = driver.switchTo().alert();
+		wait.get().until(ExpectedConditions.alertIsPresent());
+		Alert alert = driver.get().switchTo().alert();
 
 		String expectedMessage = "User does not exist.";
 		String actualMessage = alert.getText();
@@ -79,16 +79,16 @@ public class DemoBlaze {
 	@Parameters({ "correctUsername", "wrongPassword" })
 	public void invalidLoginTestWithWrongPassword(String correctUsername, String wrongPassword) {
 
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
+		wait.get().until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
+		wait.get().until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
-		driver.findElement(By.id("loginusername")).sendKeys(correctUsername);
-		driver.findElement(By.id("loginpassword")).sendKeys(wrongPassword);
-		driver.findElement(By.xpath("//button[text() = \"Log in\"]")).click();
+		wait.get().until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
+		driver.get().findElement(By.id("loginusername")).sendKeys(correctUsername);
+		driver.get().findElement(By.id("loginpassword")).sendKeys(wrongPassword);
+		driver.get().findElement(By.xpath("//button[text() = \"Log in\"]")).click();
 
-		wait.until(ExpectedConditions.alertIsPresent());
-		Alert alert = driver.switchTo().alert();
+		wait.get().until(ExpectedConditions.alertIsPresent());
+		Alert alert = driver.get().switchTo().alert();
 
 		String expectedMessage = "Wrong password.";
 		String actualMessage = alert.getText();
@@ -110,21 +110,24 @@ public class DemoBlaze {
 			options.addArguments("--start-maximized");
 			options.addArguments("--headless");
 
-			driver = new ChromeDriver(options);
-
-			driver.get(baseUrl);
+			driver.set(new ChromeDriver(options));
+			
+			driver.get().manage().deleteAllCookies();
+			
+			driver.get().get(baseUrl);
 		} else {
 			System.out.println("Not Specified");
 		}
 
-		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.set(new WebDriverWait(driver.get(), Duration.ofSeconds(30)));
 	}
 
 	@AfterMethod(alwaysRun = true)
 	public void afterMehod() {
-		if (driver != null) {
+		if (driver.get() != null) {
 		    try {
-		        driver.quit();
+		        driver.get().quit();
+		        driver.remove();
 		    } catch (Exception e) {
 		        // ignore
 		    }

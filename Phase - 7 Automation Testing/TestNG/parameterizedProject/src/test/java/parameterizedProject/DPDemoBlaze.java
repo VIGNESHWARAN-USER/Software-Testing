@@ -21,22 +21,22 @@ import org.testng.annotations.BeforeMethod;
 public class DPDemoBlaze {
 
 	ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
-	WebDriverWait wait;
+	ThreadLocal<WebDriverWait> wait = new ThreadLocal<>();
 
 	@Test
 	@Parameters({ "correctUsername", "correctPassword" })
 	public void loginTest(String correctUsername, String correctPassword) {
 
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
+		wait.get().until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
+		wait.get().until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
+		wait.get().until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
 		driver.get().findElement(By.id("loginusername")).sendKeys(correctUsername);
 		driver.get().findElement(By.id("loginpassword")).sendKeys(correctPassword);
 		driver.get().findElement(By.xpath("//button[text() = \"Log in\"]")).click();
 		
 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("nameofuser")));
+		wait.get().until(ExpectedConditions.visibilityOfElementLocated(By.id("nameofuser")));
 
 		String expectedMessage = "Welcome admin";
 		String actualMessage = driver.get().findElement(By.id("nameofuser")).getText();
@@ -50,15 +50,15 @@ public class DPDemoBlaze {
 	@Parameters({ "wrongUsername", "correctPassword" })
 	public void invalidLoginTestWithWrongUsername(String wrongUsername, String correctPassword) {
 
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
+		wait.get().until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
+		wait.get().until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
+		wait.get().until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
 		driver.get().findElement(By.id("loginusername")).sendKeys(wrongUsername);
 		driver.get().findElement(By.id("loginpassword")).sendKeys(correctPassword);
 		driver.get().findElement(By.xpath("//button[text() = \"Log in\"]")).click();
 
-		wait.until(ExpectedConditions.alertIsPresent());
+		wait.get().until(ExpectedConditions.alertIsPresent());
 		Alert alert = driver.get().switchTo().alert();
 
 		String expectedMessage = "User does not exist.";
@@ -72,18 +72,18 @@ public class DPDemoBlaze {
 
 	}
 
-	@Test(dataProvider = "dataSet", dataProviderClass = DataSet.class)
+	@Test(dataProvider = "testData", dataProviderClass = DataSet.class)
 	public void invalidLoginTestWithWrongPassword(String correctUsername, String wrongPassword) {
 
-		wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
+		wait.get().until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@id = \"logInModal\"]")));
+		wait.get().until(ExpectedConditions.elementToBeClickable(By.id("login2"))).click();
 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
+		wait.get().until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
 		driver.get().findElement(By.id("loginusername")).sendKeys(correctUsername);
 		driver.get().findElement(By.id("loginpassword")).sendKeys(wrongPassword);
 		driver.get().findElement(By.xpath("//button[text() = \"Log in\"]")).click();
 
-		wait.until(ExpectedConditions.alertIsPresent());
+		wait.get().until(ExpectedConditions.alertIsPresent());
 		Alert alert = driver.get().switchTo().alert();
 
 		String expectedMessage = "Wrong password.";
@@ -104,28 +104,24 @@ public class DPDemoBlaze {
 		if (browser.equals("chrome")) {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--start-maximized");
-			options.addArguments("--headless");
+			//options.addArguments("--headless");
 			
 			driver.set(new ChromeDriver(options));
-
+			driver.get().manage().deleteAllCookies();
 			driver.get().get(baseUrl);
 		} else {
 			System.out.println("Not Specified");
 		}
 
-		wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30));
+		wait.set(new WebDriverWait(driver.get(), Duration.ofSeconds(30)));
 	}
 
 	@AfterMethod(alwaysRun = true)
-	public void afterMehod() {
-		if (driver != null) {
-		    try {
-		        driver.get().quit();
-		        driver.remove();
-		    } catch (Exception e) {
-		        // ignore
-		    }
-		}
+	public void afterMethod() {
+	    if (driver.get() != null) {
+	        driver.get().quit();
+	        driver.remove();
+	    }
 	}
 
 }

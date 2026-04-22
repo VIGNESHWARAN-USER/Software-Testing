@@ -26,21 +26,19 @@ public class DPDemo {
 		
 		driver.set(new ChromeDriver());
 		
+		driver.get().manage().deleteAllCookies();
 		
 		driver.get().get("https://google.co.in");
 		
 		driver.get().manage().window().maximize();
 	}
 	
-	@AfterMethod
-	public void quit() {
-		if (driver != null) {
-		    try {
-		        driver.get().quit();
-		        driver.remove();
-		    } catch (Exception e) {
-		        // ignore
-		    }
-		}
+	
+	@AfterMethod(alwaysRun = true)
+	public void afterMethod() {
+	    if (driver.get() != null) {
+	        driver.get().quit();
+	        driver.remove();
+	    }
 	}
 }
