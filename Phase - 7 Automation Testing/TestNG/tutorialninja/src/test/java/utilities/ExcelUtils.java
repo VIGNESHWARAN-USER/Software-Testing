@@ -10,53 +10,61 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtils {
-		
-	public static String[][] getData(String fileName, String sheetName) throws IOException
-	{
-		String[][] data = null;
-		
-		try
-		{
-			FileInputStream fis = new FileInputStream("src/test/resources/"+fileName);
-			XSSFWorkbook wb = new XSSFWorkbook(fis);
-			XSSFSheet sheet = wb.getSheet(sheetName);
-			
-			int rows = sheet.getLastRowNum();
-			int cols = sheet.getRow(0).getLastCellNum();
-			
-			data = new String[rows][cols];
-			
-			
-			for(int i=1; i<=rows; i++)
-			{
-				XSSFRow row= sheet.getRow(i);
-				
-				
-				for(int j=0; j<cols; j++)
-				{
-					XSSFCell cell = row.getCell(j);
 
-					String val = "";
+	public static String[][] getData(String fileName, String sheetName) throws IOException {
 
-					if (cell != null) {
-					    if (cell.getCellType() == CellType.NUMERIC) {
-					        val = String.valueOf((long) cell.getNumericCellValue());
-					    } else {
-					        val = cell.toString();
-					    }
+		FileInputStream fis = new FileInputStream("src/test/resources/" + fileName);
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+		XSSFSheet sheet = wb.getSheet(sheetName);
+
+		int totalRows = sheet.getPhysicalNumberOfRows();
+		int totalCols = sheet.getRow(0).getLastCellNum();
+
+		// Exclude header
+		int dataRows = totalRows - 1;
+
+		String[][] data = new String[dataRows][totalCols];
+
+		int rowIndex = 0;
+
+		for (int i = 1; i < totalRows; i++) {
+
+			XSSFRow row = sheet.getRow(i);
+
+			if (row == null)
+				continue;
+
+			boolean isEmpty = true;
+
+			for (int j = 0; j < totalCols; j++) {
+				XSSFCell cell = row.getCell(j);
+
+				String val = "";
+
+				if (cell != null) {
+					if (cell.getCellType() == CellType.NUMERIC) {
+						val = String.valueOf((long) cell.getNumericCellValue());
+					} else {
+						val = cell.toString().trim();
 					}
-					
-					data[i-1][j] = val;
+
+					if (!val.isEmpty()) {
+						isEmpty = false;
+					}
 				}
+
+				data[rowIndex][j] = val;
 			}
-			
-			return data;
+
+			// Skip fully empty rows
+			if (!isEmpty) {
+				rowIndex++;
+			}
 		}
-		catch(Exception e)
-		{
-			System.out.println(e.getMessage());
-		}
-		
-		return null;
+
+		wb.close();
+		fis.close();
+
+		return java.util.Arrays.copyOf(data, rowIndex); // trim unused rows
 	}
 }
