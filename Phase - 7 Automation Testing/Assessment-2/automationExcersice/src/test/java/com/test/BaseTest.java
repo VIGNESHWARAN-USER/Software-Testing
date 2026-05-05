@@ -12,6 +12,8 @@ import org.testng.annotations.Listeners;
 public class BaseTest {
 	public static WebDriver driver;
 	
+	
+	
 	@BeforeMethod
 	public void setup()
 	{

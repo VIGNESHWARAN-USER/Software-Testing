@@ -25,4 +25,17 @@ public class DP {
 	{
 		return ExcelData.getData("dataset.xlsx", "InvalidLogin");
 	}
+	
+	@DataProvider(name = "validSearchKeys")
+	public Object[][] validSearchKeys() throws IOException
+	{
+		return ExcelData.getData("dataset.xlsx", "ValidSearchKeys");
+	}
+	
+	@DataProvider(name = "invalidSearchKeys")
+	public Object[][] invalidSearchKeys() throws IOException
+	{
+		return ExcelData.getData("dataset.xlsx", "InvalidSearchKeys");
+	}
 }
+

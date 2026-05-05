@@ -7,3 +7,5 @@ Feature: Login to HRM Application
 	When User enters username as "Admin"
 	And User enters password as "admin123"
 	Then user should be able to login successfully
+	
+	

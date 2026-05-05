@@ -32,7 +32,7 @@ public class LoginTest extends BaseTest{
 		lp = new LoginPage(driver);
 		lp.logIn(email, password);
 
-		Assert.assertEquals(lp.getMessage(),"Your email or password is incorrect!");
+		Assert.assertEquals(lp.getErrorMessage(),"Your email or password is incorrect!");
 		
 	}
 }
