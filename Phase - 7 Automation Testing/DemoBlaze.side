@@ -1,0 +1,77 @@
+{
+  "id": "dd5a3a15-30ad-440b-813b-585cebeaa97d",
+  "version": "2.0",
+  "name": "DemoBlaze",
+  "url": "https://tutorialsninja.com/demo/",
+  "tests": [{
+    "id": "65388afd-1c80-4fce-8608-96ff8af6e6b6",
+    "name": "Test",
+    "commands": [{
+      "id": "8d374d4e-94bd-4a72-8619-bf4b8f72985b",
+      "comment": "",
+      "command": "open",
+      "target": "/demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "447b183d-b0f0-4afe-808e-149190caf23f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//div[contains(@class , \"product-layout\")][2]/div/div[2]/p[2]",
+      "targets": [],
+      "value": "10000"
+    }, {
+      "id": "a5cde1dc-2d7c-4d93-a013-cc8efafb0793",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//div[contains(@class , \"product-layout\")][2]/div/div[2]/p[2]",
+      "targets": [],
+      "value": "homePagePrice"
+    }, {
+      "id": "0615624d-7efd-4adc-a45a-9b105048715d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[contains(@class , \"product-layout\")][2]/div/div/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "631455f3-79a4-4f69-9101-16b89594cf1b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h1[text() = \"iPhone\"]//following-sibling::ul[2]",
+      "targets": [],
+      "value": "${homePagePrice}"
+    }, {
+      "id": "88e64f85-d43d-4f05-ae91-7b424bd3d612",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath=//p[@class = \"intro\"]",
+      "targets": [],
+      "value": "description"
+    }, {
+      "id": "961d3dd8-31f5-41ba-8d0b-bd71397a84af",
+      "comment": "",
+      "command": "echo",
+      "target": "${description}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "024c6425-9945-4f6b-9b31-787bb162b21f",
+      "comment": "",
+      "command": "echo",
+      "target": "${homePagePrice}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9be76c05-90a0-4c3d-bf23-35d8256bead8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["65388afd-1c80-4fce-8608-96ff8af6e6b6"]
+  }],
+  "urls": ["https://tutorialsninja.com/demo/"],
+  "plugins": []
+}

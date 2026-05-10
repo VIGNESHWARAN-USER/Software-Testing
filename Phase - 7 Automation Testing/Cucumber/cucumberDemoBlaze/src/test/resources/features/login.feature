@@ -3,31 +3,31 @@ Feature: DemoBlaze Login Feature
   Background:
     Given the user launches the home page
 
-  @PopUpValidation @Smoke
-  Scenario: Verify login pop-up appears
-    When the user clicks the login button
-    Then the login pop-up should be displayed
 
-  @ValidCredentials @Smoke @Regression 
+  @ValidCredentials @Smoke  
   Scenario: Login with valid credentials
     When the user opens the login pop-up
     And the user enters username "admin"
     And the user enters password "admin"
     And the user submits login
-    Then the user should see welcome message "Welcome admin"
+    Then the user should see welcome message "<>"
+    
+    Examples: 
+  | username | password   | errorMessage      |
+  | admin    | admin123dc | Wrong password. |
+  | admin09873   | admin123dc | User does not exist. |
+  |    |  | Please fill out Username and Password. |
 
-  @InvalidPassword @Smoke @Regression
-  Scenario: Login with invalid password
+  @InvalidPassword @Regression
+  Scenario Outline: Login with invalid credentials
     When the user opens the login pop-up
-    And the user enters username "admin"
-    And the user enters password "admin123"
+    And the user enters username "<username>"
+    And the user enters password "<password>"
     And the user submits login
-    Then an alert should appear with message "Wrong password."
-
-  @InvalidUsername @Vignesh
-  Scenario: Login with invalid username
-    When the user opens the login pop-up
-    And the user enters username "admin1234vetri"
-    And the user enters password "admin"
-    And the user submits login
-    Then an alert should appear with message "User does not exist."
+    Then an alert should appear with message "<errorMessage>"
+    
+  Examples: Examples:
+  | username | password   | errorMessage      |
+  | admin    | admin123dc | Wrong password. |
+  | admin09873   | admin123dc | User does not exist. |
+  |    |  | Please fill out Username and Password. |

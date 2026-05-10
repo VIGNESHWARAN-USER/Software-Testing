@@ -12,9 +12,7 @@ import io.cucumber.junit.CucumberOptions;
         "pretty",
         "html:target/cucumber-report.html",
         "json:target/cucumber.json"
-    },
-    monochrome = true,
-    tags = "@Smoke or @Regression or @Vignesh"
+    }
 )
 public class JUnitRunner {
 }
