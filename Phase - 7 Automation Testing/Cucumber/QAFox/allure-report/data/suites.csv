@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","27367","Verify login with valid credentials","","2026-05-10","passed","2026-05-10","","M_VIGNESHWARANN_5TH_MAY_QAFox_LoginFearure","Verify login with valid credentials",""
+"","27233","Verify login with valid credentials","","2026-05-10","passed","2026-05-10","","M_VIGNESHWARANN_5TH_MAY_QAFox_LoginFearure","Verify login with valid credentials",""
+"","28085","Verify Add To Cart with valid search keys","","2026-05-10","passed","2026-05-10","","M_VIGNESHWARANN_5TH_MAY_QAFox_AddToCartFearure","Verify Add To Cart with valid search keys",""
+"","41774","Verify registration with valid credentials","","2026-05-10","broken","2026-05-10","","M_VIGNESHWARANN_5TH_MAY_QAFox_RegisterFearure","Verify registration with valid credentials",""
