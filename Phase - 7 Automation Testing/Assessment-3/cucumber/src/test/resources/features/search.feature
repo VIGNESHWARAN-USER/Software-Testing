@@ -10,4 +10,4 @@ Feature: VIGNESHWARAN_M_13-05-2026_QAFox_SearchFeature
       | keyword | result_status |
       | iPhone  | contain       |
       | Samsung | contain       |
-      | Hi     | not contain   |
+      | Nik     | contain   |
