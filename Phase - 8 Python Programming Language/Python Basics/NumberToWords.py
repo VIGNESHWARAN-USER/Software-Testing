@@ -18,7 +18,7 @@ def numToWords(num):
 
     return ans
     
-input = input("Enter the number: ")
+# input = input("Enter the number: ")
 
-ans = numToWords(input)
-print(ans)
+# ans = numToWords(input)
+# print(ans)
