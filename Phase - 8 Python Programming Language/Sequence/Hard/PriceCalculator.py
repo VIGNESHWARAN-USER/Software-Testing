@@ -9,7 +9,7 @@ while True:
 
     choice = input("Do you want to enter another item? (yes/no): ")
 
-    if choice.lower() == "no":
+    if choice.strip().lower() == "no":
         break
 
     count += 1
