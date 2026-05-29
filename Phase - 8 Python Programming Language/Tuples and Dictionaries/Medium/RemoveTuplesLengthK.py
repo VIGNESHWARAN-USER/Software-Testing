@@ -1,5 +1,7 @@
-test_list = eval(input())
+test_list = input()
 k = int(input())
+
+test_list = eval(test_list)
 
 result = []
 
