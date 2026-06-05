@@ -13,7 +13,7 @@ if search.is_enabled():
     search.send_keys("Python Selenium")
     time.sleep(3)
     driver.save_screenshot("screenshot.png")
-    submit_button = driver.find_element(By.CLASS_NAME, "lTxWLe")
+    submit_button = driver.find_element(By.CLASS_NAME, "u4Uk3c")
     if(submit_button.is_enabled()):
         submit_button.click()
     print("Title:", driver.title)
