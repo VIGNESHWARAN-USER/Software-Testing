@@ -1,45 +1,36 @@
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import (
+    TimeoutException,
+    ElementClickInterceptedException
+)
 import traceback
 
-class CannotClickButtonException(Exception):
 
+class CannotClickButtonException(Exception):
     pass
 
 
-def close_google_vignette_if_present(driver):
-
+def dismiss_ads(driver):
     try:
+        driver.execute_script("""
+            document.querySelectorAll(
+                "iframe, .adsbygoogle, [id*='google_ads'], [id*='aswift']
+            ).forEach(el => el.remove());
+        """)
+        print("[INFO] Ads removed")
+        return True
 
-        for frame in driver.find_elements(By.TAG_NAME, "iframe"):
-            try:
-                driver.switch_to.frame(frame)
-
-                buttons = driver.find_elements(
-                    By.XPATH,
-                    "//*[contains(text(),'Close')]"
-                )
-
-                print(f"Found {len(buttons)} buttons")
-
-                driver.switch_to.default_content()
-
-            except Exception as e:
-                print(type(e).__name__)
-                print(str(e))
-                traceback.print_exc()
-
-            finally:
-                driver.switch_to.default_content()
-
-    except Exception:
-        pass
-
-    return False
+    except Exception as e:
+        print("[ERROR] Failed to remove ads")
+        print(type(e).__name__)
+        print(str(e))
+        return False
 
 
 def click(driver, locator, timeout=10):
+
+    print(f"\n[INFO] Attempting click: {locator}")
 
     wait = WebDriverWait(driver, timeout)
 
@@ -48,25 +39,59 @@ def click(driver, locator, timeout=10):
             EC.element_to_be_clickable(locator)
         )
 
+        print("[INFO] Element located and clickable")
+
         element.click()
 
-    except Exception:
+        print("[INFO] Click successful")
 
-        ad_closed = close_google_vignette_if_present(driver)
+    except ElementClickInterceptedException as e:
 
-        if ad_closed:
+        print("\n[WARNING] Click intercepted")
+        print(type(e).__name__)
+        print(str(e))
 
-            try:
-                element = wait.until(
-                    EC.element_to_be_clickable(locator)
-                )
+        dismiss_ads(driver)
 
-                element.click()
-                return
+        try:
+            element = wait.until(
+                EC.element_to_be_clickable(locator)
+            )
 
-            except Exception:
-                pass
+            driver.execute_script(
+                "arguments[0].scrollIntoView({block:'center'});",
+                element
+            )
 
-        raise CannotClickButtonException(
-            f"Unable to click element: {locator}"
-        )
+            element.click()
+
+            print("[INFO] Click successful after removing ads")
+
+        except Exception as retry_error:
+
+            print("\n[ERROR] Retry click failed")
+            print(type(retry_error).__name__)
+            print(str(retry_error))
+            traceback.print_exc()
+
+            raise CannotClickButtonException(
+                f"Unable to click element after retry: {locator}"
+            ) from retry_error
+
+    except TimeoutException as e:
+
+        print("\n[ERROR] Element not clickable within timeout")
+        print(type(e).__name__)
+        print(str(e))
+        traceback.print_exc()
+
+        raise
+
+    except Exception as e:
+
+        print("\n[ERROR] Unexpected exception during click")
+        print(type(e).__name__)
+        print(str(e))
+        traceback.print_exc()
+
+        raise
