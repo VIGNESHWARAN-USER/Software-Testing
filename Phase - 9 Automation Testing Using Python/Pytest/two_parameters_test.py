@@ -1,11 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.support.ui import WebDriverWait
 import pytest
+import time
 
 @pytest.mark.search
 @pytest.mark.parametrize("browser", ["Chrome", "Firefox"])
-@pytest.mark.parametrize("url", ["https://www.flipkart.com", "https://www.amazon.com"])
+@pytest.mark.parametrize("url", ["https://www.flipkart.com", "https://demoblaze.com/"])
 def test_google_search(browser, url):
 
     driver = None
@@ -28,7 +30,10 @@ def test_google_search(browser, url):
 
     driver.get(url)
 
-    print(f"Title: {driver.title}")
-    assert driver.title != ""
+    if "demo" in url:
+        assert "STORE" in driver.title
+
+    elif "flipkart" in url:
+        assert "Online Shopping" in driver.title
 
     driver.quit()
