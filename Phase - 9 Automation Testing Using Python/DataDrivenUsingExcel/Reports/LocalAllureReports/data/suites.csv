@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5530","test_valid_login[admin-admin]","Tests","2026-06-09","passed","2026-06-09","","data_driven_login_test","",""
+"","4618","test_invalid_login[admin-admindcbdc57-Wrong password.]","Tests","2026-06-09","passed","2026-06-09","","data_driven_login_test","",""
+"","4706","test_invalid_login[admin-admin09876-Wrong password.]","Tests","2026-06-09","passed","2026-06-09","","data_driven_login_test","",""
+"","5267","test_valid_login[ronaldo007-admin]","Tests","2026-06-09","passed","2026-06-09","","data_driven_login_test","",""

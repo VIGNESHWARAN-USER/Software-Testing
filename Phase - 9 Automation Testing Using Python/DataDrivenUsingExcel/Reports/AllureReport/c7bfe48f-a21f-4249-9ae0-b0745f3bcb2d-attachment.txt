@@ -1,0 +1,1 @@
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:21 Test Started

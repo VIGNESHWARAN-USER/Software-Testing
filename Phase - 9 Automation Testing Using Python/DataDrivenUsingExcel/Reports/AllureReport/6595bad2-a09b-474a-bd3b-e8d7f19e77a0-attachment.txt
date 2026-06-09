@@ -1,0 +1,12 @@
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:14 Launching Chrome Browser
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:21 Navigated to Demoblaze Homepage
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:35 ==================================================
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:36 Starting Valid Login Test
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:37 Username: admin
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:41 Clicking Login link
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:48 Entering Username
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:55 Entering Password
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:62 Clicking Login button
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:75 Welcome Message: Welcome admin
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:80 Valid Login Test Passed
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:25 Closing Browser
