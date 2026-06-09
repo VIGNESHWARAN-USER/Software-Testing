@@ -1,6 +1,11 @@
 import logging
+import os
 
 def get_logger():
+
+    log_dir = "./Logs"
+
+    os.makedirs(log_dir, exist_ok=True)
 
     logger = logging.getLogger("FrameworkLogger")
 
