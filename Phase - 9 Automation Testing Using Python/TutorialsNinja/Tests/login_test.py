@@ -14,7 +14,10 @@ class TestLogin:
     def test_valid_login(self, email, password):
         logger = get_logger()
         wait = WebDriverWait(self.driver, 30)
-        logger.info("Opening TutorialsNinja Website")
+        self.driver.save_screenshot("homepage.png")
+        print("Current URL:", self.driver.current_url)
+        print("Title:", self.driver.title)
+        print("Page Source Length:", len(self.driver.page_source))
         wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@id='top-links']//span[contains(text(),'My Account')]"))).click()
         wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Login"))).click()
         logger.info(f"Entering Email : {email}")
@@ -30,7 +33,10 @@ class TestLogin:
     def test_invalid_login(self, email, password, message):
         logger = get_logger()
         wait = WebDriverWait(self.driver, 30)
-        logger.info("Opening TutorialsNinja Website")
+        self.driver.save_screenshot("homepage.png")
+        print("Current URL:", self.driver.current_url)
+        print("Title:", self.driver.title)
+        print("Page Source Length:", len(self.driver.page_source))
         wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@id='top-links']//span[contains(text(),'My Account')]"))).click()
         wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Login"))).click()
         logger.info(f"Entering Email : {email}")
