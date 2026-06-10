@@ -1,7 +1,9 @@
 import pytest
 from selenium import webdriver
 from Utilities.config_reader import get_value
+from Utilities.logger import get_logger
 
+logger = get_logger()
 
 @pytest.fixture()
 def setup(request):
@@ -21,3 +23,9 @@ def setup(request):
     yield driver
 
     driver.quit()
+
+def pytest_runtest_setup(item):
+    logger.info(f"========== STARTED : {item.name} ==========")
+
+def pytest_runtest_teardown(item):
+    logger.info(f"========== ENDED : {item.name} ==========")
