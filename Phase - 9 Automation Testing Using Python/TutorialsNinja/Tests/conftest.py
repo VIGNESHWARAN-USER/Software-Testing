@@ -15,7 +15,7 @@ def setup(request):
     else:
         driver = webdriver.Firefox()
 
-    driver.maximize_window()
+    driver.set_window_size(1920, 1080)
     driver.get(get_value("config.ini","common info", "url"))
     request.cls.driver = driver
     yield driver
