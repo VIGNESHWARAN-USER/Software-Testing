@@ -1,0 +1,2 @@
+[32mINFO    [0m FrameworkLogger:conftest.py:28 ========== STARTED : test_invalid_product[-There is no product that matches the search criteria.] ==========
+[32mINFO    [0m FrameworkLogger:conftest.py:31 ========== ENDED : test_invalid_product[-There is no product that matches the search criteria.] ==========
