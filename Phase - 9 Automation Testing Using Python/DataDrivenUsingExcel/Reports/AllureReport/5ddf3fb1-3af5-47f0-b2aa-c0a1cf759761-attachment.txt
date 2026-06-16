@@ -1,1 +1,0 @@
-[<_LiveLoggingNullHandler (NOTSET)>, <_FileHandler \\.\nul (NOTSET)>, <LogCaptureHandler (NOTSET)>, <LogCaptureHandler (NOTSET)>]

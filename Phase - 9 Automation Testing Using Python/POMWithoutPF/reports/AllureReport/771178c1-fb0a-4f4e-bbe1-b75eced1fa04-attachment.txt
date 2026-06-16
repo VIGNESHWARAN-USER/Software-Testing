@@ -1,2 +1,0 @@
-[32mINFO    [0m FrameworkLogger:conftest.py:28 ========== STARTED : test_valid_product[Apple-Apple Cinema 30"] ==========
-[32mINFO    [0m FrameworkLogger:conftest.py:31 ========== ENDED : test_valid_product[Apple-Apple Cinema 30"] ==========
