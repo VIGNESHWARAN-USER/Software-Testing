@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-20T10:59:34 IST" name="Suite" finished-at="2026-04-20T11:00:05 IST" duration-ms="31617">
+    <groups>
+    </groups>
+    <test started-at="2026-04-20T10:59:34 IST" name="Test" finished-at="2026-04-20T11:00:05 IST" duration-ms="31617">
+      <class name="practice.SoftAssertionExample">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:practice.SoftAssertionExample@40a4337a]" started-at="2026-04-20T10:59:36 IST" name="beforeMethod" finished-at="2026-04-20T10:59:39 IST" duration-ms="2755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidLoginTestWithWrongPassword()[pri:0, instance:practice.SoftAssertionExample@40a4337a]" started-at="2026-04-20T10:59:39 IST" name="invalidLoginTestWithWrongPassword" finished-at="2026-04-20T10:59:41 IST" duration-ms="2270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTestWithWrongPassword -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:practice.SoftAssertionExample@40a4337a]" started-at="2026-04-20T10:59:41 IST" name="logOut" finished-at="2026-04-20T10:59:42 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="invalidLoginTestWithWrongUsername()[pri:0, instance:practice.SoftAssertionExample@40a4337a]" started-at="2026-04-20T10:59:42 IST" name="invalidLoginTestWithWrongUsername" finished-at="2026-04-20T10:59:44 IST" duration-ms="1882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTestWithWrongUsername -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:practice.SoftAssertionExample@40a4337a]" started-at="2026-04-20T10:59:44 IST" name="logOut" finished-at="2026-04-20T10:59:44 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="loginTest()[pri:0, instance:practice.SoftAssertionExample@40a4337a]" started-at="2026-04-20T10:59:44 IST" name="loginTest" finished-at="2026-04-20T10:59:47 IST" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:practice.SoftAssertionExample@40a4337a]" started-at="2026-04-20T10:59:47 IST" name="logOut" finished-at="2026-04-20T10:59:49 IST" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:practice.SoftAssertionExample@40a4337a]" started-at="2026-04-20T11:00:05 IST" name="afterMehod" finished-at="2026-04-20T11:00:05 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMehod -->
+      </class> <!-- practice.SoftAssertionExample -->
+      <class name="practice.HierarchyCheck">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T10:59:34 IST" name="beforeSuite" finished-at="2026-04-20T10:59:34 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T10:59:34 IST" name="beforeTest" finished-at="2026-04-20T10:59:34 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T10:59:49 IST" name="beforeClass" finished-at="2026-04-20T10:59:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T10:59:49 IST" name="beforeMethod" finished-at="2026-04-20T10:59:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="d()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T10:59:49 IST" name="d" finished-at="2026-04-20T10:59:49 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T10:59:49 IST" name="afterMethod" finished-at="2026-04-20T10:59:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T10:59:49 IST" name="beforeMethod" finished-at="2026-04-20T10:59:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T10:59:49 IST" name="f" finished-at="2026-04-20T10:59:49 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T10:59:49 IST" name="afterMethod" finished-at="2026-04-20T10:59:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T10:59:49 IST" name="afterClass" finished-at="2026-04-20T10:59:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T11:00:05 IST" name="afterTest" finished-at="2026-04-20T11:00:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:practice.HierarchyCheck@7e6f74c]" started-at="2026-04-20T11:00:05 IST" name="afterSuite" finished-at="2026-04-20T11:00:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- practice.HierarchyCheck -->
+      <class name="practice.AssertExample">
+        <test-method signature="f()[pri:0, instance:practice.AssertExample@6a78afa0]" started-at="2026-04-20T11:00:05 IST" name="f" finished-at="2026-04-20T11:00:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- practice.AssertExample -->
+      <class name="practice.NewTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:practice.NewTest@dd05255]" started-at="2026-04-20T10:59:34 IST" name="beforeMethod" finished-at="2026-04-20T10:59:36 IST" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidLoginTestWithWrongPassword()[pri:0, instance:practice.NewTest@dd05255]" started-at="2026-04-20T10:59:49 IST" name="invalidLoginTestWithWrongPassword" finished-at="2026-04-20T10:59:52 IST" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTestWithWrongPassword -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:practice.NewTest@dd05255]" started-at="2026-04-20T10:59:52 IST" name="logOut" finished-at="2026-04-20T10:59:52 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="invalidLoginTestWithWrongUsername()[pri:0, instance:practice.NewTest@dd05255]" started-at="2026-04-20T10:59:52 IST" name="invalidLoginTestWithWrongUsername" finished-at="2026-04-20T10:59:55 IST" duration-ms="2603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTestWithWrongUsername -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:practice.NewTest@dd05255]" started-at="2026-04-20T10:59:55 IST" name="logOut" finished-at="2026-04-20T10:59:55 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="loginTest()[pri:0, instance:practice.NewTest@dd05255]" started-at="2026-04-20T10:59:55 IST" name="loginTest" finished-at="2026-04-20T11:00:04 IST" duration-ms="8878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:practice.NewTest@dd05255]" started-at="2026-04-20T11:00:04 IST" name="logOut" finished-at="2026-04-20T11:00:05 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="afterMehod()[pri:0, instance:practice.NewTest@dd05255]" started-at="2026-04-20T11:00:05 IST" name="afterMehod" finished-at="2026-04-20T11:00:05 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMehod -->
+      </class> <!-- practice.NewTest -->
+      <class name="practice.SequenceCheck">
+        <test-method signature="b()[pri:1, instance:practice.SequenceCheck@4218d6a3]" started-at="2026-04-20T10:59:39 IST" name="b" finished-at="2026-04-20T10:59:39 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method signature="c()[pri:2, instance:practice.SequenceCheck@4218d6a3]" started-at="2026-04-20T10:59:39 IST" name="c" finished-at="2026-04-20T10:59:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method signature="a()[pri:3, instance:practice.SequenceCheck@4218d6a3]" started-at="2026-04-20T10:59:39 IST" name="a" finished-at="2026-04-20T10:59:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- practice.SequenceCheck -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

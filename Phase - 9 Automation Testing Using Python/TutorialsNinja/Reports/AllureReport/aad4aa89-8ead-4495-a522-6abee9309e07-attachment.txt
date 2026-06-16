@@ -1,0 +1,2 @@
+[32mINFO    [0m FrameworkLogger:conftest.py:28 ========== STARTED : test_invalid_login[hlhl@gmail.com-admin123-Warning: No match for E-Mail Address and/or Password.] ==========
+[32mINFO    [0m FrameworkLogger:conftest.py:31 ========== ENDED : test_invalid_login[hlhl@gmail.com-admin123-Warning: No match for E-Mail Address and/or Password.] ==========

@@ -1,0 +1,493 @@
+[INFO ] 2026-04-22 11:36:00 405 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 11:36:00 405 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 11:36:00 405 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 11:36:00 405 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 11:36:10 006 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 11:36:11 229 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 11:36:14 409 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 11:36:17 174 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 11:36:19 140 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 11:36:22 693 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:09:48 135 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:09:48 135 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:09:48 135 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:09:48 135 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:09:48 970 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:09:52 574 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:09:52 690 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:09:56 300 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:09:56 367 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:09:58 664 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:10:06 458 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[ERROR] 2026-04-22 14:10:08 051 [TestNG-test-Test-4] TutorialNinja - invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=147.0.7727.102)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f8a29dc47bf9419cb81e67f05093a0d3, findElement {using=xpath, value=//a[@title = "My Account"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vigne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50934}, goog:processID: 17672, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50934/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8a29dc47bf9419cb81e67f05093a0d3
+[INFO ] 2026-04-22 14:10:09 309 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:10:57 541 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:10:57 539 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:10:57 539 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:10:57 539 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:10:58 115 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:11:01 770 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:11:03 249 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:11:03 800 [TestNG-test-Test-4] TutorialNinja - 
+[ERROR] 2026-04-22 14:11:07 649 [TestNG-test-Test-4] TutorialNinja - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id = "content"]/h2[text() = "My Account"]"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8e5179217b2eed8da22c01333871cf85, findElement {using=xpath, value=//div[@id = "content"]/h2[text() = "My Account"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vigne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53067}, goog:processID: 8740, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53067/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e5179217b2eed8da22c01333871cf85
+[INFO ] 2026-04-22 14:11:08 068 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:11:08 130 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:11:12 770 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:11:13 842 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:11:16 808 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:11:17 295 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:11:17 499 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:11:18 391 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:11:20 282 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:11:21 246 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:11:23 858 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:12:37 303 [main] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:12:38 007 [main] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:12:38 191 [main] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:12:38 481 [main] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:12:38 760 [main] TutorialNinja - 
+[INFO ] 2026-04-22 14:12:41 098 [main] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:12:41 774 [main] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:12:41 927 [main] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:12:42 217 [main] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:12:42 512 [main] TutorialNinja - 
+[INFO ] 2026-04-22 14:12:44 927 [main] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:00 991 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:00 991 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:00 991 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:00 991 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:03 609 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:17:04 518 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:17:06 117 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:17:06 857 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:17:09 294 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:09 429 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:14 994 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:15 899 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:16 218 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:17:16 527 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:18 446 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:17:22 866 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:17:23 317 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:17:23 573 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:17:25 619 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:20:54 558 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:20:54 558 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:20:54 558 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:20:54 558 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:20:55 522 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:20:57 303 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:20:58 359 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:20:59 188 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:21:01 858 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:21:01 899 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:21:07 518 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:21:07 520 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:21:09 026 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:21:09 151 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:21:09 654 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:21:10 603 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:21:11 097 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:21:12 423 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:21:17 048 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:21:17 127 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:22:46 115 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:22:46 115 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:22:46 115 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:22:46 115 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:22:48 868 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:22:50 967 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:22:51 847 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:22:52 468 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:22:54 695 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:22:56 364 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:23:00 230 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:23:03 499 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:23:03 719 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:23:05 116 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:23:05 437 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:23:07 617 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:23:08 218 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:23:08 892 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:23:12 714 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:23:12 902 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:36 351 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:36 353 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:36 351 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:36 351 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:40 721 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:24:41 084 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:24:41 757 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:24:42 210 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:24:45 343 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:45 345 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:45 401 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:52 386 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:52 398 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:52 423 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:24:52 740 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:24:54 536 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:24:55 492 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:24:56 005 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:25:59 755 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:25:59 753 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:25:59 753 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:02 057 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:03 609 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:26:04 511 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:26:04 943 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:26:05 325 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:26:08 023 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:08 025 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:11 856 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:13 653 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:15 827 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:26:15 921 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:16 209 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:18 106 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:26:19 794 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:26:20 238 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:26:23 441 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:50 305 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:50 305 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:50 305 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:50 305 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:53 077 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:26:53 892 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:26:54 418 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:26:54 874 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:26:58 181 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:26:58 222 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:27:02 434 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:27:03 628 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:27:03 831 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:27:04 151 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:27:04 939 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:27:05 667 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:27:08 837 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:27:08 940 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:27:13 172 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:27:53 341 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:27:53 341 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:27:53 341 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:27:53 341 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:27:54 683 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:27:55 974 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:27:56 689 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:27:57 331 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:28:01 454 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:28:01 586 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:28:02 489 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:28:02 961 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:28:04 756 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:28:05 481 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:28:06 028 [TestNG-test-Test-4] TutorialNinja - 
+[ERROR] 2026-04-22 14:28:07 017 [TestNG-test-Test-4] TutorialNinja - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id = "content"]/h2[text() = "My Account"]"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d9082ff145f5b69aed1585990412af3, findElement {using=xpath, value=//div[@id = "content"]/h2[text() = "My Account"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vigne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60108}, goog:processID: 4856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60108/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d9082ff145f5b69aed1585990412af3
+[INFO ] 2026-04-22 14:28:08 248 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:28:11 587 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:28:12 704 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:30:19 305 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:30:19 305 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:30:19 305 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:30:20 414 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:30:22 497 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:30:23 115 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:30:24 273 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:30:24 810 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:30:30 698 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:30:31 643 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:30:31 798 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:30:32 075 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:30:32 260 [TestNG-test-Test-4] TutorialNinja - 
+[ERROR] 2026-04-22 14:30:34 682 [TestNG-test-Test-4] TutorialNinja - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id = "content"]/h2[text() = "My Account"]"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15d16b645342d0e371a6510c47f1ae70, findElement {using=xpath, value=//div[@id = "content"]/h2[text() = "My Account"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vigne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49161}, goog:processID: 22272, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49161/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15d16b645342d0e371a6510c47f1ae70
+[INFO ] 2026-04-22 14:31:39 080 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:31:39 080 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:31:39 080 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:31:39 080 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:31:42 287 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:31:43 008 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:31:43 994 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:31:44 598 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:31:47 975 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:31:48 258 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:31:48 805 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:31:49 210 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:31:49 428 [TestNG-test-Test-4] TutorialNinja - 
+[ERROR] 2026-04-22 14:31:50 536 [TestNG-test-Test-4] TutorialNinja - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id = "content"]/h2[text() = "My Account"]"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1268a41bd68a0f6f67d8a14051f6df72, findElement {value=//div[@id = "content"]/h2[text() = "My Account"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vigne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60843}, goog:processID: 7752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60843/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1268a41bd68a0f6f67d8a14051f6df72
+[INFO ] 2026-04-22 14:35:46 124 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:35:46 124 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:35:46 124 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:35:46 124 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:35:47 530 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:35:49 406 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:35:50 634 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:35:51 413 [TestNG-test-Test-4] TutorialNinja - 
+[INFO ] 2026-04-22 14:35:55 796 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:35:57 024 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:35:57 243 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:35:57 590 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:35:57 779 [TestNG-test-Test-4] TutorialNinja - 
+[ERROR] 2026-04-22 14:35:59 208 [TestNG-test-Test-4] TutorialNinja - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id = "content"]/h2[text() = "My Account"]"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ee8310f568662732f7cce4ae1f72934, findElement {using=xpath, value=//div[@id = "content"]/h2[text() = "My Account"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vigne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51223}, goog:processID: 7012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51223/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ee8310f568662732f7cce4ae1f72934
+[INFO ] 2026-04-22 14:38:23 166 [TestNG-test-Test-2] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:38:23 166 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:38:23 166 [TestNG-test-Test-1] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:38:23 166 [TestNG-test-Test-3] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:38:24 830 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:38:26 777 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:38:28 125 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:38:28 523 [TestNG-test-Test-4] TutorialNinja - 
+[ERROR] 2026-04-22 14:38:29 207 [TestNG-test-Test-4] TutorialNinja - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id = "content"]/h2[text() = "My Account"]"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e40f0071e5062556b7c938d6904f0956, findElement {using=xpath, value=//div[@id = "content"]/h2[text() = "My Account"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vigne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52900}, goog:processID: 14640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52900/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e40f0071e5062556b7c938d6904f0956
+[INFO ] 2026-04-22 14:38:31 402 [TestNG-test-Test-4] TutorialNinja - Browser Opened
+[INFO ] 2026-04-22 14:38:32 153 [TestNG-test-Test-4] TutorialNinja - Wait implemented for 'My Account' icon to be clickable
+[INFO ] 2026-04-22 14:38:32 324 [TestNG-test-Test-4] TutorialNinja - 'My Account' icon clicked
+[INFO ] 2026-04-22 14:38:32 748 [TestNG-test-Test-4] TutorialNinja - 'Login button clicked'
+[INFO ] 2026-04-22 14:38:32 916 [TestNG-test-Test-4] TutorialNinja - 
+[ERROR] 2026-04-22 14:38:36 076 [TestNG-test-Test-4] TutorialNinja - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id = "content"]/h2[text() = "My Account"]"}
+  (Session info: chrome=147.0.7727.102)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [158b588dedbe232858f0b35aed2f7c61, findElement {using=xpath, value=//div[@id = "content"]/h2[text() = "My Account"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\vigne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53166}, goog:processID: 15176, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53166/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 158b588dedbe232858f0b35aed2f7c61
+[INFO ] 2026-04-24 07:33:08 680 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 07:33:09 290 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 07:33:09 776 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 07:33:10 072 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[ERROR] 2026-04-24 07:33:10 571 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 07:33:11 614 [TestNG-test-Test-2] Listener - The name of the testcase passed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 07:33:13 550 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 07:33:14 542 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 07:54:35 662 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 07:54:35 666 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 07:54:37 794 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 07:54:38 118 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[ERROR] 2026-04-24 07:54:38 898 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 07:54:40 632 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[ERROR] 2026-04-24 07:54:40 647 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[ERROR] 2026-04-24 07:54:40 649 [TestNG-test-Test-1] Listener - The name of the testcase failed is :invalidLoginTest
+[INFO ] 2026-04-24 07:55:52 640 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 07:55:52 640 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 07:55:53 656 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 07:55:54 835 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[ERROR] 2026-04-24 07:55:55 457 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 07:55:56 352 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[ERROR] 2026-04-24 07:55:56 362 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[ERROR] 2026-04-24 07:55:56 360 [TestNG-test-Test-1] Listener - The name of the testcase failed is :invalidLoginTest
+[INFO ] 2026-04-24 07:57:46 045 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 07:57:45 955 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 07:57:45 955 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 07:57:47 741 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[ERROR] 2026-04-24 07:57:48 755 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 07:57:48 781 [TestNG-test-Test-2] Listener - The name of the testcase passed is :searchTestWithInvalidDataSet
+[ERROR] 2026-04-24 07:57:49 238 [TestNG-test-Test-1] Listener - The name of the testcase failed is :invalidLoginTest
+[INFO ] 2026-04-24 07:57:49 251 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 08:00:20 625 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 08:00:21 361 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 08:00:22 564 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 08:00:23 471 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[ERROR] 2026-04-24 08:00:24 115 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[ERROR] 2026-04-24 08:00:24 257 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 08:00:26 371 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[ERROR] 2026-04-24 08:00:26 380 [TestNG-test-Test-1] Listener - The name of the testcase failed is :invalidLoginTest
+[INFO ] 2026-04-24 09:12:47 379 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 09:12:55 479 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 09:13:04 716 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 09:13:04 776 [TestNG-test-Test-2] Listener - The name of the testcase passed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 09:13:06 593 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 09:13:12 756 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[ERROR] 2026-04-24 09:13:12 779 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[ERROR] 2026-04-24 09:13:12 779 [TestNG-test-Test-1] Listener - The name of the testcase failed is :invalidLoginTest
+[INFO ] 2026-04-24 09:15:47 819 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 09:15:48 301 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 09:15:48 316 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 09:15:48 662 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[ERROR] 2026-04-24 09:15:49 483 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 09:15:49 741 [TestNG-test-Test-3] Listener - The name of the testcase passed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 09:15:51 318 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[ERROR] 2026-04-24 09:15:51 320 [TestNG-test-Test-1] Listener - The name of the testcase failed is :invalidLoginTest
+[INFO ] 2026-04-24 09:18:15 001 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 09:18:15 417 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 09:18:15 743 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 09:18:15 879 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[ERROR] 2026-04-24 09:18:16 401 [TestNG-test-Test-1] Listener - The name of the testcase failed is :invalidLoginTest
+[INFO ] 2026-04-24 09:18:16 493 [TestNG-test-Test-2] Listener - The name of the testcase passed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 09:18:18 871 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[ERROR] 2026-04-24 09:18:18 881 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:00:28 294 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:00:30 461 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:00:30 668 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:00:30 974 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:00:31 880 [TestNG-test-Test-3] Listener - The name of the testcase passed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:00:32 296 [TestNG-test-Test-2] Listener - The name of the testcase passed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 10:00:35 689 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:00:36 105 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:19:26 397 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:19:27 645 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:19:28 366 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:19:28 395 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[ERROR] 2026-04-24 10:19:29 227 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:19:29 830 [TestNG-test-Test-2] Listener - The name of the testcase passed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 10:19:32 418 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:19:32 622 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:23:02 145 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:23:02 269 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:23:04 513 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:23:04 737 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:23:06 062 [TestNG-test-Test-2] Listener - The name of the testcase passed is :searchTestWithInvalidDataSet
+[ERROR] 2026-04-24 10:23:06 305 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:23:07 666 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:23:08 704 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:26:47 920 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:26:48 112 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:26:48 860 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:26:50 529 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:26:51 088 [TestNG-test-Test-2] Listener - The name of the testcase passed is :searchTestWithInvalidDataSet
+[ERROR] 2026-04-24 10:26:51 999 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:26:54 334 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:26:54 506 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:28:24 290 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:28:25 549 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:28:26 835 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:28:27 052 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[ERROR] 2026-04-24 10:28:28 174 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 10:28:28 507 [TestNG-test-Test-3] Listener - The name of the testcase passed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:28:29 713 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:28:29 987 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:29:39 114 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:29:41 436 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:29:41 532 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:29:41 854 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[ERROR] 2026-04-24 10:29:42 146 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 10:29:42 949 [TestNG-test-Test-3] Listener - The name of the testcase passed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:29:45 001 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:29:45 452 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:32:11 946 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:32:12 990 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:32:13 942 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:32:14 037 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:32:16 965 [TestNG-test-Test-3] Listener - The name of the testcase passed is :searchTestWithValidDataSet
+[ERROR] 2026-04-24 10:32:17 493 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 10:32:21 575 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:32:21 940 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:33:37 996 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:33:39 203 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:33:40 854 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:33:41 171 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:33:43 017 [TestNG-test-Test-3] Listener - The name of the testcase passed is :searchTestWithValidDataSet
+[ERROR] 2026-04-24 10:33:43 272 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 10:33:45 126 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:33:46 643 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:34:56 147 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:34:56 147 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:34:56 779 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:34:58 431 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[ERROR] 2026-04-24 10:35:00 536 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 10:35:00 581 [TestNG-test-Test-3] Listener - The name of the testcase passed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:35:07 660 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:35:07 934 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:35:59 672 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:36:01 679 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:36:01 681 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:36:01 980 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:36:02 548 [TestNG-test-Test-2] Listener - The name of the testcase passed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 10:36:03 716 [TestNG-test-Test-3] Listener - The name of the testcase passed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:36:06 050 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:36:06 627 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:40:26 366 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:40:26 312 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:40:26 964 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:40:27 412 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[ERROR] 2026-04-24 10:40:28 478 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[ERROR] 2026-04-24 10:40:29 848 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:40:32 566 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:40:32 852 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:41:44 950 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:41:45 976 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:41:47 717 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:41:48 300 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[ERROR] 2026-04-24 10:41:48 698 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[ERROR] 2026-04-24 10:41:49 919 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 10:41:52 781 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:41:53 293 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:43:15 641 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:43:15 641 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:43:17 911 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[INFO ] 2026-04-24 10:43:18 459 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[ERROR] 2026-04-24 10:43:20 030 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[ERROR] 2026-04-24 10:43:20 012 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[INFO ] 2026-04-24 10:43:22 293 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 10:43:22 664 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:44:56 685 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 10:44:56 685 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 10:44:57 393 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 10:45:00 205 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[ERROR] 2026-04-24 10:45:00 634 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[ERROR] 2026-04-24 10:45:02 589 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 10:45:07 185 [TestNG-test-Test-4] Listener - The name of the testcase passed is :validLoginTest
+[INFO ] 2026-04-24 10:45:07 877 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[INFO ] 2026-04-24 12:28:44 437 [TestNG-test-Test-3] Listener - searchTestWithValidDataSet test case started
+[INFO ] 2026-04-24 12:28:44 337 [TestNG-test-Test-1] Listener - invalidLoginTest test case started
+[INFO ] 2026-04-24 12:28:44 606 [TestNG-test-Test-2] Listener - searchTestWithInvalidDataSet test case started
+[INFO ] 2026-04-24 12:28:45 532 [TestNG-test-Test-4] Listener - validLoginTest test case started
+[ERROR] 2026-04-24 12:28:48 460 [TestNG-test-Test-2] Listener - The name of the testcase failed is :searchTestWithInvalidDataSet
+[ERROR] 2026-04-24 12:28:48 805 [TestNG-test-Test-3] Listener - The name of the testcase failed is :searchTestWithValidDataSet
+[INFO ] 2026-04-24 12:28:50 787 [TestNG-test-Test-1] Listener - The name of the testcase passed is :invalidLoginTest
+[ERROR] 2026-04-24 12:28:51 315 [TestNG-test-Test-4] Listener - The name of the testcase failed is :validLoginTest

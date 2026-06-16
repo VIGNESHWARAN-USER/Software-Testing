@@ -1,0 +1,14 @@
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:14 Launching Chrome Browser
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:21 Navigated to Demoblaze Homepage
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:89 ==================================================
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:90 Starting Invalid Login Test
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:91 Username: admin
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:95 Clicking Login link
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:102 Entering Username
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:109 Entering Password
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:116 Clicking Login button
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:123 Waiting for Alert
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:129 Actual Alert Message: Wrong password.
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:130 Expected Alert Message: Wrong password.
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:135 Invalid Login Test Passed
+[32mINFO    [0m FrameworkLogger:data_driven_login_test.py:25 Closing Browser

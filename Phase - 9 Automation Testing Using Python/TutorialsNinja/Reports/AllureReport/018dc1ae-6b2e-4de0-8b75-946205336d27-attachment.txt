@@ -1,0 +1,2 @@
+[32mINFO    [0m FrameworkLogger:conftest.py:28 ========== STARTED : test_valid_login[hlhl@gmail.com-admin0] ==========
+[32mINFO    [0m FrameworkLogger:conftest.py:31 ========== ENDED : test_valid_login[hlhl@gmail.com-admin0] ==========
