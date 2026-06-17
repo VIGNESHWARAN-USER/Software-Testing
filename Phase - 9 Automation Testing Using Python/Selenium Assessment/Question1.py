@@ -83,7 +83,7 @@ try:
     assert "Salem" == third_row[0] and "Tamil Nadu" == third_row[1] and "637501" == third_row[2]
     fourth_row = wait.until(EC.visibility_of_element_located((By.XPATH, "//ul[@id = \"address_delivery\"]/li[@class = \"address_country_name\"]"))).text
     assert "India" == fourth_row
-    fourth_row = wait.until(EC.visibility_of_element_located((By.XPATH, "//ul[@id = \"address_delivery\"]/li[@class = \"address_phone\"]"))).text
+    fifth_row = wait.until(EC.visibility_of_element_located((By.XPATH, "//ul[@id = \"address_delivery\"]/li[@class = \"address_phone\"]"))).text
     assert "9092174486" == fourth_row
     print("Delivery Address verified")
 
@@ -95,7 +95,7 @@ try:
     assert "Salem" == third_row[0] and "Tamil Nadu" == third_row[1] and "637501" == third_row[2]
     fourth_row = wait.until(EC.visibility_of_element_located((By.XPATH, "//ul[@id = \"address_invoice\"]/li[@class = \"address_country_name\"]"))).text
     assert "India" == fourth_row
-    fourth_row = wait.until(EC.visibility_of_element_located((By.XPATH, "//ul[@id = \"address_invoice\"]/li[@class = \"address_phone\"]"))).text
+    fifth_row = wait.until(EC.visibility_of_element_located((By.XPATH, "//ul[@id = \"address_invoice\"]/li[@class = \"address_phone\"]"))).text
     assert "9092174486" == fourth_row
     print("Delivery Address verified")
 

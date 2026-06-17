@@ -1,8 +1,5 @@
 package tests;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 

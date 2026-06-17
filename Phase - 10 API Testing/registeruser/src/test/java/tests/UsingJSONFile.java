@@ -1,6 +1,7 @@
 package tests;
 
 import java.io.FileNotFoundException;
+
 import java.io.FileReader;
 
 import org.json.JSONObject;
@@ -20,11 +21,14 @@ public class UsingJSONFile {
 		JSONObject payload = new JSONObject(jt);
 		
 		
-		RestAssured.given()
+		RestAssured
+				.given()
 				.contentType(ContentType.JSON)
 				.body(payload.toString())
+				
 				.when()
 				.post("http://localhost:5000/api/auth/register")
+				
 				.then()
 				.statusCode(201)
 				.log().all();
