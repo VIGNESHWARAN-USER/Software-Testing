@@ -1,0 +1,22 @@
+module.exports = [
+  { id: 1, name: "iPhone 17 Pro", price: 150000, stock: 100 },
+  { id: 2, name: "Samsung Galaxy S26 Ultra", price: 145000, stock: 80 },
+  { id: 3, name: "Google Pixel 11 Pro", price: 120000, stock: 60 },
+  { id: 4, name: "OnePlus 15", price: 75000, stock: 120 },
+  { id: 5, name: "Xiaomi 16 Pro", price: 68000, stock: 90 },
+  { id: 6, name: "Nothing Phone 4", price: 50000, stock: 110 },
+  { id: 7, name: "Realme GT 8 Pro", price: 45000, stock: 95 },
+  { id: 8, name: "Vivo X300 Pro", price: 85000, stock: 70 },
+  { id: 9, name: "Oppo Find X9 Pro", price: 90000, stock: 65 },
+  { id: 10, name: "Motorola Edge 70 Ultra", price: 55000, stock: 75 },
+  { id: 11, name: "Asus ROG Phone 10", price: 95000, stock: 40 },
+  { id: 12, name: "Sony Xperia 2 VI", price: 110000, stock: 30 },
+  { id: 13, name: "Huawei Mate 80 Pro", price: 130000, stock: 50 },
+  { id: 14, name: "Honor Magic 9 Pro", price: 82000, stock: 55 },
+  { id: 15, name: "Nokia X70", price: 35000, stock: 100 },
+  { id: 16, name: "Infinix Zero Ultra 3", price: 30000, stock: 130 },
+  { id: 17, name: "Tecno Phantom X4", price: 28000, stock: 125 },
+  { id: 18, name: "iQOO 14 Pro", price: 65000, stock: 85 },
+  { id: 19, name: "Redmi K90 Pro", price: 42000, stock: 115 },
+  { id: 20, name: "POCO F9 GT", price: 38000, stock: 140 }
+];

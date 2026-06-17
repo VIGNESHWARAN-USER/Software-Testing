@@ -21,6 +21,7 @@
     "joi": "^18.2.1",
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.11.0",
+    "swagger-ui-express": "^5.0.1",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {

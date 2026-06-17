@@ -1,0 +1,35 @@
+{
+  "trainees": [
+    {
+      "name": "Dharshan",
+      "emai": "dharshann@gmail.com",
+      "company": "Cognizant",
+      "id": "7fZbsRZhvbo"
+    },
+    {
+      "name": "Dharshan",
+      "emai": "dharshann@gmail.com",
+      "company": "Cognizant",
+      "id": "sNODXNtR4EQ"
+    },
+    {
+      "name": "Dharshan",
+      "emai": "dharshann@gmail.com",
+      "company": "Cognizant",
+      "id": "ymd_JDl8DuQ"
+    },
+    {
+      "id": "3Q8ezmcQLSA",
+      "name": "Vigneshwaran",
+      "emai": "vigneshwaran@gmail.com",
+      "company": "Cognizant"
+    },
+    {
+      "id": "cZo_IPYSAao",
+      "name": "Vigneshwaran",
+      "emai": "vigneshwaran@gmail.com",
+      "company": "Google"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

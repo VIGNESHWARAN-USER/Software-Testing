@@ -8,5 +8,5 @@
       <class name="tests.UsingJSONObject"/>
       <class name="tests.UsingPOJO"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite>
