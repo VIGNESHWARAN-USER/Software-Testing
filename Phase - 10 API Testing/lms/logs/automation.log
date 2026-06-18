@@ -60,3 +60,359 @@
 [2026-06-18 00:10:59] [INFO] ExtentListener - Test Passed : allInstitutuionTest
 [2026-06-18 00:11:02] [INFO] ExtentListener - Test Passed : validLoginTest
 [2026-06-18 00:11:02] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-18 00:37:45] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-18 00:37:46] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-18 00:37:46] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 00:37:46] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-18 00:37:47] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 00:37:47] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 00:37:47] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 00:37:47] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 00:37:47] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 00:37:50] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-18 00:37:50] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 00:37:50] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 00:37:50] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 00:37:50] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 00:37:50] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 00:37:50] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 00:37:54] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-18 00:37:54] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-18 09:24:07] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-18 09:24:07] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-18 09:24:07] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 09:24:13] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-18 09:24:13] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-18 09:24:13] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 09:24:14] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:24:14] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:24:14] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:24:14] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:24:14] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:24:15] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:24:15] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:24:15] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:24:16] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:24:16] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:24:19] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-18 09:24:19] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 09:24:20] [ERROR] ExtentListener - Test Failed : allInstitutuionTest
+[2026-06-18 09:24:20] [ERROR] ExtentListener - Failure Reason
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147) ~[rest-assured-6.0.0.jar:?]
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89) ~[rest-assured-6.0.0.jar:?]
+	at api.tests.RoleTest.allInstitutuionTest(RoleTest.java:15) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[2026-06-18 09:24:20] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-18 09:27:26] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-18 09:27:26] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-18 09:27:30] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-18 09:27:30] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-18 09:27:32] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:27:32] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:27:32] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:27:32] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:27:32] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:27:33] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:27:33] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:27:33] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:27:33] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:27:34] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:27:37] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-18 09:27:37] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 09:27:37] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 09:27:38] [ERROR] ExtentListener - Test Failed : allInstitutuionTest
+[2026-06-18 09:27:38] [ERROR] ExtentListener - Failure Reason
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147) ~[rest-assured-6.0.0.jar:?]
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89) ~[rest-assured-6.0.0.jar:?]
+	at api.tests.RoleTest.allInstitutuionTest(RoleTest.java:15) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[2026-06-18 09:27:38] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 09:27:38] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-18 09:30:09] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-18 09:30:09] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-18 09:30:15] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-18 09:30:15] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-18 09:30:17] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:30:17] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:30:17] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:30:17] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:30:17] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:30:18] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:30:18] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:30:18] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:30:18] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:30:19] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:30:22] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-18 09:30:22] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 09:30:22] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 09:30:23] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 09:30:24] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 09:30:24] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-18 09:34:20] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-18 09:34:20] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-18 09:34:28] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-18 09:34:28] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-18 09:34:30] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:34:30] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:34:30] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:34:30] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:34:30] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:34:31] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:34:32] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:34:32] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:34:32] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:34:32] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:34:35] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-18 09:34:35] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 09:34:35] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 09:34:36] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 09:34:37] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 09:34:37] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-18 09:40:41] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-18 09:40:42] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-18 09:40:47] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-18 09:40:47] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-18 09:40:49] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:40:49] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:40:49] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:40:49] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:40:49] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 09:40:53] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:40:54] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:40:57] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:40:57] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:40:57] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 09:41:02] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-18 09:41:02] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 09:41:02] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 09:41:03] [ERROR] ExtentListener - Test Failed : allInstitutuionTest
+[2026-06-18 09:41:03] [ERROR] ExtentListener - Test Failed : allInstitutuionTest
+[2026-06-18 09:41:03] [ERROR] ExtentListener - Failure Reason
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147) ~[rest-assured-6.0.0.jar:?]
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89) ~[rest-assured-6.0.0.jar:?]
+	at api.tests.RoleTest.allInstitutuionTest(RoleTest.java:15) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[2026-06-18 09:41:03] [ERROR] ExtentListener - Failure Reason
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147) ~[rest-assured-6.0.0.jar:?]
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89) ~[rest-assured-6.0.0.jar:?]
+	at api.tests.InstitutionTest.allInstitutuionTest(InstitutionTest.java:15) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[2026-06-18 09:41:03] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-18 10:10:21] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-18 10:10:22] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-18 10:10:25] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-18 10:10:25] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-18 10:10:26] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:10:26] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:10:26] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:10:26] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:10:26] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:10:26] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:10:26] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:10:27] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:10:27] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:10:27] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:10:30] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-18 10:10:30] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 10:10:30] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 10:10:30] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 10:10:31] [ERROR] ExtentListener - Test Failed : allInstitutuionTest
+[2026-06-18 10:10:31] [ERROR] ExtentListener - Failure Reason
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147) ~[rest-assured-6.0.0.jar:?]
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89) ~[rest-assured-6.0.0.jar:?]
+	at api.tests.RoleTest.allInstitutuionTest(RoleTest.java:15) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[2026-06-18 10:10:31] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-18 10:11:21] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-18 10:11:22] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-18 10:11:25] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-18 10:11:25] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-18 10:11:26] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:11:26] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:11:26] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:11:26] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:11:26] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:11:26] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:11:26] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:11:26] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:11:26] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:11:27] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:11:30] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-18 10:11:30] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 10:11:30] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 10:11:31] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 10:11:31] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 10:11:31] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-18 10:28:10] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-18 10:28:11] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-18 10:28:14] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-18 10:28:14] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-18 10:28:15] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:28:15] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:28:15] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:28:15] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:28:15] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 10:28:15] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:28:15] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:28:16] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:28:16] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:28:16] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 10:28:19] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-18 10:28:19] [INFO] ExtentListener - Test Started : allInstitutuionTestWithoutToken
+[2026-06-18 10:28:19] [INFO] ExtentListener - Test Started : allInstitutuionTestWithToken
+[2026-06-18 10:28:19] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 10:28:20] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 10:28:20] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithoutToken
+[2026-06-18 10:28:21] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithToken
+[2026-06-18 10:28:21] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-18 12:09:24] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-18 12:09:24] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-18 12:10:09] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-18 12:10:09] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-18 12:10:10] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 12:10:10] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 12:10:10] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 12:10:10] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 12:10:10] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-18 12:10:11] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 12:10:11] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 12:10:11] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 12:10:11] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 12:10:11] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-18 12:10:16] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-18 12:10:16] [INFO] ExtentListener - Test Started : allInstitutuionTestWithoutToken
+[2026-06-18 12:10:16] [INFO] ExtentListener - Test Started : getCourseTestWithToken
+[2026-06-18 12:10:16] [INFO] ExtentListener - Test Started : getCourseTestWithoutToken
+[2026-06-18 12:10:16] [INFO] ExtentListener - Test Started : allInstitutuionTestWithToken
+[2026-06-18 12:10:16] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-18 12:10:16] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithoutToken
+[2026-06-18 12:10:16] [INFO] ExtentListener - Test Passed : getCourseTestWithoutToken
+[2026-06-18 12:10:17] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-18 12:10:18] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithToken
+[2026-06-18 12:10:18] [INFO] ExtentListener - Test Passed : getCourseTestWithToken
+[2026-06-18 12:10:18] [INFO] ExtentListener - Test Suite Finished : Test

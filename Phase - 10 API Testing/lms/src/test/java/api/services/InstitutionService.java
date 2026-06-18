@@ -8,7 +8,7 @@ public class InstitutionService {
 	public static Response institutionService() {
 			
 			Response response = BaseService
-						.request()
+						.request(false)
 						.when()
 						.get(Routes.GET_ALL_INSTITUTION_URL);
 			

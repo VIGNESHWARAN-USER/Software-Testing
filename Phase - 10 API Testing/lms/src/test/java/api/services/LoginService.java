@@ -10,7 +10,7 @@ public class LoginService {
 	public static Response loginservice(LoginRequest payload) {
 		
 		Response response = BaseService
-					.request()
+					.request(false)
 					.contentType(ContentType.JSON)
 					.body(payload)
 					.when()

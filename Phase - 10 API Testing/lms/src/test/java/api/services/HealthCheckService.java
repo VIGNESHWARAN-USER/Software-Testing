@@ -7,7 +7,7 @@ public class HealthCheckService {
 	public static Response healthCheckService() {
 		
 		Response response = BaseService
-				.request()
+				.request(false)
 				.when()
 				.get("/");
 		

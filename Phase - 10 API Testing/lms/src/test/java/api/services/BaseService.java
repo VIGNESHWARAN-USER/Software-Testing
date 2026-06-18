@@ -8,14 +8,14 @@ import api.endpoints.Routes;
 
 public class BaseService {
 	
-	public static RequestSpecification request() {
+	public static RequestSpecification request(boolean isAuthRequired) {
 
 	    RequestSpecification request =
 	            RestAssured
 	            .given()
 	            .baseUri(Routes.BASE_URL);
 
-	    if(TestContext.getToken() != null) {
+	    if(isAuthRequired && TestContext.getToken() != null) {
 	        request.header("Authorization","Bearer "+TestContext.getToken());
 	    }
 	    

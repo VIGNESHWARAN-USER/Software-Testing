@@ -6,7 +6,7 @@ import api.services.InstitutionService;
 import io.restassured.response.Response;
 
 public class InstitutionTest {
-	@Test
+	@Test(dependsOnMethods = "api.tests.LoginTest.validLoginTest")
 	public void allInstitutuionTest() {
 		Response response = InstitutionService.institutionService();
 		
