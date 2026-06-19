@@ -11,6 +11,7 @@
 			<class name="api.tests.InstitutionTest" />
 			<class name="api.tests.RoleTest"/>
 			<class name="api.tests.CourseTest"/>
+			<class name="api.tests.CreateNoteTest"/>
 		</classes>
 	</test> <!--
 	Test -->

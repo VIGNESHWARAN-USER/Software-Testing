@@ -2,9 +2,6 @@ package api.tests;
 
 import org.testng.annotations.Test;
 
-
-
-
 import api.dataproviders.*;
 import api.payload.LoginRequest;
 

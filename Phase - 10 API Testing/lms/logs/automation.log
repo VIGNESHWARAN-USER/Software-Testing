@@ -416,3 +416,156 @@ Expected status code <200> but was <401>.
 [2026-06-18 12:10:18] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithToken
 [2026-06-18 12:10:18] [INFO] ExtentListener - Test Passed : getCourseTestWithToken
 [2026-06-18 12:10:18] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-19 07:03:35] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-19 07:03:36] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-19 07:03:39] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-19 07:03:39] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-19 07:03:40] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:03:40] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:03:40] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:03:40] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:03:40] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:03:40] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:03:40] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:03:41] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:03:41] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:03:41] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:03:44] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-19 07:03:44] [INFO] ExtentListener - Test Started : allInstitutuionTestWithoutToken
+[2026-06-19 07:03:44] [INFO] ExtentListener - Test Started : getCourseTestWithToken
+[2026-06-19 07:03:44] [INFO] ExtentListener - Test Started : getCourseTestWithoutToken
+[2026-06-19 07:03:44] [INFO] ExtentListener - Test Started : allInstitutuionTestWithToken
+[2026-06-19 07:03:44] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-19 07:03:44] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithoutToken
+[2026-06-19 07:03:44] [INFO] ExtentListener - Test Passed : getCourseTestWithoutToken
+[2026-06-19 07:03:45] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-19 07:03:46] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithToken
+[2026-06-19 07:03:46] [INFO] ExtentListener - Test Passed : getCourseTestWithToken
+[2026-06-19 07:03:46] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-19 07:04:28] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-19 07:04:29] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-19 07:04:31] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-19 07:04:32] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-19 07:04:32] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:04:32] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:04:32] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:04:32] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:04:32] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:04:33] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:04:33] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:04:33] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:04:33] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:04:33] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:04:37] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-19 07:04:37] [INFO] ExtentListener - Test Started : allInstitutuionTestWithoutToken
+[2026-06-19 07:04:37] [INFO] ExtentListener - Test Started : getCourseTestWithToken
+[2026-06-19 07:04:37] [INFO] ExtentListener - Test Started : getCourseTestWithoutToken
+[2026-06-19 07:04:37] [INFO] ExtentListener - Test Started : allInstitutuionTestWithToken
+[2026-06-19 07:04:37] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-19 07:04:37] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithoutToken
+[2026-06-19 07:04:37] [INFO] ExtentListener - Test Started : createNoteWithAllFields
+[2026-06-19 07:04:37] [INFO] ExtentListener - Test Started : createNoteWithAllFields
+[2026-06-19 07:04:38] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-19 07:04:38] [INFO] ExtentListener - Test Passed : getCourseTestWithoutToken
+[2026-06-19 07:04:39] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithToken
+[2026-06-19 07:04:39] [INFO] ExtentListener - Test Passed : createNoteWithAllFields
+[2026-06-19 07:04:40] [INFO] ExtentListener - Test Passed : createNoteWithAllFields
+[2026-06-19 07:04:41] [INFO] ExtentListener - Test Passed : getCourseTestWithToken
+[2026-06-19 07:04:41] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-19 07:07:20] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-19 07:07:20] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-19 07:07:23] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-19 07:07:23] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-19 07:07:24] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:07:24] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:07:24] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:07:24] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:07:24] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:07:25] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:07:25] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:07:25] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:07:25] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:07:25] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:07:28] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-19 07:07:28] [INFO] ExtentListener - Test Started : getCourseTestWithToken
+[2026-06-19 07:07:28] [INFO] ExtentListener - Test Started : getCourseTestWithoutToken
+[2026-06-19 07:07:28] [INFO] ExtentListener - Test Started : allInstitutuionTestWithoutToken
+[2026-06-19 07:07:28] [INFO] ExtentListener - Test Started : allInstitutuionTestWithToken
+[2026-06-19 07:07:28] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-19 07:07:29] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithoutToken
+[2026-06-19 07:07:29] [INFO] ExtentListener - Test Passed : getCourseTestWithoutToken
+[2026-06-19 07:07:29] [INFO] ExtentListener - Test Started : validCreateNoteTest
+[2026-06-19 07:07:29] [INFO] ExtentListener - Test Started : validCreateNoteTest
+[2026-06-19 07:07:29] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-19 07:07:31] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithToken
+[2026-06-19 07:07:31] [INFO] ExtentListener - Test Passed : getCourseTestWithToken
+[2026-06-19 07:07:31] [INFO] ExtentListener - Test Passed : validCreateNoteTest
+[2026-06-19 07:07:31] [INFO] ExtentListener - Test Passed : validCreateNoteTest
+[2026-06-19 07:07:31] [INFO] ExtentListener - Test Started : createNoteWithAllFields
+[2026-06-19 07:07:32] [ERROR] ExtentListener - Test Failed : createNoteWithAllFields
+[2026-06-19 07:07:32] [ERROR] ExtentListener - Failure Reason
+java.lang.AssertionError: 1 expectation failed.
+JSON path success doesn't match.
+Expected: is <true>
+  Actual: null
+
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:274) ~[rest-assured-6.0.0.jar:?]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373) ~[groovy-5.0.3.jar:5.0.3]
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344) ~[groovy-5.0.3.jar:5.0.3]
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:121) ~[rest-assured-6.0.0.jar:?]
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244) ~[rest-assured-6.0.0.jar:?]
+	at api.tests.CreateNoteTest.createNoteWithAllFields(CreateNoteTest.java:37) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.12.0.jar:7.12.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.12.0.jar:7.12.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[2026-06-19 07:07:32] [INFO] ExtentListener - Test Suite Finished : Test
+[2026-06-19 07:08:12] [INFO] ExtentListener - Test Suite Started : Test
+[2026-06-19 07:08:12] [INFO] ExtentListener - Test Started : healthCheckTest
+[2026-06-19 07:08:15] [INFO] ExtentListener - Test Passed : healthCheckTest
+[2026-06-19 07:08:15] [INFO] ExtentListener - Test Started : validLoginTest
+[2026-06-19 07:08:16] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:08:16] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:08:16] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:08:16] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:08:16] [INFO] ExtentListener - Test Started : invalidLoginTest
+[2026-06-19 07:08:16] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:08:16] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:08:16] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:08:17] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:08:17] [INFO] ExtentListener - Test Passed : invalidLoginTest
+[2026-06-19 07:08:20] [INFO] ExtentListener - Test Passed : validLoginTest
+[2026-06-19 07:08:20] [INFO] ExtentListener - Test Started : getCourseTestWithToken
+[2026-06-19 07:08:20] [INFO] ExtentListener - Test Started : getCourseTestWithoutToken
+[2026-06-19 07:08:20] [INFO] ExtentListener - Test Started : allInstitutuionTestWithoutToken
+[2026-06-19 07:08:20] [INFO] ExtentListener - Test Started : allInstitutuionTest
+[2026-06-19 07:08:20] [INFO] ExtentListener - Test Started : allInstitutuionTestWithToken
+[2026-06-19 07:08:20] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithoutToken
+[2026-06-19 07:08:20] [INFO] ExtentListener - Test Passed : getCourseTestWithoutToken
+[2026-06-19 07:08:20] [INFO] ExtentListener - Test Started : validCreateNoteTest
+[2026-06-19 07:08:20] [INFO] ExtentListener - Test Started : validCreateNoteTest
+[2026-06-19 07:08:21] [INFO] ExtentListener - Test Passed : allInstitutuionTest
+[2026-06-19 07:08:22] [INFO] ExtentListener - Test Passed : allInstitutuionTestWithToken
+[2026-06-19 07:08:22] [INFO] ExtentListener - Test Passed : getCourseTestWithToken
+[2026-06-19 07:08:22] [INFO] ExtentListener - Test Passed : validCreateNoteTest
+[2026-06-19 07:08:23] [INFO] ExtentListener - Test Passed : validCreateNoteTest
+[2026-06-19 07:08:23] [INFO] ExtentListener - Test Started : createNoteWithAllFields
+[2026-06-19 07:08:24] [INFO] ExtentListener - Test Passed : createNoteWithAllFields
+[2026-06-19 07:08:24] [INFO] ExtentListener - Test Suite Finished : Test
