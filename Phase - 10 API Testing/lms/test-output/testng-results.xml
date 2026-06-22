@@ -1,83 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-19T07:02:46 IST" name="Default suite" finished-at="2026-06-19T07:02:57 IST" duration-ms="10435">
+  <suite started-at="2026-06-22T16:13:07 IST" name="Default suite" finished-at="2026-06-22T16:13:17 IST" duration-ms="9879">
     <groups>
     </groups>
-    <test started-at="2026-06-19T07:02:46 IST" name="Default test" finished-at="2026-06-19T07:02:57 IST" duration-ms="10435">
-      <class name="api.tests.CreateNoteTest">
-        <test-method signature="createNoteWithAllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.tests.CreateNoteTest@626abbd0]" started-at="2026-06-19T07:02:54 IST" name="createNoteWithAllFields" data-provider="createNoteData" finished-at="2026-06-19T07:02:57 IST" depends-on-methods="api.tests.LoginTest.validLoginTest" duration-ms="2244" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNoteWithAllFields -->
-        <test-method signature="createNoteWithAllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.tests.CreateNoteTest@626abbd0]" started-at="2026-06-19T07:02:54 IST" name="createNoteWithAllFields" data-provider="createNoteData" finished-at="2026-06-19T07:02:56 IST" depends-on-methods="api.tests.LoginTest.validLoginTest" duration-ms="1773" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[API Test Note]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created by tester]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[qa|demo]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[#ffeb3b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNoteWithAllFields -->
-      </class> <!-- api.tests.CreateNoteTest -->
+    <test started-at="2026-06-22T16:13:07 IST" name="Default test" finished-at="2026-06-22T16:13:17 IST" duration-ms="9879">
       <class name="api.tests.HealthCheckTest">
-        <test-method signature="healthCheckTest()[pri:0, instance:api.tests.HealthCheckTest@14dd7b39]" started-at="2026-06-19T07:02:46 IST" name="healthCheckTest" finished-at="2026-06-19T07:02:49 IST" duration-ms="2916" status="PASS">
+        <test-method signature="healthCheckTest()[pri:0, instance:api.tests.HealthCheckTest@3aa078fd]" started-at="2026-06-22T16:13:07 IST" name="healthCheckTest" finished-at="2026-06-22T16:13:10 IST" duration-ms="2816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- healthCheckTest -->
       </class> <!-- api.tests.HealthCheckTest -->
+      <class name="api.tests.GetAllNotesTest">
+        <test-method signature="getAllNodesWithNoParamsTest()[pri:0, instance:api.tests.GetAllNotesTest@5dafbe45]" started-at="2026-06-22T16:13:15 IST" name="getAllNodesWithNoParamsTest" finished-at="2026-06-22T16:13:17 IST" depends-on-methods="api.tests.LoginTest.validLoginTest" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllNodesWithNoParamsTest -->
+      </class> <!-- api.tests.GetAllNotesTest -->
       <class name="api.tests.LoginTest">
-        <test-method signature="validLoginTest()[pri:0, instance:api.tests.LoginTest@66ea810]" started-at="2026-06-19T07:02:49 IST" name="validLoginTest" finished-at="2026-06-19T07:02:54 IST" depends-on-methods="api.tests.HealthCheckTest.healthCheckTest" duration-ms="5077" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:api.tests.LoginTest@2254127a]" started-at="2026-06-22T16:13:10 IST" name="validLoginTest" finished-at="2026-06-22T16:13:15 IST" depends-on-methods="api.tests.HealthCheckTest.healthCheckTest" duration-ms="5143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->

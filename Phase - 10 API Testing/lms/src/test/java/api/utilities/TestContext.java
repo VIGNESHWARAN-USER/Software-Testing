@@ -3,7 +3,7 @@ package api.utilities;
 public class TestContext {
 
     private static String token;
-    private static int userId;
+    private static String noteId;
 
     public static String getToken() {
         return token;
@@ -12,12 +12,13 @@ public class TestContext {
     public static void setToken(String token) {
         TestContext.token = token;
     }
-
-    public static int getUserId() {
-        return userId;
+    
+    public static String getNoteId() {
+    	return noteId;
+    }
+    
+    public static void setNoteId()  {
+    	
     }
 
-    public static void setUserId(int userId) {
-        TestContext.userId = userId;
-    }
 }

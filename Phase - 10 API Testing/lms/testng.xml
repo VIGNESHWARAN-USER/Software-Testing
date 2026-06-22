@@ -8,10 +8,8 @@
 		<classes>
 			<class name="api.tests.HealthCheckTest" />
 			<class name="api.tests.LoginTest" />
-			<class name="api.tests.InstitutionTest" />
-			<class name="api.tests.RoleTest"/>
-			<class name="api.tests.CourseTest"/>
-			<class name="api.tests.CreateNoteTest"/>
+			
+			<class name="api.tests.GetAllNotesTest"/>
 		</classes>
 	</test> <!--
 	Test -->

@@ -30,7 +30,6 @@ public class CreateNoteTest {
 		Note note = new Note();
 		
 		Response response = NotesServive.createNoteService(note, false);
-		
 		response
 		.then()
 		.statusCode(401);
