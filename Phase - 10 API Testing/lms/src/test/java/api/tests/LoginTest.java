@@ -31,9 +31,9 @@ public class LoginTest {
 	}
 	
 	@Test(dataProvider = "invalidLoginData" ,dataProviderClass = InvalidLoginDataProvider.class, dependsOnMethods = "api.tests.HealthCheckTest.healthCheckTest")
-	public void invalidLoginTest(String testcase, String email, String password)
+	public void invalidLoginTest(String testcase, String email, Object password)
 	{
-		LoginRequest payload = new LoginRequest(email, password);
+		LoginRequest payload = new LoginRequest(email, String.valueOf(password));
 		
 		Response response = LoginService.loginservice(payload);
 		response

@@ -18,10 +18,13 @@ public class NotesServive {
 		return response;
 	}
 	
-	public static Response getAllNotes(boolean isAuthRequired, int page, int limit, String sortOrder, String sortBy) {
+	public static Response getAllNotes(boolean isAuthRequired, int page, int limit, String search, String tags, boolean isPinned, String sortBy, String sortOrder) {
 		Response response = BaseService.request(isAuthRequired)
 							.queryParam("page", page)
 							.queryParam("limit", limit)
+							.queryParam("search", search)
+							.queryParam("tags", tags)
+							.queryParam("isPinned", isPinned)
 							.queryParam("sortOrder", sortOrder)
 							.queryParam("sortBy", sortBy)
 							.when()

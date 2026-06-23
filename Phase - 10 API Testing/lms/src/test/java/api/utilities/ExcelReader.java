@@ -1,10 +1,11 @@
 package api.utilities;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Arrays;
 
 import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -12,70 +13,108 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader {
 
-	public static String[][] getData(String fileName, String sheetName) {
+    public static Object[][] getData(String fileName, String sheetName) {
 
-		FileInputStream fis;
-		try {
-			fis = new FileInputStream("src/test/resources/testData/" + fileName);
-		
-		XSSFWorkbook wb = new XSSFWorkbook(fis);
-		XSSFSheet sheet = wb.getSheet(sheetName);
+        try (FileInputStream fis =
+                     new FileInputStream("src/test/resources/testData/" + fileName);
+             XSSFWorkbook wb = new XSSFWorkbook(fis)) {
 
-		int totalRows = sheet.getPhysicalNumberOfRows();
-		int totalCols = sheet.getRow(0).getLastCellNum();
+            XSSFSheet sheet = wb.getSheet(sheetName);
 
-		// Exclude header
-		int dataRows = totalRows - 1;
+            if (sheet == null) {
+                throw new RuntimeException("Sheet not found: " + sheetName);
+            }
 
-		String[][] data = new String[dataRows][totalCols];
+            int totalRows = sheet.getPhysicalNumberOfRows();
+            int totalCols = sheet.getRow(0).getLastCellNum();
 
-		int rowIndex = 0;
+            Object[][] data = new Object[totalRows - 1][totalCols];
 
-		for (int i = 1; i < totalRows; i++) {
+            int rowIndex = 0;
 
-			XSSFRow row = sheet.getRow(i);
+            for (int i = 1; i < totalRows; i++) {
 
-			if (row == null)
-				continue;
+                XSSFRow row = sheet.getRow(i);
 
-			boolean isEmpty = true;
+                if (row == null) {
+                    continue;
+                }
 
-			for (int j = 0; j < totalCols; j++) {
-				XSSFCell cell = row.getCell(j);
+                boolean isEmpty = true;
 
-				String val = "";
+                for (int j = 0; j < totalCols; j++) {
 
-				if (cell != null) {
-					if (cell.getCellType() == CellType.NUMERIC) {
-						val = String.valueOf((long) cell.getNumericCellValue());
-					} else {
-						val = cell.toString().trim();
-					}
+                    XSSFCell cell = row.getCell(j);
+                    Object value = "";
 
-					if (!val.isEmpty()) {
-						isEmpty = false;
-					}
-				}
+                    if (cell != null) {
 
-				data[rowIndex][j] = val;
-			}
+                        switch (cell.getCellType()) {
 
-			
-			if (!isEmpty) {
-				rowIndex++;
-			}
-		}
+                            case BOOLEAN:
+                                value = cell.getBooleanCellValue();
+                                break;
 
-		wb.close();
-		fis.close();
+                            case NUMERIC:
+                                if (DateUtil.isCellDateFormatted(cell)) {
+                                    value = cell.getDateCellValue();
+                                } else {
+                                    double num = cell.getNumericCellValue();
 
-		return java.util.Arrays.copyOf(data, rowIndex); 
-		
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
+                                    if (num == (int) num) {
+                                        value = (int) num;
+                                    } else {
+                                        value = num;
+                                    }
+                                }
+                                break;
+
+                            case STRING:
+
+                                String str = cell.getStringCellValue().trim();
+
+                                if (str.equalsIgnoreCase("true")
+                                        || str.equalsIgnoreCase("false")) {
+
+                                    value = Boolean.parseBoolean(str);
+
+                                } else {
+
+                                    try {
+                                        value = Integer.parseInt(str);
+                                    } catch (NumberFormatException e) {
+                                        value = str;
+                                    }
+                                }
+
+                                break;
+
+                            case BLANK:
+                                value = "";
+                                break;
+
+                            default:
+                                value = cell.toString().trim();
+                        }
+                    }
+
+                    if (!value.toString().isEmpty()) {
+                        isEmpty = false;
+                    }
+
+                    data[rowIndex][j] = value;
+                }
+
+                if (!isEmpty) {
+                    rowIndex++;
+                }
+            }
+
+            return Arrays.copyOf(data, rowIndex);
+
+        } catch (IOException e) {
+            throw new RuntimeException(
+                    "Failed to read Excel file: " + fileName, e);
+        }
+    }
 }
