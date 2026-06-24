@@ -1,5 +1,5 @@
 "use strict";
-const birthdateInput = "2000-01-15";
+const birthdateInput = "2005-04-12";
 const birthdate = new Date(birthdateInput);
 const today = new Date();
 let age = today.getFullYear() - birthdate.getFullYear();

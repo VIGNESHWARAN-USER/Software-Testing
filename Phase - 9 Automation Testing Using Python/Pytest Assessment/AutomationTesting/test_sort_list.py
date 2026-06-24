@@ -3,6 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
+import time
 
 @pytest.mark.regression
 @pytest.mark.usefixtures("setup_and_teardown")
@@ -17,14 +18,16 @@ class TestSortList:
         
         flag = True
         discount_count = len(wait.until(EC.visibility_of_all_elements_located((By.XPATH, "//span[@class = \"price\"]/del"))))
+        book_names = wait.until(EC.visibility_of_all_elements_located((By.XPATH, "//a[@class = \"woocommerce-LoopProduct-link\"]/h3")))
         book_prices = wait.until(EC.visibility_of_all_elements_located((By.XPATH, "//span[@class = \"woocommerce-Price-amount amount\"]")))
         for i in range(1, len(book_prices)):
-            print((float) (book_prices[i-1].text[1:]))
             if (float) (book_prices[i-1].text[1:]) > (float) (book_prices[i].text[1:]):
                 if discount_count > 0:
                     discount_count -= 1
                 else:
                     flag = False
                     break
+
+        time.sleep(100)
         assert flag
         print("The books are rearranged and displayed in ascending order of price. ")
