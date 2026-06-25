@@ -8,7 +8,7 @@ test("Testcase 1 - Register User",async({page})=>{
     await page.click("//a[normalize-space()='Signup / Login']");
 
     await page.fill("//input[@placeholder='Name']","Vignesh")
-    await page.fill("//input[@data-qa='signup-email']","vignesh@gmail.com")
+    await page.fill("//input[@data-qa='signup-email']","vignesh100@gmail.com")
 
     await page.click("//button[normalize-space()='Signup']")
 
