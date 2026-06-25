@@ -8,3 +8,20 @@ test("Login Test", async ({page}) =>{
     await page.click(".radius")
     await expect(page.locator(".flash.success")).toBeVisible();
 })
+
+
+test('DemoBlaze Login Test', async ({ page }) => {
+  await page.goto('https://demoblaze.com/');
+  await expect(page.getByRole('link', { name: 'Log in' })).toBeVisible();
+  await page.getByRole('link', { name: 'Log in' }).click();
+  await expect(page.getByRole('heading', { name: 'Log in' })).toBeVisible();
+  await page.locator('#loginusername').click();
+  await page.locator('#loginusername').fill('admin');
+  await page.locator('#loginpassword').click();
+  await page.locator('#loginpassword').fill('admin');
+  await page.locator('#loginpassword').press('ControlOrMeta+a');
+  await page.locator('#loginpassword').fill('admin');
+  await page.getByRole('button', { name: 'Log in' }).click();
+  await expect(page.getByRole('link', { name: 'Log out' })).toBeVisible();
+  await expect(page.locator('#nameofuser')).toContainText('Welcome admin');
+});
