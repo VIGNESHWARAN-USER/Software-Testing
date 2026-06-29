@@ -7,8 +7,8 @@ test("Testcase 5 - Email already exists",async({page})=>{
 
     await page.click("//a[normalize-space()='Signup / Login']");
 
-    await page.fill("//input[@placeholder='Name']","Vetri")
-    await page.fill("//input[@data-qa='signup-email']","bvetrivel@gmail.com1000")
+    await page.fill("//input[@placeholder='Name']","Vignesh")
+    await page.fill("//input[@data-qa='signup-email']","vignesh@gmail.com1000")
 
     await page.click("//button[normalize-space()='Signup']")
 
