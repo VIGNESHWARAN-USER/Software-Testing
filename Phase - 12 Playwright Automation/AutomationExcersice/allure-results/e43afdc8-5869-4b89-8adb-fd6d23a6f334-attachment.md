@@ -1,0 +1,130 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: demoBlaze.test.ts >> Login Group >> Login Test @smoke
+- Location: tests\demoBlaze.test.ts:4:9
+
+# Error details
+
+```
+Error: locator.click: Test ended.
+Call log:
+  - waiting for getByRole('link', { name: 'Log in' })
+
+```
+
+# Test source
+
+```ts
+  1   | import {chromium, test, expect} from '@playwright/test'
+  2   | 
+  3   | test.describe("Login Group", () => {
+  4   |     test("Login Test @smoke", async ({page}) => {
+  5   | 
+  6   | 
+  7   |     await page.goto('https://demoblaze.com/');
+  8   |     await expect(page.getByRole('link', { name: 'Log in' })).toBeVisible();
+> 9   |     await page.getByRole('link', { name: 'Log in' }).click();
+      |                                                      ^ Error: locator.click: Test ended.
+  10  |     await expect(page.getByRole('heading', { name: 'Log out' })).toBeVisible();
+  11  |     await page.locator('#loginusername').fill('admin');
+  12  |     await page.locator('#loginpassword').fill('admin');
+  13  |     await page.getByRole('button', { name: 'Log in' }).click();
+  14  |     await expect(page.getByRole('link', { name: 'Log out' })).toBeVisible();
+  15  |     await expect(page.locator('#nameofuser')).toContainText('Welcome admin');
+  16  |     expect(await page.title()).toContain('STORE');
+  17  |     expect(await page.url()).toContain('https://demoblaze.com/');
+  18  | })
+  19  | 
+  20  | test("Login Test With Soft Assertion @smoke", async ({page}) => {
+  21  | 
+  22  | 
+  23  |     await page.goto('https://demoblaze.com/');
+  24  |     await expect(page.getByRole('link', { name: 'Log in' })).toBeVisible();
+  25  |     await page.getByRole('link', { name: 'Log in' }).click();
+  26  |     await expect.soft(page.getByRole('heading', { name: 'Log out' })).toBeVisible();
+  27  |     await page.locator('#loginusername').fill('admin');
+  28  |     await page.locator('#loginpassword').fill('admin');
+  29  |     await page.getByRole('button', { name: 'Log in' }).click();
+  30  |     await expect(page.getByRole('link', { name: 'Log out' })).toBeVisible();
+  31  |     await expect(page.locator('#nameofuser')).toContainText('Welcome admin');
+  32  |     expect(await page.title()).toContain('STORE');
+  33  |     expect(await page.url()).toContain('https://demoblaze.com/');
+  34  | })
+  35  | 
+  36  | test.skip("Invalid Login Test", async ({page}) => {
+  37  | 
+  38  |     test.skip(true, "This test is under development")
+  39  | 
+  40  |     await page.goto('https://demoblaze.com/');
+  41  |     await expect(page.getByRole('link', { name: 'Log in' })).toBeVisible();
+  42  |     await page.getByRole('link', { name: 'Log in' }).click();
+  43  |     await expect(page.getByRole('heading', { name: 'Log in' })).toBeVisible();
+  44  |     await page.locator('#loginusername').fill('admin');
+  45  |     await page.locator('#loginpassword').fill('admin');
+  46  |     await page.getByRole('button', { name: 'Log in' }).click();
+  47  |     await expect(page.getByRole('link', { name: 'Log out' })).toBeVisible();
+  48  |     await expect(page.locator('#nameofuser')).toContainText('Welcome admin');
+  49  |     expect(await page.title()).toContain('STORE');
+  50  |     expect(await page.url()).toContain('https://demoblaze.com/');
+  51  | })
+  52  | 
+  53  | })
+  54  | 
+  55  | test.describe("Login Group 2", () => {
+  56  |     test("Login Test @smoke", async ({page}) => {
+  57  | 
+  58  | 
+  59  |     await page.goto('https://demoblaze.com/');
+  60  |     await expect(page.getByRole('link', { name: 'Log in' })).toBeVisible();
+  61  |     await page.getByRole('link', { name: 'Log in' }).click();
+  62  |     await expect(page.getByRole('heading', { name: 'Log out' })).toBeVisible();
+  63  |     await page.locator('#loginusername').fill('admin');
+  64  |     await page.locator('#loginpassword').fill('admin');
+  65  |     await page.getByRole('button', { name: 'Log in' }).click();
+  66  |     await expect(page.getByRole('link', { name: 'Log out' })).toBeVisible();
+  67  |     await expect(page.locator('#nameofuser')).toContainText('Welcome admin');
+  68  |     expect(await page.title()).toContain('STORE');
+  69  |     expect(await page.url()).toContain('https://demoblaze.com/');
+  70  | })
+  71  | 
+  72  | test("Login Test With Soft Assertion @smoke", async ({page}) => {
+  73  | 
+  74  | 
+  75  |     await page.goto('https://demoblaze.com/');
+  76  |     await expect(page.getByRole('link', { name: 'Log in' })).toBeVisible();
+  77  |     await page.getByRole('link', { name: 'Log in' }).click();
+  78  |     await expect.soft(page.getByRole('heading', { name: 'Log out' })).toBeVisible();
+  79  |     await page.locator('#loginusername').fill('admin');
+  80  |     await page.locator('#loginpassword').fill('admin');
+  81  |     await page.getByRole('button', { name: 'Log in' }).click();
+  82  |     await expect(page.getByRole('link', { name: 'Log out' })).toBeVisible();
+  83  |     await expect(page.locator('#nameofuser')).toContainText('Welcome admin');
+  84  |     expect(await page.title()).toContain('STORE');
+  85  |     expect(await page.url()).toContain('https://demoblaze.com/');
+  86  | })
+  87  | 
+  88  | test.skip("Invalid Login Test ", async ({page}) => {
+  89  | 
+  90  |     test.skip(true, "This test is under development")
+  91  | 
+  92  |     await page.goto('https://demoblaze.com/');
+  93  |     await expect(page.getByRole('link', { name: 'Log in' })).toBeVisible();
+  94  |     await page.getByRole('link', { name: 'Log in' }).click();
+  95  |     await expect(page.getByRole('heading', { name: 'Log in' })).toBeVisible();
+  96  |     await page.locator('#loginusername').fill('admin');
+  97  |     await page.locator('#loginpassword').fill('admin');
+  98  |     await page.getByRole('button', { name: 'Log in' }).click();
+  99  |     await expect(page.getByRole('link', { name: 'Log out' })).toBeVisible();
+  100 |     await expect(page.locator('#nameofuser')).toContainText('Welcome admin');
+  101 |     expect(await page.title()).toContain('STORE');
+  102 |     expect(await page.url()).toContain('https://demoblaze.com/');
+  103 | })
+  104 | 
+  105 | })
+```

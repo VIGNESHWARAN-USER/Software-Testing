@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,6 +16,9 @@
   },
   "dependencies": {
     "allure-playwright": "^3.10.1",
-    "dotenv": "^17.4.2"
+    "csv-parse": "^7.0.0",
+    "dotenv": "^17.4.2",
+    "fs": "^0.0.1-security",
+    "xlsx": "^0.18.5"
   }
 }

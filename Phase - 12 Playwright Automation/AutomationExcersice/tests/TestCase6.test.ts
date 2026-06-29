@@ -12,7 +12,8 @@ test("Testcase 6 - Contact Us Form",async({page})=>{
     await page.fill("//input[@name = 'name']", "Vigneshwaran");
     await page.fill("//input[@name = 'email']", "Vigneshwaran@gmail.com");
     await page.fill("//input[@name = 'subject']", "Sample Mail");
-    await page.fill("//textarea[@id = 'message']", "Hi");
+    await page.fill("//textarea[@id = 'message']", "Test message");
+    page.setInputFiles("//input[@name = 'upload_file']",  ["tests/TestCase5.test.ts"])
     
 
     page.on('dialog', async dialog => {
