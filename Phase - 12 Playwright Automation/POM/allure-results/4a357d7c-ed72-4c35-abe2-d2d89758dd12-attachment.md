@@ -1,0 +1,55 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: DashboardTest.test.ts >> Dashboard Tests >> Check 'Quick Launch' Visible
+- Location: tests\DashboardTest.test.ts:11:9
+
+# Error details
+
+```
+TypeError: Cannot read properties of undefined (reading 'fill')
+```
+
+```
+TypeError: Cannot read properties of undefined (reading 'click')
+```
+
+# Test source
+
+```ts
+  1  | import {Page} from '@playwright/test';
+  2  | import { DashboardPage } from '../pages/DashboardPage';
+  3  | 
+  4  | export class DashboardAction {
+  5  | 
+  6  |     readonly page: Page;
+  7  | 
+  8  |     constructor(page:Page) {
+  9  |         this.page = page
+  10 |     }
+  11 | 
+  12 |     async getPageTitle() {
+  13 |         return await DashboardPage.dashboardTitle.textContent()
+  14 |     }
+  15 | 
+  16 |     async getQuickLaunchText() {
+  17 |         return await DashboardPage.quickLaunch.textContent()
+  18 |     }
+  19 | 
+  20 |     async gettimeAtWorkText() {
+  21 |         return await DashboardPage.timeAtWork.textContent()
+  22 |     }
+  23 | 
+  24 |     async logOut() {
+> 25 |         await DashboardPage.profilePicture.click();
+     |                                            ^ TypeError: Cannot read properties of undefined (reading 'click')
+  26 |         await DashboardPage.logOutButton.click();
+  27 |     }
+  28 | 
+  29 | }
+```
