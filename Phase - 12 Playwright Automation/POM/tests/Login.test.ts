@@ -3,8 +3,8 @@ import login_data from "../test_data/login_data.json";
 
 test.describe("Login Tests", () => {
     
-    test.beforeEach(({loginPage})=>{
-        loginPage.navigate();
+    test.beforeEach( async ({loginPage})=>{
+        await loginPage.navigate();
     })
 
     test("Valid Login Test", async({loginPage, dashboardPage}) =>{
