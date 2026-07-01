@@ -6,7 +6,6 @@ import { getData } from '../utils/CSVReader';
 const contacts : ContactData[] = getData("contact_data.csv") as ContactData[]
 
 test.describe('Contact Tests', () => {
-    console.log(contacts)
     for(const data of contacts) {
             test(data.testName, async ({homePage,contactPage,page}) => {
 

@@ -7,5 +7,7 @@ export function getData(filename: string, sheetname: string) {
     const workbook = XLSX.readFile(filepath);
     const worksheet = workbook.Sheets[sheetname];
 
-    return XLSX.utils.sheet_to_json(worksheet);
+    return XLSX.utils.sheet_to_json(worksheet, {
+  defval: ""
+});
 }

@@ -20,7 +20,9 @@ export class HomePage {
     }
 
     async navigate() {
-        await this.page.goto(process.env.BASE_URL!)
+        await this.page.goto(process.env.BASE_URL!, 
+            {waitUntil : 'domcontentloaded'}
+        )
     }
 
     async openContactPage() {

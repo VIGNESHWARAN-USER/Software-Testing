@@ -11,13 +11,13 @@ export class LoginPage {
         this.page = page;
         this.username = page.locator('#loginusername');
         this.password = page.locator('#loginpassword');
-        this.loginButton = page.getByRole('button', { name: 'Log in' });
+        this.loginButton = page.locator("//button[text() = 'Log in']");
     }
 
     async login(username:string, password:string) {
-        this.username.fill(username);
-        this.password.fill(password);
-        this.loginButton.click()
+        await this.username.fill(username);
+        await this.password.fill(password);
+        await this.loginButton.click()
     }
     
 }
