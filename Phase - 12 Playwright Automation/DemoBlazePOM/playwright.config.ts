@@ -3,14 +3,8 @@ import dotenv from 'dotenv';
 import path from 'path';
 
 const envName = process.env.ENV || "chrome"
-//dotenv.config({path: path.resolve(__dirname, `../env/.env.${envName}`) });
-const result = dotenv.config({
-  path: path.resolve(__dirname, `env/.env.${envName}`)
-});
+dotenv.config({path: path.resolve(__dirname, `env/.env.${envName}`)});
 
-if (result.error) {
-  console.error("❌ dotenv failed to load:", result.error);
-}
 
 export default defineConfig({
   testDir: './tests',
@@ -37,7 +31,7 @@ export default defineConfig({
   },
 
   reporter: [
-    ['dot'],
+    ['list'],
     ['html', { open: 'always', outputFolder: 'test-results' }],
     ['junit', { outputFile: 'test-results/results.xml' }],
     ['json', { outputFile: 'test-results/results.json' }],

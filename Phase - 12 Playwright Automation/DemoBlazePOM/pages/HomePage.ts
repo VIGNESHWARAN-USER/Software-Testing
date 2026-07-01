@@ -8,7 +8,6 @@ export class HomePage {
     readonly logoutNavOption: Locator;
     readonly nameNavOption: Locator;
     readonly contactNavOption: Locator;
-    readonly samsungGalaxyS6: Locator;
 
     constructor(page: Page) {
         this.page = page;
@@ -16,7 +15,6 @@ export class HomePage {
         this.logoutNavOption = page.getByRole('link', { name: 'Log out' });
         this.nameNavOption = page.locator('#nameofuser')
         this.contactNavOption = page.locator('//a[text()="Contact"]');
-        this.samsungGalaxyS6 = page.locator('//a[text()="Samsung galaxy s6"]');
     }
 
     async navigate() {
@@ -33,8 +31,12 @@ export class HomePage {
         await this.loginNavOption.click();
     }
 
-    async openSamsungGalaxyS6() {
-        await this.samsungGalaxyS6.click();
+    async openCategory(categoryName:string) {
+        this.page.locator(`//a[text() = ${categoryName}]`).click()
+    }
+
+    async openProduct(productName:string) {
+        this.page.locator(`//a[text() = ${productName}]`).click()
     }
 
 }

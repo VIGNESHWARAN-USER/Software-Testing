@@ -1,0 +1,4 @@
+testName, email, password, expectedResult, expectedMessage
+Valid credentials, vigneshwaran.coder@gmail.com, 1234, SUCCESS, 
+Invalid email format, vigneshwaran, 1234, FAILURE, Warning: No match for E-Mail Address and/or Password.
+Incorrect password, vigneshwaran.coder@gmail.com, 12345, FAILURE, Warning: No match for E-Mail Address and/or Password.

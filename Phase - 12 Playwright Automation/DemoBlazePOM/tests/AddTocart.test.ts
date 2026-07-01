@@ -6,7 +6,8 @@ test.describe('Add Product To Cart', () => {
 
         await homePage.navigate();
 
-        await homePage.openSamsungGalaxyS6();
+        await homePage.openCategory("Phones");
+        await homePage.openProduct("Samsung galaxy s6")
 
         page.once('dialog', async dialog => {
             expect(dialog.message()).toBe('Product added');

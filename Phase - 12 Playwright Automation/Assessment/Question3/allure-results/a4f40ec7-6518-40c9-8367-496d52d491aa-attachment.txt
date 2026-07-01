@@ -1,0 +1,4 @@
+Title:  Search - Microsoft Bing
+URL:  https://www.bing.com/
+Inner test of copilot element:  Copilot
+Placeholder attribute of search input is : Search the web
