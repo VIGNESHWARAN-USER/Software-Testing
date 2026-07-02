@@ -1,8 +1,8 @@
+import { UserFactory } from '../factories/UserFactory';
 import {test, expect} from '../fixtures/BaseFixtures'
-import { getData } from '../test-data/UserFactory';
 import { User } from '../types/User';
 
-const data = getData() as User;
+const data = UserFactory.createUser();
 test.describe("Registration Tests @smoke", () => {
 
     test.beforeEach(async({homePage}) => {
