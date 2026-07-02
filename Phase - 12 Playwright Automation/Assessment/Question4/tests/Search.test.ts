@@ -7,7 +7,7 @@ test.describe("Search Tests @smoke", () => {
     })
 
     test("Search Test", async({homePage, productPage,}) => {
-        await homePage.searchProduct("Mac");
-        expect(await productPage.isProductAvailable("Mac")).toBe(true);
+        await homePage.searchProduct(process.env.SEARCH_KEY!);
+        expect(await productPage.isProductAvailable(process.env.SEARCH_KEY!)).toBe(true);
     })
 })
