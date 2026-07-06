@@ -14,8 +14,8 @@ export class HomePage extends BasePage {
         super(page);
 
         this.myAccountIcon = page.locator("//i[@class='fa fa-user']");
-        this.registerButton = page.locator("//a[text()='Register']").first();
-        this.loginButton = page.locator("//a[text()='Login']").first();
+        this.registerButton = page.locator("//a[text()='Register']");
+        this.loginButton = page.locator("//a[text()='Login']");
         this.searchInput = page.locator("//input[@name='search']");
         this.searchButton = page.locator("//button[@class='btn btn-default btn-lg']");
     }

@@ -1,4 +1,3 @@
-import { LoginData } from './../types/LoginData';
 import { Given, When, Then } from "@cucumber/cucumber";
 import { expect } from "@playwright/test";
 import { App } from "../world/CustomWorld";

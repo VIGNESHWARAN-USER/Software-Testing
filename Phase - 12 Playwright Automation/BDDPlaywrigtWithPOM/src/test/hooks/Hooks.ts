@@ -5,6 +5,7 @@ import { App } from "../world/CustomWorld";
 import { HomePage } from "../pages/HomePage";
 import { LoginPage } from '../pages/LoginPage';
 import { SuccessPage } from '../pages/SuccessPage';
+import { RegisterPage } from '../pages/RegisterPage';
 
 let browser: Browser;
 
@@ -22,6 +23,7 @@ Before(async function (this: App) {
     this.homePage = new HomePage(this.page);
     this.loginPage = new LoginPage(this.page);
     this.successPage = new SuccessPage(this.page);
+    this.registerPage = new RegisterPage(this.page)
 });
 
 After(async function (this: App) {

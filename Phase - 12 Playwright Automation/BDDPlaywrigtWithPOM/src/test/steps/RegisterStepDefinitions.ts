@@ -3,7 +3,7 @@ import { App } from '../world/CustomWorld';
 import { expect } from '@playwright/test';
 
 Given('the user clicks the register button', async function (this: App) {
-    this.homePage.clickRegisterButton();
+    await this.homePage.clickRegisterButton();
 });
 
 When("the user enters the following registration details", async function (this: App, dataTable: DataTable) {
