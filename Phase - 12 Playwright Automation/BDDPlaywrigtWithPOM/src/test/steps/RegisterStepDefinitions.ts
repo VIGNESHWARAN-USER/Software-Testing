@@ -14,7 +14,7 @@ When("the user enters the following registration details", async function (this:
 );
 
 When( "checks the privacy policy option", async function (this: App) {
-        await this.registerPage.cliclPrivacyPolicy();
+        await this.registerPage.clickPrivacyPolicy();
     }
 );
 

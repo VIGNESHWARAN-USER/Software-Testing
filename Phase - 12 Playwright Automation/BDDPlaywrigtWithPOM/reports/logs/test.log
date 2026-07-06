@@ -1,0 +1,92 @@
+[undefined] INFO - Launching website: https://tutorialsninja.com/demo
+[undefined] INFO - Website launched successfully
+[undefined] INFO - Opening My Account menu
+[undefined] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - My Account menu opened
+[undefined] INFO - Navigating to Login page
+[undefined] INFO - Clicking on element: locator('//a[text()=\'Login\']').first()
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - Login page opened
+[undefined] INFO - Entering login credentials for: vigneshwaran.coder@gmail.com
+[undefined] INFO - Entering value "vigneshwaran.coder@gmail.com" into: locator('//input[@name=\'email\']')
+[undefined] INFO - Value entered successfully
+[undefined] INFO - Entering value "1234" into: locator('//input[@name=\'password\']')
+[undefined] INFO - Value entered successfully
+[undefined] INFO - Login credentials entered successfully
+[undefined] INFO - Submitting login form
+[undefined] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - Login form submitted
+[undefined] INFO - Retrieving My Account page heading
+[undefined] INFO - Getting text from: locator('//h2[text()=\'My Account\']')
+[undefined] INFO - Retrieved text: "My Account"
+[undefined] INFO - My Account heading: My Account
+[undefined] INFO - Launching website: https://tutorialsninja.com/demo
+[undefined] INFO - Website launched successfully
+[undefined] INFO - Opening My Account menu
+[undefined] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - My Account menu opened
+[undefined] INFO - Navigating to Login page
+[undefined] INFO - Clicking on element: locator('//a[text()=\'Login\']').first()
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - Login page opened
+[undefined] INFO - Entering login credentials for: vigneshwaran
+[undefined] INFO - Entering value "vigneshwaran" into: locator('//input[@name=\'email\']')
+[undefined] INFO - Value entered successfully
+[undefined] INFO - Entering value "1234" into: locator('//input[@name=\'password\']')
+[undefined] INFO - Value entered successfully
+[undefined] INFO - Login credentials entered successfully
+[undefined] INFO - Submitting login form
+[undefined] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - Login form submitted
+[undefined] INFO - Retrieving login failure message
+[undefined] INFO - Getting text from: locator('//div[@class=\'alert alert-danger alert-dismissible\']')
+[undefined] INFO - Retrieved text: "Warning: No match for E-Mail Address and/or Password."
+[undefined] INFO - Login failure message: Warning: No match for E-Mail Address and/or Password.
+[undefined] INFO - Launching website: https://tutorialsninja.com/demo
+[undefined] INFO - Website launched successfully
+[undefined] INFO - Opening My Account menu
+[undefined] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - My Account menu opened
+[undefined] INFO - Navigating to Login page
+[undefined] INFO - Clicking on element: locator('//a[text()=\'Login\']').first()
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - Login page opened
+[undefined] INFO - Entering login credentials for: vigneshwaran.coder@gmail.com
+[undefined] INFO - Entering value "vigneshwaran.coder@gmail.com" into: locator('//input[@name=\'email\']')
+[undefined] INFO - Value entered successfully
+[undefined] INFO - Entering value "12345" into: locator('//input[@name=\'password\']')
+[undefined] INFO - Value entered successfully
+[undefined] INFO - Login credentials entered successfully
+[undefined] INFO - Submitting login form
+[undefined] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - Login form submitted
+[undefined] INFO - Retrieving login failure message
+[undefined] INFO - Getting text from: locator('//div[@class=\'alert alert-danger alert-dismissible\']')
+[undefined] INFO - Retrieved text: "Warning: No match for E-Mail Address and/or Password."
+[undefined] INFO - Login failure message: Warning: No match for E-Mail Address and/or Password.
+[undefined] INFO - Launching website: https://tutorialsninja.com/demo
+[undefined] INFO - Website launched successfully
+[undefined] INFO - Opening My Account menu
+[undefined] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - My Account menu opened
+[undefined] INFO - Navigating to Register page
+[undefined] INFO - Clicking on element: locator('//a[text()=\'Register\']').first()
+[undefined] INFO - Launching website: https://tutorialsninja.com/demo
+[undefined] INFO - Website launched successfully
+[undefined] INFO - Opening My Account menu
+[undefined] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[undefined] INFO - Element clicked successfully
+[undefined] INFO - My Account menu opened
+[undefined] INFO - Navigating to Register page
+[undefined] INFO - Clicking on element: locator('//a[text()=\'Register\']').first()
+[undefined] INFO - Launching website: https://tutorialsninja.com/demo
+[undefined] INFO - Website launched successfully
+[undefined] INFO - Launching website: https://tutorialsninja.com/demo
+[undefined] INFO - Website launched successfully
