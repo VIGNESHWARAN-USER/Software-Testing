@@ -1,34 +1,30 @@
 module.exports = {
-    default: {
+  default: {
+    requireModule: ["ts-node/register"],
 
-        formatOptions: {
-            snippetInterface: "async-await"
-        },
+    require: [
+      "src/test/steps/**/*.ts",
+      "src/test/hooks/**/*.ts"
+    ],
 
-        requireModule: [
-            "ts-node/register"
-        ],
+    paths: [
+      "src/test/features/**/*.feature"
+    ],
 
-        require: [
-            "src/test/steps/**/*.ts",
-            "src/test/hooks/**/*.ts",
-            //"src/test/support/**/*.ts"
-        ],
+    formatOptions: {
+      snippetInterface: "async-await"
+    },
 
-        paths: [
-            "src/test/features/**/*.feature"
-        ],
+    publishQuiet: true,
+    dryRun: false,
 
-        publishQuiet: true,
-        dryRun: false,
-
-        format: [
-            "progress-bar",
-            "json:reports/cucumber-report.json",
-            "html:reports/cucumber-report.html",
-            "rerun:@rerun.txt",
-            "message:reports/messages.ndjson",
-            "allure-cucumberjs/reporter"
-        ]
-    }
+    format: [
+      "progress",
+      "summary",
+      "rerun:@rerun.txt",
+      "json:reports/cucumber-report.json",
+      "message:reports/messages.ndjson",
+      "allure-cucumberjs/reporter"
+    ]
+  }
 };

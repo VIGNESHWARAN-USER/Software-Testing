@@ -9,7 +9,7 @@
     "smoke": "cucumber-js src/test/features --tags @smoke",
     "regression": "cucumber-js src/test/features --tags @regression",
     "parallel": "cucumber-js src/test/features --parallel 2",
-    "failed": "cucumber-js @rerun.txt",
+    "failed": "cucumber-js --config cucumber.failed.js @rerun.txt",
     "ci": "cucumber-js src/test/features --tags @smoke --format json:reports/report.json"
   },
   "keywords": [],
@@ -24,6 +24,7 @@
     "allure-cucumberjs": "^3.10.2",
     "cucumber-junit": "^1.7.1",
     "multiple-cucumber-html-reporter": "^4.0.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "winston": "^3.19.0"
   }
 }

@@ -1,0 +1,4 @@
+testName,email,password,expectedMessage
+valid,vigneshwaran.coder@gmail.com,1234,
+invalidEmail,vigneshwaran,1234,Warning: No match for E-Mail Address and/or Password.
+invalidPassword,vigneshwaran.coder@gmail.com,12345,Warning: No match for E-Mail Address and/or Password.

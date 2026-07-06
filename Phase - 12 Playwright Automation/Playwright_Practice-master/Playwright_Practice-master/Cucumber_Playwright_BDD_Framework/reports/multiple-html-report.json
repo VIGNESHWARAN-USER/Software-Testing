@@ -1,0 +1,131 @@
+[
+  {
+    "description": "    Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-a-new-user;valid-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "valid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 425617200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user lanch the application",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2073048900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user click myacclink",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585882900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user click loginlink",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292055899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user enter the email",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51477700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user enter the tutorial password",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19756699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user click the login tutorial button",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1376436900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should login success",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76780300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 688332700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-a-new-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login a new user",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]

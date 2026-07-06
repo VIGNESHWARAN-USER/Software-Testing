@@ -1,0 +1,102 @@
+[
+  {
+    "description": "Feature Description: Login Feature in demo blaze",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User on the home page",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3225780999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user the click the login link",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158469000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The user enter the username as \"TamilKumar\"",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 175934500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "The user enter the password as \"Kiot1234\"",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34195400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "click the login Button",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 276914099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User their username in dashboard page",
+            "match": {
+              "location": "src\\test\\steps\\login.step.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2808238600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login feature",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]
