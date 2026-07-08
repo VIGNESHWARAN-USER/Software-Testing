@@ -1,0 +1,7 @@
+testcase, email, password
+Blank email, , 123456
+Blank password with invaid email, vigneshwaran.coder@gmail.com, 
+Blank password with vaid email, 2k22cse163@kiot.ac.in, 
+Blank email and password, , 
+Invalid email, vigneshwaran.coder@gmail.com, 123456
+Invalid password, 2k22cse163@kiot.ac.in, 123456

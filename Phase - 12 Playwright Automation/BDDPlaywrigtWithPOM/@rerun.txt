@@ -1,3 +1,0 @@
-src\test\features\Login.feature:8:14
-src\test\features\Register.feature:8:14
-src\test\features\Search.feature:6:12

@@ -1,0 +1,689 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "m_vigneshwaran_08-07-2026_dws_login_feature;verify-valid-user-login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify valid user login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 639784700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launched the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4125570499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 449360099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user fills the \"valid\" details",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117540699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 663847799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user navigates to the home page",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73686999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the email should be displayed in the navigation area",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2767499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the logout button should be displayed in the navigation area",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2205199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124360399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "m_vigneshwaran_08-07-2026_dws_login_feature;verify-invalid-user-login-with-empty-and-invalid-data",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify invalid user login with empty and invalid data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 351967800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launched the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3836418599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 401833800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user fills the \"Blank email\" details",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87883799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 383416199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the error message should be displayed as \"No customer account found\"",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2895800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 45707700,
+              "error_message": "locator.textContent: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//div[@class  = \\'validation-summary-errors\\']/ul/li')\u001b[22m\n\n    at LoginPage.getTextContent (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\BasePage.ts:24:30)\n    at LoginPage.verifyErrorMessage (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\LoginPage.ts:24:42)\n    at World.<anonymous> (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\steps\\LoginStepDefinition.ts:51:27)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "m_vigneshwaran_08-07-2026_dws_login_feature;verify-invalid-user-login-with-empty-and-invalid-data",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Verify invalid user login with empty and invalid data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 263970099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launched the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3757240900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 457136399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user fills the \"Blank password with invaid email\" details",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88950999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380485499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the error message should be displayed as \"No customer account found\"",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4018199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 58642800,
+              "error_message": "locator.textContent: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//div[@class  = \\'validation-summary-errors\\']/ul/li')\u001b[22m\n\n    at LoginPage.getTextContent (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\BasePage.ts:24:30)\n    at LoginPage.verifyErrorMessage (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\LoginPage.ts:24:42)\n    at World.<anonymous> (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\steps\\LoginStepDefinition.ts:51:27)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "m_vigneshwaran_08-07-2026_dws_login_feature;verify-invalid-user-login-with-empty-and-invalid-data",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Verify invalid user login with empty and invalid data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 256097200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launched the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3860008399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 402945299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user fills the \"Blank password with vaid email\" details",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105174499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350453900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the error message should be displayed as \"No customer account found\"",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3227299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 40763800,
+              "error_message": "locator.textContent: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//div[@class  = \\'validation-summary-errors\\']/ul/li')\u001b[22m\n\n    at LoginPage.getTextContent (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\BasePage.ts:24:30)\n    at LoginPage.verifyErrorMessage (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\LoginPage.ts:24:42)\n    at World.<anonymous> (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\steps\\LoginStepDefinition.ts:51:27)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "m_vigneshwaran_08-07-2026_dws_login_feature;verify-invalid-user-login-with-empty-and-invalid-data",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Verify invalid user login with empty and invalid data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 250686300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launched the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4516907100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 443168499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user fills the \"Blank email and password\" details",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109267200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355573700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the error message should be displayed as \"No customer account found\"",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10449700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 62292299,
+              "error_message": "locator.textContent: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//div[@class  = \\'validation-summary-errors\\']/ul/li')\u001b[22m\n\n    at LoginPage.getTextContent (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\BasePage.ts:24:30)\n    at LoginPage.verifyErrorMessage (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\LoginPage.ts:24:42)\n    at World.<anonymous> (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\steps\\LoginStepDefinition.ts:51:27)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "m_vigneshwaran_08-07-2026_dws_login_feature;verify-invalid-user-login-with-empty-and-invalid-data",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Verify invalid user login with empty and invalid data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 285273900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launched the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3906963499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 412154900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user fills the \"Invalid email\" details",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91698499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 633970600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the error message should be displayed as \"The credentials provided are incorrect\"",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3401499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 28905800,
+              "error_message": "locator.textContent: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//div[@class  = \\'validation-summary-errors\\']/ul/li')\u001b[22m\n\n    at LoginPage.getTextContent (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\BasePage.ts:24:30)\n    at LoginPage.verifyErrorMessage (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\LoginPage.ts:24:42)\n    at World.<anonymous> (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\steps\\LoginStepDefinition.ts:51:27)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "m_vigneshwaran_08-07-2026_dws_login_feature;verify-invalid-user-login-with-empty-and-invalid-data",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Verify invalid user login with empty and invalid data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 303109700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launched the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3709475200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 410228900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user fills the \"Invalid password\" details",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120719199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 637795099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the error message should be displayed as \"The credentials provided are incorrect\"",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5978199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 42102300,
+              "error_message": "locator.textContent: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//div[@class  = \\'validation-summary-errors\\']/ul/li')\u001b[22m\n\n    at LoginPage.getTextContent (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\BasePage.ts:24:30)\n    at LoginPage.verifyErrorMessage (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\pages\\LoginPage.ts:24:42)\n    at World.<anonymous> (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPOMAssessment\\src\\test\\steps\\LoginStepDefinition.ts:51:27)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "m_vigneshwaran_08-07-2026_dws_login_feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "M_VIGNESHWARAN_08-07-2026_DWS_LOGIN_FEATURE",
+    "tags": [],
+    "uri": "src\\test\\features\\Login.feature"
+  }
+]

@@ -12,5 +12,9 @@ const reverse = (num: number): number => {
 };
 
 const num: number = readlineSync.questionInt("Enter the Number: ");
-
-console.log(`Reverse of ${num} is: ${reverse(num)}`);
+if(num < 10000) {
+    console.log("Invalid Input");
+}
+else {
+    console.log(`Reverse of ${num} is: ${reverse(num)}`);
+}

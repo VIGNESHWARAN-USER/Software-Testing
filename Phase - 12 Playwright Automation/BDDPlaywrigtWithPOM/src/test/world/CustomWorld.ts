@@ -15,7 +15,7 @@ export class App extends World{
 
     loginPage! : LoginPage;
     homePage! : HomePage;
-    prductPage! : ProductPage;
+    productPage! : ProductPage;
     registerPage! : RegisterPage;
     successPage! : SuccessPage;
     loginData!: LoginData;

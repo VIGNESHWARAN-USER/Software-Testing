@@ -7,7 +7,6 @@ Given('the user clicks the register button', async function (this: App) {
 });
 
 When("the user enters the following registration details", async function (this: App, dataTable: DataTable) {
-
         const data = dataTable.hashes()[0];
         await this.registerPage.fillDetails(data.firstName, data.lastName, data.email, data.telephone, data.password);
     }

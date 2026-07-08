@@ -702,3 +702,643 @@
 [2026-07-06T05:18:30.378Z] INFO - Website launched successfully
 [2026-07-06T05:18:30.914Z] INFO - Launching website: https://tutorialsninja.com/demo
 [2026-07-06T05:18:32.992Z] INFO - Website launched successfully
+[2026-07-06T06:04:51.896Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:04:53.959Z] INFO - Website launched successfully
+[2026-07-06T06:04:53.964Z] INFO - Opening My Account menu
+[2026-07-06T06:04:53.967Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:04:54.294Z] INFO - Element clicked successfully
+[2026-07-06T06:04:54.296Z] INFO - My Account menu opened
+[2026-07-06T06:04:54.299Z] INFO - Navigating to Login page
+[2026-07-06T06:04:54.299Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T06:04:54.540Z] INFO - Element clicked successfully
+[2026-07-06T06:04:54.540Z] INFO - Login page opened
+[2026-07-06T06:04:54.553Z] INFO - Entering login credentials for: vigneshwaran.coder@gmail.com
+[2026-07-06T06:04:54.554Z] INFO - Entering value "vigneshwaran.coder@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:04:54.613Z] INFO - Value entered successfully
+[2026-07-06T06:04:54.613Z] INFO - Entering value "1234" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:04:54.633Z] INFO - Value entered successfully
+[2026-07-06T06:04:54.634Z] INFO - Login credentials entered successfully
+[2026-07-06T06:04:54.649Z] INFO - Submitting login form
+[2026-07-06T06:04:54.666Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T06:04:55.970Z] INFO - Element clicked successfully
+[2026-07-06T06:04:55.970Z] INFO - Login form submitted
+[2026-07-06T06:04:56.018Z] INFO - Retrieving My Account page heading
+[2026-07-06T06:04:56.019Z] INFO - Getting text from: locator('//h2[text()=\'My Account\']')
+[2026-07-06T06:04:56.029Z] INFO - Retrieved text: "My Account"
+[2026-07-06T06:04:56.029Z] INFO - My Account heading: My Account
+[2026-07-06T06:04:56.471Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:04:58.540Z] INFO - Website launched successfully
+[2026-07-06T06:04:58.540Z] INFO - Opening My Account menu
+[2026-07-06T06:04:58.541Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:04:58.656Z] INFO - Element clicked successfully
+[2026-07-06T06:04:58.656Z] INFO - My Account menu opened
+[2026-07-06T06:04:58.660Z] INFO - Navigating to Login page
+[2026-07-06T06:04:58.661Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T06:04:58.845Z] INFO - Element clicked successfully
+[2026-07-06T06:04:58.846Z] INFO - Login page opened
+[2026-07-06T06:04:58.848Z] INFO - Entering login credentials for: vigneshwaran
+[2026-07-06T06:04:58.849Z] INFO - Entering value "vigneshwaran" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:04:58.920Z] INFO - Value entered successfully
+[2026-07-06T06:04:58.921Z] INFO - Entering value "1234" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:04:58.939Z] INFO - Value entered successfully
+[2026-07-06T06:04:58.939Z] INFO - Login credentials entered successfully
+[2026-07-06T06:04:58.940Z] INFO - Submitting login form
+[2026-07-06T06:04:58.940Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T06:04:59.709Z] INFO - Element clicked successfully
+[2026-07-06T06:04:59.709Z] INFO - Login form submitted
+[2026-07-06T06:04:59.711Z] INFO - Retrieving login failure message
+[2026-07-06T06:04:59.711Z] INFO - Getting text from: locator('//div[@class=\'alert alert-danger alert-dismissible\']')
+[2026-07-06T06:04:59.769Z] INFO - Retrieved text: "Warning: No match for E-Mail Address and/or Password."
+[2026-07-06T06:04:59.771Z] INFO - Login failure message: Warning: No match for E-Mail Address and/or Password.
+[2026-07-06T06:05:00.219Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:05:02.710Z] INFO - Website launched successfully
+[2026-07-06T06:05:02.711Z] INFO - Opening My Account menu
+[2026-07-06T06:05:02.712Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:05:02.854Z] INFO - Element clicked successfully
+[2026-07-06T06:05:02.854Z] INFO - My Account menu opened
+[2026-07-06T06:05:02.855Z] INFO - Navigating to Login page
+[2026-07-06T06:05:02.856Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T06:05:03.181Z] INFO - Element clicked successfully
+[2026-07-06T06:05:03.232Z] INFO - Login page opened
+[2026-07-06T06:05:03.264Z] INFO - Entering login credentials for: vigneshwaran.coder@gmail.com
+[2026-07-06T06:05:03.306Z] INFO - Entering value "vigneshwaran.coder@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:05:03.407Z] INFO - Value entered successfully
+[2026-07-06T06:05:03.412Z] INFO - Entering value "12345" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:05:03.437Z] INFO - Value entered successfully
+[2026-07-06T06:05:03.437Z] INFO - Login credentials entered successfully
+[2026-07-06T06:05:03.438Z] INFO - Submitting login form
+[2026-07-06T06:05:03.438Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T06:05:04.843Z] INFO - Element clicked successfully
+[2026-07-06T06:05:04.845Z] INFO - Login form submitted
+[2026-07-06T06:05:04.847Z] INFO - Retrieving login failure message
+[2026-07-06T06:05:04.848Z] INFO - Getting text from: locator('//div[@class=\'alert alert-danger alert-dismissible\']')
+[2026-07-06T06:05:04.917Z] INFO - Retrieved text: "Warning: No match for E-Mail Address and/or Password."
+[2026-07-06T06:05:04.917Z] INFO - Login failure message: Warning: No match for E-Mail Address and/or Password.
+[2026-07-06T06:05:05.357Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:05:07.638Z] INFO - Website launched successfully
+[2026-07-06T06:05:07.639Z] INFO - Opening My Account menu
+[2026-07-06T06:05:07.639Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:05:07.756Z] INFO - Element clicked successfully
+[2026-07-06T06:05:07.757Z] INFO - My Account menu opened
+[2026-07-06T06:05:07.761Z] INFO - Navigating to Register page
+[2026-07-06T06:05:07.761Z] INFO - Clicking on element: locator('//a[text()=\'Register\']')
+[2026-07-06T06:05:08.628Z] INFO - Element clicked successfully
+[2026-07-06T06:05:08.629Z] INFO - Register page opened
+[2026-07-06T06:05:08.650Z] INFO - Filling registration details for email: test1@gmail.com
+[2026-07-06T06:05:08.651Z] INFO - Entering value "Vignesh" into: locator('//input[@name=\'firstname\']')
+[2026-07-06T06:05:08.893Z] INFO - Value entered successfully
+[2026-07-06T06:05:08.911Z] INFO - Entering value "M" into: locator('//input[@name=\'lastname\']')
+[2026-07-06T06:05:08.939Z] INFO - Value entered successfully
+[2026-07-06T06:05:08.950Z] INFO - Entering value "test1@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:05:08.983Z] INFO - Value entered successfully
+[2026-07-06T06:05:08.994Z] INFO - Entering value "9876543210" into: locator('//input[@name=\'telephone\']')
+[2026-07-06T06:05:09.022Z] INFO - Value entered successfully
+[2026-07-06T06:05:09.030Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:05:09.064Z] INFO - Value entered successfully
+[2026-07-06T06:05:09.064Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'confirm\']')
+[2026-07-06T06:05:09.088Z] INFO - Value entered successfully
+[2026-07-06T06:05:09.088Z] INFO - Accepting Privacy Policy
+[2026-07-06T06:05:09.089Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T06:05:09.167Z] INFO - Element clicked successfully
+[2026-07-06T06:05:09.167Z] INFO - Submitting registration form
+[2026-07-06T06:05:09.167Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:05:09.653Z] INFO - Element clicked successfully
+[2026-07-06T06:05:09.653Z] INFO - Registration form submitted
+[2026-07-06T06:05:09.655Z] INFO - Accepting Privacy Policy
+[2026-07-06T06:05:09.656Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T06:05:09.768Z] INFO - Element clicked successfully
+[2026-07-06T06:05:09.769Z] INFO - Privacy Policy accepted
+[2026-07-06T06:05:09.770Z] INFO - Clicking Continue button
+[2026-07-06T06:05:09.770Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:05:10.004Z] INFO - Element clicked successfully
+[2026-07-06T06:05:10.006Z] INFO - Continue button clicked
+[2026-07-06T06:05:10.649Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:05:12.745Z] INFO - Website launched successfully
+[2026-07-06T06:05:12.746Z] INFO - Opening My Account menu
+[2026-07-06T06:05:12.746Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:05:12.856Z] INFO - Element clicked successfully
+[2026-07-06T06:05:12.861Z] INFO - My Account menu opened
+[2026-07-06T06:05:12.863Z] INFO - Navigating to Register page
+[2026-07-06T06:05:12.864Z] INFO - Clicking on element: locator('//a[text()=\'Register\']')
+[2026-07-06T06:05:13.038Z] INFO - Element clicked successfully
+[2026-07-06T06:05:13.039Z] INFO - Register page opened
+[2026-07-06T06:05:13.063Z] INFO - Filling registration details for email: test2@gmail.com
+[2026-07-06T06:05:13.064Z] INFO - Entering value "Vignesh" into: locator('//input[@name=\'firstname\']')
+[2026-07-06T06:05:13.221Z] INFO - Value entered successfully
+[2026-07-06T06:05:13.231Z] INFO - Entering value "M" into: locator('//input[@name=\'lastname\']')
+[2026-07-06T06:05:13.255Z] INFO - Value entered successfully
+[2026-07-06T06:05:13.256Z] INFO - Entering value "test2@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:05:13.311Z] INFO - Value entered successfully
+[2026-07-06T06:05:13.322Z] INFO - Entering value "9876543210" into: locator('//input[@name=\'telephone\']')
+[2026-07-06T06:05:13.348Z] INFO - Value entered successfully
+[2026-07-06T06:05:13.356Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:05:13.382Z] INFO - Value entered successfully
+[2026-07-06T06:05:13.385Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'confirm\']')
+[2026-07-06T06:05:13.408Z] INFO - Value entered successfully
+[2026-07-06T06:05:13.414Z] INFO - Accepting Privacy Policy
+[2026-07-06T06:05:13.417Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T06:05:13.478Z] INFO - Element clicked successfully
+[2026-07-06T06:05:13.498Z] INFO - Submitting registration form
+[2026-07-06T06:05:13.498Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:05:14.055Z] INFO - Element clicked successfully
+[2026-07-06T06:05:14.056Z] INFO - Registration form submitted
+[2026-07-06T06:05:14.060Z] INFO - Clicking Continue button
+[2026-07-06T06:05:14.061Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:05:14.341Z] INFO - Element clicked successfully
+[2026-07-06T06:05:14.341Z] INFO - Continue button clicked
+[2026-07-06T06:05:14.897Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:05:16.985Z] INFO - Website launched successfully
+[2026-07-06T06:05:17.406Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:05:19.617Z] INFO - Website launched successfully
+[2026-07-06T06:07:57.007Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:07:59.423Z] INFO - Website launched successfully
+[2026-07-06T06:07:59.430Z] INFO - Opening My Account menu
+[2026-07-06T06:07:59.465Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:07:59.878Z] INFO - Element clicked successfully
+[2026-07-06T06:07:59.878Z] INFO - My Account menu opened
+[2026-07-06T06:07:59.879Z] INFO - Navigating to Login page
+[2026-07-06T06:07:59.880Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T06:08:00.156Z] INFO - Element clicked successfully
+[2026-07-06T06:08:00.158Z] INFO - Login page opened
+[2026-07-06T06:08:00.167Z] INFO - Entering login credentials for: vigneshwaran.coder@gmail.com
+[2026-07-06T06:08:00.169Z] INFO - Entering value "vigneshwaran.coder@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:08:00.216Z] INFO - Value entered successfully
+[2026-07-06T06:08:00.219Z] INFO - Entering value "1234" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:08:00.240Z] INFO - Value entered successfully
+[2026-07-06T06:08:00.244Z] INFO - Login credentials entered successfully
+[2026-07-06T06:08:00.246Z] INFO - Submitting login form
+[2026-07-06T06:08:00.248Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T06:08:01.116Z] INFO - Element clicked successfully
+[2026-07-06T06:08:01.117Z] INFO - Login form submitted
+[2026-07-06T06:08:01.160Z] INFO - Retrieving My Account page heading
+[2026-07-06T06:08:01.160Z] INFO - Getting text from: locator('//h2[text()=\'My Account\']')
+[2026-07-06T06:08:01.164Z] INFO - Retrieved text: "My Account"
+[2026-07-06T06:08:01.164Z] INFO - My Account heading: My Account
+[2026-07-06T06:08:01.677Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:08:03.781Z] INFO - Website launched successfully
+[2026-07-06T06:08:03.783Z] INFO - Opening My Account menu
+[2026-07-06T06:08:03.784Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:08:03.895Z] INFO - Element clicked successfully
+[2026-07-06T06:08:03.895Z] INFO - My Account menu opened
+[2026-07-06T06:08:03.897Z] INFO - Navigating to Login page
+[2026-07-06T06:08:03.897Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T06:08:04.073Z] INFO - Element clicked successfully
+[2026-07-06T06:08:04.073Z] INFO - Login page opened
+[2026-07-06T06:08:04.076Z] INFO - Entering login credentials for: vigneshwaran
+[2026-07-06T06:08:04.077Z] INFO - Entering value "vigneshwaran" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:08:04.134Z] INFO - Value entered successfully
+[2026-07-06T06:08:04.135Z] INFO - Entering value "1234" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:08:04.158Z] INFO - Value entered successfully
+[2026-07-06T06:08:04.159Z] INFO - Login credentials entered successfully
+[2026-07-06T06:08:04.159Z] INFO - Submitting login form
+[2026-07-06T06:08:04.160Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T06:08:04.910Z] INFO - Element clicked successfully
+[2026-07-06T06:08:04.911Z] INFO - Login form submitted
+[2026-07-06T06:08:04.913Z] INFO - Retrieving login failure message
+[2026-07-06T06:08:04.913Z] INFO - Getting text from: locator('//div[@class=\'alert alert-danger alert-dismissible\']')
+[2026-07-06T06:08:04.973Z] INFO - Retrieved text: "Warning: No match for E-Mail Address and/or Password."
+[2026-07-06T06:08:04.974Z] INFO - Login failure message: Warning: No match for E-Mail Address and/or Password.
+[2026-07-06T06:08:05.361Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:08:07.619Z] INFO - Website launched successfully
+[2026-07-06T06:08:07.619Z] INFO - Opening My Account menu
+[2026-07-06T06:08:07.620Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:08:07.732Z] INFO - Element clicked successfully
+[2026-07-06T06:08:07.734Z] INFO - My Account menu opened
+[2026-07-06T06:08:07.736Z] INFO - Navigating to Login page
+[2026-07-06T06:08:07.736Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T06:08:07.932Z] INFO - Element clicked successfully
+[2026-07-06T06:08:07.933Z] INFO - Login page opened
+[2026-07-06T06:08:07.935Z] INFO - Entering login credentials for: vigneshwaran.coder@gmail.com
+[2026-07-06T06:08:07.936Z] INFO - Entering value "vigneshwaran.coder@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:08:07.998Z] INFO - Value entered successfully
+[2026-07-06T06:08:07.999Z] INFO - Entering value "12345" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:08:08.014Z] INFO - Value entered successfully
+[2026-07-06T06:08:08.014Z] INFO - Login credentials entered successfully
+[2026-07-06T06:08:08.015Z] INFO - Submitting login form
+[2026-07-06T06:08:08.016Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T06:08:08.845Z] INFO - Element clicked successfully
+[2026-07-06T06:08:08.846Z] INFO - Login form submitted
+[2026-07-06T06:08:08.849Z] INFO - Retrieving login failure message
+[2026-07-06T06:08:08.850Z] INFO - Getting text from: locator('//div[@class=\'alert alert-danger alert-dismissible\']')
+[2026-07-06T06:08:08.908Z] INFO - Retrieved text: "Warning: No match for E-Mail Address and/or Password."
+[2026-07-06T06:08:08.908Z] INFO - Login failure message: Warning: No match for E-Mail Address and/or Password.
+[2026-07-06T06:08:09.199Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:08:11.344Z] INFO - Website launched successfully
+[2026-07-06T06:08:11.345Z] INFO - Opening My Account menu
+[2026-07-06T06:08:11.345Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:08:11.438Z] INFO - Element clicked successfully
+[2026-07-06T06:08:11.438Z] INFO - My Account menu opened
+[2026-07-06T06:08:11.439Z] INFO - Navigating to Register page
+[2026-07-06T06:08:11.440Z] INFO - Clicking on element: locator('//a[text()=\'Register\']')
+[2026-07-06T06:08:11.762Z] INFO - Element clicked successfully
+[2026-07-06T06:08:11.762Z] INFO - Register page opened
+[2026-07-06T06:08:11.767Z] INFO - Filling registration details for email: test1@gmail.com
+[2026-07-06T06:08:11.768Z] INFO - Entering value "Vignesh" into: locator('//input[@name=\'firstname\']')
+[2026-07-06T06:08:11.900Z] INFO - Value entered successfully
+[2026-07-06T06:08:11.902Z] INFO - Entering value "M" into: locator('//input[@name=\'lastname\']')
+[2026-07-06T06:08:11.925Z] INFO - Value entered successfully
+[2026-07-06T06:08:11.926Z] INFO - Entering value "test1@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:08:11.962Z] INFO - Value entered successfully
+[2026-07-06T06:08:11.978Z] INFO - Entering value "9876543210" into: locator('//input[@name=\'telephone\']')
+[2026-07-06T06:08:12.031Z] INFO - Value entered successfully
+[2026-07-06T06:08:12.031Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:08:12.058Z] INFO - Value entered successfully
+[2026-07-06T06:08:12.059Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'confirm\']')
+[2026-07-06T06:08:12.099Z] INFO - Value entered successfully
+[2026-07-06T06:08:12.104Z] INFO - Accepting Privacy Policy
+[2026-07-06T06:08:12.105Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T06:08:12.194Z] INFO - Element clicked successfully
+[2026-07-06T06:08:12.195Z] INFO - Submitting registration form
+[2026-07-06T06:08:12.195Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:08:12.640Z] INFO - Element clicked successfully
+[2026-07-06T06:08:12.641Z] INFO - Registration form submitted
+[2026-07-06T06:08:12.643Z] INFO - Accepting Privacy Policy
+[2026-07-06T06:08:12.643Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T06:08:12.744Z] INFO - Element clicked successfully
+[2026-07-06T06:08:12.744Z] INFO - Privacy Policy accepted
+[2026-07-06T06:08:12.744Z] INFO - Clicking Continue button
+[2026-07-06T06:08:12.744Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:08:12.981Z] INFO - Element clicked successfully
+[2026-07-06T06:08:12.981Z] INFO - Continue button clicked
+[2026-07-06T06:08:13.396Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:08:15.666Z] INFO - Website launched successfully
+[2026-07-06T06:08:15.666Z] INFO - Opening My Account menu
+[2026-07-06T06:08:15.667Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:08:15.776Z] INFO - Element clicked successfully
+[2026-07-06T06:08:15.777Z] INFO - My Account menu opened
+[2026-07-06T06:08:15.777Z] INFO - Navigating to Register page
+[2026-07-06T06:08:15.778Z] INFO - Clicking on element: locator('//a[text()=\'Register\']')
+[2026-07-06T06:08:15.965Z] INFO - Element clicked successfully
+[2026-07-06T06:08:15.967Z] INFO - Register page opened
+[2026-07-06T06:08:15.972Z] INFO - Filling registration details for email: test2@gmail.com
+[2026-07-06T06:08:15.974Z] INFO - Entering value "Vignesh" into: locator('//input[@name=\'firstname\']')
+[2026-07-06T06:08:16.276Z] INFO - Value entered successfully
+[2026-07-06T06:08:16.277Z] INFO - Entering value "M" into: locator('//input[@name=\'lastname\']')
+[2026-07-06T06:08:16.326Z] INFO - Value entered successfully
+[2026-07-06T06:08:16.337Z] INFO - Entering value "test2@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:08:16.385Z] INFO - Value entered successfully
+[2026-07-06T06:08:16.386Z] INFO - Entering value "9876543210" into: locator('//input[@name=\'telephone\']')
+[2026-07-06T06:08:16.410Z] INFO - Value entered successfully
+[2026-07-06T06:08:16.411Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:08:16.545Z] INFO - Value entered successfully
+[2026-07-06T06:08:16.558Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'confirm\']')
+[2026-07-06T06:08:16.606Z] INFO - Value entered successfully
+[2026-07-06T06:08:16.608Z] INFO - Accepting Privacy Policy
+[2026-07-06T06:08:16.609Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T06:08:16.709Z] INFO - Element clicked successfully
+[2026-07-06T06:08:16.709Z] INFO - Submitting registration form
+[2026-07-06T06:08:16.710Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:08:17.195Z] INFO - Element clicked successfully
+[2026-07-06T06:08:17.198Z] INFO - Registration form submitted
+[2026-07-06T06:08:17.201Z] INFO - Clicking Continue button
+[2026-07-06T06:08:17.202Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:08:17.472Z] INFO - Element clicked successfully
+[2026-07-06T06:08:17.473Z] INFO - Continue button clicked
+[2026-07-06T06:08:17.909Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:08:20.490Z] INFO - Website launched successfully
+[2026-07-06T06:08:20.859Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:08:23.633Z] INFO - Website launched successfully
+[2026-07-06T06:55:25.944Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:55:28.124Z] INFO - Website launched successfully
+[2026-07-06T06:55:28.126Z] INFO - Opening My Account menu
+[2026-07-06T06:55:28.129Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:55:28.499Z] INFO - Element clicked successfully
+[2026-07-06T06:55:28.508Z] INFO - My Account menu opened
+[2026-07-06T06:55:28.516Z] INFO - Navigating to Login page
+[2026-07-06T06:55:28.517Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T06:55:28.773Z] INFO - Element clicked successfully
+[2026-07-06T06:55:28.775Z] INFO - Login page opened
+[2026-07-06T06:55:28.782Z] INFO - Entering login credentials for: vigneshwaran.coder@gmail.com
+[2026-07-06T06:55:28.803Z] INFO - Entering value "vigneshwaran.coder@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:55:28.857Z] INFO - Value entered successfully
+[2026-07-06T06:55:28.858Z] INFO - Entering value "1234" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:55:28.883Z] INFO - Value entered successfully
+[2026-07-06T06:55:28.888Z] INFO - Login credentials entered successfully
+[2026-07-06T06:55:28.895Z] INFO - Submitting login form
+[2026-07-06T06:55:28.900Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T06:55:29.849Z] INFO - Element clicked successfully
+[2026-07-06T06:55:29.849Z] INFO - Login form submitted
+[2026-07-06T06:55:29.896Z] INFO - Retrieving My Account page heading
+[2026-07-06T06:55:29.896Z] INFO - Getting text from: locator('//h2[text()=\'My Account\']')
+[2026-07-06T06:55:29.907Z] INFO - Retrieved text: "My Account"
+[2026-07-06T06:55:29.909Z] INFO - My Account heading: My Account
+[2026-07-06T06:55:30.368Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:55:32.511Z] INFO - Website launched successfully
+[2026-07-06T06:55:32.512Z] INFO - Opening My Account menu
+[2026-07-06T06:55:32.512Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:55:32.622Z] INFO - Element clicked successfully
+[2026-07-06T06:55:32.623Z] INFO - My Account menu opened
+[2026-07-06T06:55:32.624Z] INFO - Navigating to Login page
+[2026-07-06T06:55:32.624Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T06:55:33.609Z] INFO - Element clicked successfully
+[2026-07-06T06:55:33.610Z] INFO - Login page opened
+[2026-07-06T06:55:33.651Z] INFO - Entering login credentials for: vigneshwaran
+[2026-07-06T06:55:33.655Z] INFO - Entering value "vigneshwaran" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:55:33.726Z] INFO - Value entered successfully
+[2026-07-06T06:55:33.732Z] INFO - Entering value "1234" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:55:33.750Z] INFO - Value entered successfully
+[2026-07-06T06:55:33.751Z] INFO - Login credentials entered successfully
+[2026-07-06T06:55:33.751Z] INFO - Submitting login form
+[2026-07-06T06:55:33.753Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T06:55:34.827Z] INFO - Element clicked successfully
+[2026-07-06T06:55:34.827Z] INFO - Login form submitted
+[2026-07-06T06:55:34.829Z] INFO - Retrieving login failure message
+[2026-07-06T06:55:34.829Z] INFO - Getting text from: locator('//div[@class=\'alert alert-danger alert-dismissible\']')
+[2026-07-06T06:55:34.895Z] INFO - Retrieved text: "Warning: No match for E-Mail Address and/or Password."
+[2026-07-06T06:55:34.896Z] INFO - Login failure message: Warning: No match for E-Mail Address and/or Password.
+[2026-07-06T06:55:35.376Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:55:37.581Z] INFO - Website launched successfully
+[2026-07-06T06:55:37.582Z] INFO - Opening My Account menu
+[2026-07-06T06:55:37.582Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:55:37.700Z] INFO - Element clicked successfully
+[2026-07-06T06:55:37.700Z] INFO - My Account menu opened
+[2026-07-06T06:55:37.701Z] INFO - Navigating to Login page
+[2026-07-06T06:55:37.702Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T06:55:37.914Z] INFO - Element clicked successfully
+[2026-07-06T06:55:37.915Z] INFO - Login page opened
+[2026-07-06T06:55:37.918Z] INFO - Entering login credentials for: vigneshwaran.coder@gmail.com
+[2026-07-06T06:55:37.919Z] INFO - Entering value "vigneshwaran.coder@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:55:38.001Z] INFO - Value entered successfully
+[2026-07-06T06:55:38.006Z] INFO - Entering value "12345" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:55:38.051Z] INFO - Value entered successfully
+[2026-07-06T06:55:38.052Z] INFO - Login credentials entered successfully
+[2026-07-06T06:55:38.056Z] INFO - Submitting login form
+[2026-07-06T06:55:38.056Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T06:55:38.886Z] INFO - Element clicked successfully
+[2026-07-06T06:55:38.933Z] INFO - Login form submitted
+[2026-07-06T06:55:38.934Z] INFO - Retrieving login failure message
+[2026-07-06T06:55:38.966Z] INFO - Getting text from: locator('//div[@class=\'alert alert-danger alert-dismissible\']')
+[2026-07-06T06:55:39.033Z] INFO - Retrieved text: "Warning: No match for E-Mail Address and/or Password."
+[2026-07-06T06:55:39.034Z] INFO - Login failure message: Warning: No match for E-Mail Address and/or Password.
+[2026-07-06T06:55:39.498Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:55:41.900Z] INFO - Website launched successfully
+[2026-07-06T06:55:41.901Z] INFO - Opening My Account menu
+[2026-07-06T06:55:41.901Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:55:42.041Z] INFO - Element clicked successfully
+[2026-07-06T06:55:42.041Z] INFO - My Account menu opened
+[2026-07-06T06:55:42.042Z] INFO - Navigating to Register page
+[2026-07-06T06:55:42.042Z] INFO - Clicking on element: locator('//a[text()=\'Register\']')
+[2026-07-06T06:55:42.279Z] INFO - Element clicked successfully
+[2026-07-06T06:55:42.280Z] INFO - Register page opened
+[2026-07-06T06:55:42.287Z] INFO - Filling registration details for email: test1@gmail.com
+[2026-07-06T06:55:42.288Z] INFO - Entering value "Vignesh" into: locator('//input[@name=\'firstname\']')
+[2026-07-06T06:55:42.448Z] INFO - Value entered successfully
+[2026-07-06T06:55:42.449Z] INFO - Entering value "M" into: locator('//input[@name=\'lastname\']')
+[2026-07-06T06:55:42.487Z] INFO - Value entered successfully
+[2026-07-06T06:55:42.491Z] INFO - Entering value "test1@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:55:42.517Z] INFO - Value entered successfully
+[2026-07-06T06:55:42.517Z] INFO - Entering value "9876543210" into: locator('//input[@name=\'telephone\']')
+[2026-07-06T06:55:42.557Z] INFO - Value entered successfully
+[2026-07-06T06:55:42.563Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:55:42.611Z] INFO - Value entered successfully
+[2026-07-06T06:55:42.611Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'confirm\']')
+[2026-07-06T06:55:42.645Z] INFO - Value entered successfully
+[2026-07-06T06:55:42.659Z] INFO - Accepting Privacy Policy
+[2026-07-06T06:55:42.664Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T06:55:42.756Z] INFO - Element clicked successfully
+[2026-07-06T06:55:42.761Z] INFO - Submitting registration form
+[2026-07-06T06:55:42.766Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:55:43.319Z] INFO - Element clicked successfully
+[2026-07-06T06:55:43.320Z] INFO - Registration form submitted
+[2026-07-06T06:55:43.321Z] INFO - Accepting Privacy Policy
+[2026-07-06T06:55:43.321Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T06:55:43.417Z] INFO - Element clicked successfully
+[2026-07-06T06:55:43.417Z] INFO - Privacy Policy accepted
+[2026-07-06T06:55:43.418Z] INFO - Clicking Continue button
+[2026-07-06T06:55:43.420Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:55:43.646Z] INFO - Element clicked successfully
+[2026-07-06T06:55:43.649Z] INFO - Continue button clicked
+[2026-07-06T06:55:44.264Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:55:46.490Z] INFO - Website launched successfully
+[2026-07-06T06:55:46.491Z] INFO - Opening My Account menu
+[2026-07-06T06:55:46.491Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T06:55:46.631Z] INFO - Element clicked successfully
+[2026-07-06T06:55:46.632Z] INFO - My Account menu opened
+[2026-07-06T06:55:46.633Z] INFO - Navigating to Register page
+[2026-07-06T06:55:46.634Z] INFO - Clicking on element: locator('//a[text()=\'Register\']')
+[2026-07-06T06:55:46.875Z] INFO - Element clicked successfully
+[2026-07-06T06:55:46.876Z] INFO - Register page opened
+[2026-07-06T06:55:46.899Z] INFO - Filling registration details for email: test2@gmail.com
+[2026-07-06T06:55:46.899Z] INFO - Entering value "Vignesh" into: locator('//input[@name=\'firstname\']')
+[2026-07-06T06:55:47.066Z] INFO - Value entered successfully
+[2026-07-06T06:55:47.067Z] INFO - Entering value "M" into: locator('//input[@name=\'lastname\']')
+[2026-07-06T06:55:47.095Z] INFO - Value entered successfully
+[2026-07-06T06:55:47.099Z] INFO - Entering value "test2@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T06:55:47.148Z] INFO - Value entered successfully
+[2026-07-06T06:55:47.148Z] INFO - Entering value "9876543210" into: locator('//input[@name=\'telephone\']')
+[2026-07-06T06:55:47.176Z] INFO - Value entered successfully
+[2026-07-06T06:55:47.181Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'password\']')
+[2026-07-06T06:55:47.232Z] INFO - Value entered successfully
+[2026-07-06T06:55:47.232Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'confirm\']')
+[2026-07-06T06:55:47.251Z] INFO - Value entered successfully
+[2026-07-06T06:55:47.252Z] INFO - Accepting Privacy Policy
+[2026-07-06T06:55:47.255Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T06:55:47.312Z] INFO - Element clicked successfully
+[2026-07-06T06:55:47.312Z] INFO - Submitting registration form
+[2026-07-06T06:55:47.312Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:55:47.804Z] INFO - Element clicked successfully
+[2026-07-06T06:55:47.805Z] INFO - Registration form submitted
+[2026-07-06T06:55:47.808Z] INFO - Clicking Continue button
+[2026-07-06T06:55:47.810Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T06:55:48.183Z] INFO - Element clicked successfully
+[2026-07-06T06:55:48.187Z] INFO - Continue button clicked
+[2026-07-06T06:55:48.719Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:55:51.089Z] INFO - Website launched successfully
+[2026-07-06T06:55:51.090Z] INFO - Searching for product: searchKey
+[2026-07-06T06:55:51.090Z] INFO - Entering value "searchKey" into: locator('//input[@name=\'search\']')
+[2026-07-06T06:55:51.183Z] INFO - Value entered successfully
+[2026-07-06T06:55:51.184Z] INFO - Clicking on element: locator('//button[@class=\'btn btn-default btn-lg\']')
+[2026-07-06T06:55:51.762Z] INFO - Element clicked successfully
+[2026-07-06T06:55:51.762Z] INFO - Search completed for product: searchKey
+[2026-07-06T06:55:51.765Z] INFO - Verifying whether product "Nokia" is available
+[2026-07-06T06:55:51.765Z] INFO - Retrieving product list from the search results
+[2026-07-06T06:55:51.766Z] INFO - Getting all matching elements: locator('//div[@class=\'caption\']/h4/a')
+[2026-07-06T06:55:51.856Z] INFO - Found 0 matching elements
+[2026-07-06T06:55:51.856Z] INFO - Retrieved 0 products
+[2026-07-06T06:55:51.857Z] WARN - Product "Nokia" was not found
+[2026-07-06T06:55:52.411Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T06:55:54.603Z] INFO - Website launched successfully
+[2026-07-06T06:55:54.603Z] INFO - Searching for product: searchKey
+[2026-07-06T06:55:54.604Z] INFO - Entering value "searchKey" into: locator('//input[@name=\'search\']')
+[2026-07-06T06:55:54.721Z] INFO - Value entered successfully
+[2026-07-06T06:55:54.722Z] INFO - Clicking on element: locator('//button[@class=\'btn btn-default btn-lg\']')
+[2026-07-06T06:55:55.502Z] INFO - Element clicked successfully
+[2026-07-06T06:55:55.502Z] INFO - Search completed for product: searchKey
+[2026-07-06T06:55:55.504Z] INFO - Verifying whether product "Nokia" is available
+[2026-07-06T06:55:55.504Z] INFO - Retrieving product list from the search results
+[2026-07-06T06:55:55.504Z] INFO - Getting all matching elements: locator('//div[@class=\'caption\']/h4/a')
+[2026-07-06T06:55:55.565Z] INFO - Found 0 matching elements
+[2026-07-06T06:55:55.567Z] INFO - Retrieved 0 products
+[2026-07-06T06:55:55.567Z] WARN - Product "Nokia" was not found
+[2026-07-06T08:11:00.040Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T08:11:02.724Z] INFO - Website launched successfully
+[2026-07-06T08:11:02.817Z] INFO - Opening My Account menu
+[2026-07-06T08:11:03.004Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T08:11:03.321Z] INFO - Element clicked successfully
+[2026-07-06T08:11:03.391Z] INFO - My Account menu opened
+[2026-07-06T08:11:03.469Z] INFO - Navigating to Login page
+[2026-07-06T08:11:03.534Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T08:11:03.788Z] INFO - Element clicked successfully
+[2026-07-06T08:11:03.893Z] INFO - Login page opened
+[2026-07-06T08:11:03.919Z] INFO - Entering login credentials for: vigneshwaran.coder@gmail.com
+[2026-07-06T08:11:03.973Z] INFO - Entering value "vigneshwaran.coder@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T08:11:04.081Z] INFO - Value entered successfully
+[2026-07-06T08:11:04.091Z] INFO - Entering value "1234" into: locator('//input[@name=\'password\']')
+[2026-07-06T08:11:04.116Z] INFO - Value entered successfully
+[2026-07-06T08:11:04.136Z] INFO - Login credentials entered successfully
+[2026-07-06T08:11:04.150Z] INFO - Submitting login form
+[2026-07-06T08:11:04.151Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T08:11:05.470Z] INFO - Element clicked successfully
+[2026-07-06T08:11:05.553Z] INFO - Login form submitted
+[2026-07-06T08:11:06.082Z] INFO - Retrieving My Account page heading
+[2026-07-06T08:11:06.113Z] INFO - Getting text from: locator('//h2[text()=\'My Account\']')
+[2026-07-06T08:11:06.222Z] INFO - Retrieved text: "My Account"
+[2026-07-06T08:11:06.270Z] INFO - My Account heading: My Account
+[2026-07-06T08:11:07.671Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T08:11:10.142Z] INFO - Website launched successfully
+[2026-07-06T08:11:10.251Z] INFO - Opening My Account menu
+[2026-07-06T08:11:10.424Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T08:11:10.748Z] INFO - Element clicked successfully
+[2026-07-06T08:11:10.772Z] INFO - My Account menu opened
+[2026-07-06T08:11:10.804Z] INFO - Navigating to Login page
+[2026-07-06T08:11:10.805Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T08:11:11.049Z] INFO - Element clicked successfully
+[2026-07-06T08:11:11.116Z] INFO - Login page opened
+[2026-07-06T08:11:11.188Z] INFO - Entering login credentials for: vigneshwaran
+[2026-07-06T08:11:11.256Z] INFO - Entering value "vigneshwaran" into: locator('//input[@name=\'email\']')
+[2026-07-06T08:11:11.401Z] INFO - Value entered successfully
+[2026-07-06T08:11:11.435Z] INFO - Entering value "1234" into: locator('//input[@name=\'password\']')
+[2026-07-06T08:11:11.544Z] INFO - Value entered successfully
+[2026-07-06T08:11:11.568Z] INFO - Login credentials entered successfully
+[2026-07-06T08:11:11.605Z] INFO - Submitting login form
+[2026-07-06T08:11:11.689Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T08:11:12.575Z] INFO - Element clicked successfully
+[2026-07-06T08:11:12.605Z] INFO - Login form submitted
+[2026-07-06T08:11:12.606Z] INFO - Retrieving login failure message
+[2026-07-06T08:11:12.666Z] INFO - Getting text from: locator('//div[@class=\'alert alert-danger alert-dismissible\']')
+[2026-07-06T08:11:12.752Z] INFO - Retrieved text: "Warning: No match for E-Mail Address and/or Password."
+[2026-07-06T08:11:12.759Z] INFO - Login failure message: Warning: No match for E-Mail Address and/or Password.
+[2026-07-06T08:11:13.684Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T08:11:16.912Z] INFO - Website launched successfully
+[2026-07-06T08:11:17.024Z] INFO - Opening My Account menu
+[2026-07-06T08:11:17.127Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T08:11:17.447Z] INFO - Element clicked successfully
+[2026-07-06T08:11:17.531Z] INFO - My Account menu opened
+[2026-07-06T08:11:17.767Z] INFO - Navigating to Login page
+[2026-07-06T08:11:17.887Z] INFO - Clicking on element: locator('//a[text()=\'Login\']')
+[2026-07-06T08:11:18.353Z] INFO - Element clicked successfully
+[2026-07-06T08:11:18.570Z] INFO - Login page opened
+[2026-07-06T08:11:18.927Z] INFO - Entering login credentials for: vigneshwaran.coder@gmail.com
+[2026-07-06T08:11:19.076Z] INFO - Entering value "vigneshwaran.coder@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T08:11:19.258Z] INFO - Value entered successfully
+[2026-07-06T08:11:19.406Z] INFO - Entering value "12345" into: locator('//input[@name=\'password\']')
+[2026-07-06T08:11:19.564Z] INFO - Value entered successfully
+[2026-07-06T08:11:19.622Z] INFO - Login credentials entered successfully
+[2026-07-06T08:11:19.623Z] INFO - Submitting login form
+[2026-07-06T08:11:19.756Z] INFO - Clicking on element: locator('//input[@value=\'Login\']')
+[2026-07-06T08:11:20.607Z] INFO - Element clicked successfully
+[2026-07-06T08:11:20.672Z] INFO - Login form submitted
+[2026-07-06T08:11:20.673Z] INFO - Retrieving login failure message
+[2026-07-06T08:11:20.684Z] INFO - Getting text from: locator('//div[@class=\'alert alert-danger alert-dismissible\']')
+[2026-07-06T08:11:20.746Z] INFO - Retrieved text: "Warning: No match for E-Mail Address and/or Password."
+[2026-07-06T08:11:20.783Z] INFO - Login failure message: Warning: No match for E-Mail Address and/or Password.
+[2026-07-06T08:11:22.105Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T08:11:24.803Z] INFO - Website launched successfully
+[2026-07-06T08:11:24.834Z] INFO - Opening My Account menu
+[2026-07-06T08:11:24.937Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T08:11:25.132Z] INFO - Element clicked successfully
+[2026-07-06T08:11:25.143Z] INFO - My Account menu opened
+[2026-07-06T08:11:25.155Z] INFO - Navigating to Register page
+[2026-07-06T08:11:25.174Z] INFO - Clicking on element: locator('//a[text()=\'Register\']')
+[2026-07-06T08:11:25.424Z] INFO - Element clicked successfully
+[2026-07-06T08:11:25.433Z] INFO - Register page opened
+[2026-07-06T08:11:25.445Z] INFO - Filling registration details for email: test1@gmail.com
+[2026-07-06T08:11:25.459Z] INFO - Entering value "Vignesh" into: locator('//input[@name=\'firstname\']')
+[2026-07-06T08:11:25.632Z] INFO - Value entered successfully
+[2026-07-06T08:11:25.668Z] INFO - Entering value "M" into: locator('//input[@name=\'lastname\']')
+[2026-07-06T08:11:25.700Z] INFO - Value entered successfully
+[2026-07-06T08:11:25.722Z] INFO - Entering value "test1@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T08:11:25.768Z] INFO - Value entered successfully
+[2026-07-06T08:11:25.789Z] INFO - Entering value "9876543210" into: locator('//input[@name=\'telephone\']')
+[2026-07-06T08:11:25.836Z] INFO - Value entered successfully
+[2026-07-06T08:11:25.872Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'password\']')
+[2026-07-06T08:11:25.913Z] INFO - Value entered successfully
+[2026-07-06T08:11:25.931Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'confirm\']')
+[2026-07-06T08:11:25.969Z] INFO - Value entered successfully
+[2026-07-06T08:11:25.993Z] INFO - Accepting Privacy Policy
+[2026-07-06T08:11:26.007Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T08:11:26.067Z] INFO - Element clicked successfully
+[2026-07-06T08:11:26.114Z] INFO - Submitting registration form
+[2026-07-06T08:11:26.115Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T08:11:26.662Z] INFO - Element clicked successfully
+[2026-07-06T08:11:26.819Z] INFO - Registration form submitted
+[2026-07-06T08:11:26.820Z] INFO - Accepting Privacy Policy
+[2026-07-06T08:11:26.901Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T08:11:27.114Z] INFO - Element clicked successfully
+[2026-07-06T08:11:27.132Z] INFO - Privacy Policy accepted
+[2026-07-06T08:11:27.220Z] INFO - Clicking Continue button
+[2026-07-06T08:11:27.272Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T08:11:27.543Z] INFO - Element clicked successfully
+[2026-07-06T08:11:27.651Z] INFO - Continue button clicked
+[2026-07-06T08:11:28.724Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T08:11:31.994Z] INFO - Website launched successfully
+[2026-07-06T08:11:32.031Z] INFO - Opening My Account menu
+[2026-07-06T08:11:32.032Z] INFO - Clicking on element: locator('//i[@class=\'fa fa-user\']')
+[2026-07-06T08:11:32.176Z] INFO - Element clicked successfully
+[2026-07-06T08:11:32.210Z] INFO - My Account menu opened
+[2026-07-06T08:11:32.222Z] INFO - Navigating to Register page
+[2026-07-06T08:11:32.222Z] INFO - Clicking on element: locator('//a[text()=\'Register\']')
+[2026-07-06T08:11:32.421Z] INFO - Element clicked successfully
+[2026-07-06T08:11:32.459Z] INFO - Register page opened
+[2026-07-06T08:11:32.479Z] INFO - Filling registration details for email: test2@gmail.com
+[2026-07-06T08:11:32.547Z] INFO - Entering value "Vignesh" into: locator('//input[@name=\'firstname\']')
+[2026-07-06T08:11:32.696Z] INFO - Value entered successfully
+[2026-07-06T08:11:32.731Z] INFO - Entering value "M" into: locator('//input[@name=\'lastname\']')
+[2026-07-06T08:11:32.793Z] INFO - Value entered successfully
+[2026-07-06T08:11:32.817Z] INFO - Entering value "test2@gmail.com" into: locator('//input[@name=\'email\']')
+[2026-07-06T08:11:32.872Z] INFO - Value entered successfully
+[2026-07-06T08:11:32.908Z] INFO - Entering value "9876543210" into: locator('//input[@name=\'telephone\']')
+[2026-07-06T08:11:32.950Z] INFO - Value entered successfully
+[2026-07-06T08:11:32.987Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'password\']')
+[2026-07-06T08:11:33.009Z] INFO - Value entered successfully
+[2026-07-06T08:11:33.023Z] INFO - Entering value "Password@123" into: locator('//input[@name=\'confirm\']')
+[2026-07-06T08:11:33.064Z] INFO - Value entered successfully
+[2026-07-06T08:11:33.085Z] INFO - Accepting Privacy Policy
+[2026-07-06T08:11:33.093Z] INFO - Clicking on element: locator('//input[@value=1 and @type=\'checkbox\']')
+[2026-07-06T08:11:33.168Z] INFO - Element clicked successfully
+[2026-07-06T08:11:33.218Z] INFO - Submitting registration form
+[2026-07-06T08:11:33.219Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T08:11:33.682Z] INFO - Element clicked successfully
+[2026-07-06T08:11:33.702Z] INFO - Registration form submitted
+[2026-07-06T08:11:33.703Z] INFO - Clicking Continue button
+[2026-07-06T08:11:33.716Z] INFO - Clicking on element: locator('//input[@value=\'Continue\']')
+[2026-07-06T08:11:34.071Z] INFO - Element clicked successfully
+[2026-07-06T08:11:34.097Z] INFO - Continue button clicked
+[2026-07-06T08:11:36.839Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T08:11:40.359Z] INFO - Website launched successfully
+[2026-07-06T08:11:40.637Z] INFO - Searching for product: searchKey
+[2026-07-06T08:11:41.136Z] INFO - Entering value "searchKey" into: locator('//input[@name=\'search\']')
+[2026-07-06T08:11:41.278Z] INFO - Value entered successfully
+[2026-07-06T08:11:41.639Z] INFO - Clicking on element: locator('//button[@class=\'btn btn-default btn-lg\']')
+[2026-07-06T08:11:42.128Z] INFO - Element clicked successfully
+[2026-07-06T08:11:42.347Z] INFO - Search completed for product: searchKey
+[2026-07-06T08:11:42.348Z] INFO - Verifying whether product "Nokia" is available
+[2026-07-06T08:11:42.349Z] INFO - Retrieving product list from the search results
+[2026-07-06T08:11:42.349Z] INFO - Getting all matching elements: locator('//div[@class=\'caption\']/h4/a')
+[2026-07-06T08:11:42.483Z] INFO - Found 0 matching elements
+[2026-07-06T08:11:42.502Z] INFO - Retrieved 0 products
+[2026-07-06T08:11:42.523Z] WARN - Product "Nokia" was not found
+[2026-07-06T08:11:44.370Z] INFO - Launching website: https://tutorialsninja.com/demo
+[2026-07-06T08:11:45.595Z] INFO - Website launched successfully
+[2026-07-06T08:11:45.635Z] INFO - Searching for product: searchKey
+[2026-07-06T08:11:45.706Z] INFO - Entering value "searchKey" into: locator('//input[@name=\'search\']')
+[2026-07-06T08:11:45.851Z] INFO - Value entered successfully
+[2026-07-06T08:11:45.892Z] INFO - Clicking on element: locator('//button[@class=\'btn btn-default btn-lg\']')
+[2026-07-06T08:11:46.274Z] INFO - Element clicked successfully
+[2026-07-06T08:11:46.301Z] INFO - Search completed for product: searchKey
+[2026-07-06T08:11:46.353Z] INFO - Verifying whether product "Nokia" is available
+[2026-07-06T08:11:46.381Z] INFO - Retrieving product list from the search results
+[2026-07-06T08:11:46.382Z] INFO - Getting all matching elements: locator('//div[@class=\'caption\']/h4/a')
+[2026-07-06T08:11:46.455Z] INFO - Found 0 matching elements
+[2026-07-06T08:11:46.482Z] INFO - Retrieved 0 products
+[2026-07-06T08:11:46.483Z] WARN - Product "Nokia" was not found

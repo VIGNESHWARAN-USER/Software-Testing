@@ -18,7 +18,10 @@ module.exports = {
     publishQuiet: true,
     format: [
       "progress",
-      
+      "rerun:rerun/@rerun.txt",
+      "json:reports/cucumber-report.json",
+      "message:reports/messages.ndjson",
+      "allure-cucumberjs/reporter"
     ]
   }
 };

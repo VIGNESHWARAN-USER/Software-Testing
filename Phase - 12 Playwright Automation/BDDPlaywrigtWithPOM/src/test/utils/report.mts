@@ -3,7 +3,7 @@ report.generate({
   jsonDir: "reports",
   reportPath: "./reports/detailed-html",
   reportName: "Playwright BDD Report",
-  pageTitle: "BookCart App test report",
+  pageTitle: "LMS est Report",
   displayDuration: false,
   metadata: {
     browser: {
@@ -13,12 +13,7 @@ report.generate({
 device: "VIGNESHWARAN - Machine",
     platform: {
       name: "Windows",
-      version: "11 Pro",
+      version: "11",
     },
   },
-  customData: {
-    title: "Test info",
-    data: [
-      { label: "Project", value: "Book Cart Project" },
-      { label: "Release", value: "1.2.3" },
-      { label: "Cycle", value: "Smoke-1" },      ],    },  });
+});

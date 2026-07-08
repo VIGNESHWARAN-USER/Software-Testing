@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "user-login-feature;to-verify-the-valid-login",
+        "id": "user-login-feature;verify-login-with-valid-credentials",
         "keyword": "Scenario",
         "line": 8,
-        "name": "To verify the valid login",
+        "name": "Verify login with valid credentials",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 601516700
+              "duration": 489638599
             }
           },
           {
@@ -22,9 +22,12 @@
             "keyword": "Given ",
             "line": 4,
             "name": "the user launches the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:6"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 2776045799
             }
           },
           {
@@ -32,9 +35,12 @@
             "keyword": "And ",
             "line": 5,
             "name": "the user clicks the My Account Icon",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:10"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 651472900
             }
           },
           {
@@ -42,9 +48,12 @@
             "keyword": "And ",
             "line": 6,
             "name": "the user clicks the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:14"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 425543699
             }
           },
           {
@@ -52,9 +61,12 @@
             "keyword": "When ",
             "line": 9,
             "name": "the user enters the \"valid\" login details",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:18"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 254516400
             }
           },
           {
@@ -62,9 +74,12 @@
             "keyword": "And ",
             "line": 10,
             "name": "click the Login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:29"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1503837599
             }
           },
           {
@@ -72,9 +87,12 @@
             "keyword": "Then ",
             "line": 11,
             "name": "the user navigates the success page",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:33"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 423561900
             }
           },
           {
@@ -82,9 +100,12 @@
             "keyword": "And ",
             "line": 12,
             "name": "the user should see the heading \"My Account\"",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:38"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 458450199
             }
           },
           {
@@ -92,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 127177499
+              "duration": 233078199
             }
           }
         ],
@@ -101,17 +122,17 @@
       },
       {
         "description": "",
-        "id": "user-login-feature;to-verify-the-invalid-login",
+        "id": "user-login-feature;verify-login-with-an-invalid-email-address",
         "keyword": "Scenario",
         "line": 14,
-        "name": "To verify the invalid login",
+        "name": "Verify login with an invalid email address",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 396374899
+              "duration": 876175599
             }
           },
           {
@@ -119,9 +140,12 @@
             "keyword": "Given ",
             "line": 4,
             "name": "the user launches the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:6"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 2579737600
             }
           },
           {
@@ -129,9 +153,12 @@
             "keyword": "And ",
             "line": 5,
             "name": "the user clicks the My Account Icon",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:10"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 552001299
             }
           },
           {
@@ -139,19 +166,25 @@
             "keyword": "And ",
             "line": 6,
             "name": "the user clicks the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:14"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 381959399
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 15,
-            "name": "the user enters the \"invalid\" login details",
+            "name": "the user enters the \"invalidEmail\" login details",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:18"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 418581500
             }
           },
           {
@@ -159,19 +192,25 @@
             "keyword": "And ",
             "line": 16,
             "name": "click the Login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:29"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1000524899
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 17,
-            "name": "the user get the error message as \"Warning: No match for E-Mail Address and/or Password.\"",
+            "name": "the user get the login error message",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:45"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 157449699
             }
           },
           {
@@ -179,7 +218,112 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 104157299
+              "duration": 270054799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-login-feature;verify-login-with-an-invalid-password",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify login with an invalid password",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 639056000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user launches the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3339858299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks the My Account Icon",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 720865299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks the login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 998092000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user enters the \"invalidPassword\" login details",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 805444400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "click the Login button",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1049750100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the user get the login error message",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120520100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 300024700
             }
           }
         ],
@@ -190,7 +334,7 @@
     "id": "user-login-feature",
     "line": 1,
     "keyword": "Feature",
-    "name": "User login Feature",
+    "name": "User Login Feature",
     "tags": [],
     "uri": "src\\test\\features\\Login.feature"
   },
@@ -199,17 +343,17 @@
     "elements": [
       {
         "description": "",
-        "id": "user-registration-feature;to-verify-the-valid-registration",
+        "id": "user-registration-feature;verify-valid-registration",
         "keyword": "Scenario",
         "line": 8,
-        "name": "To verify the valid registration",
+        "name": "Verify valid registration",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 291956400
+              "duration": 996951400
             }
           },
           {
@@ -217,9 +361,12 @@
             "keyword": "Given ",
             "line": 4,
             "name": "the user launches the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:6"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 2728463400
             }
           },
           {
@@ -227,9 +374,12 @@
             "keyword": "And ",
             "line": 5,
             "name": "the user clicks the My Account Icon",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:10"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 320447999
             }
           },
           {
@@ -237,49 +387,97 @@
             "keyword": "And ",
             "line": 6,
             "name": "the user clicks the register button",
+            "match": {
+              "location": "src\\test\\steps\\RegisterStepDefinitions.ts:5"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 282755800
             }
           },
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "email",
+                      "telephone",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Vignesh",
+                      "M",
+                      "test1@gmail.com",
+                      "9876543210",
+                      "Password@123"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Vignesh",
+                      "M",
+                      "test1@gmail.com",
+                      "9876543210",
+                      "Password@123"
+                    ]
+                  }
+                ]
+              }
+            ],
             "keyword": "When ",
             "line": 9,
-            "name": "the user enters the valid registration details",
+            "name": "the user enters the following registration details",
+            "match": {
+              "location": "src\\test\\steps\\RegisterStepDefinitions.ts:9"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1375391999
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
+            "line": 13,
             "name": "checks the privacy policy option",
+            "match": {
+              "location": "src\\test\\steps\\RegisterStepDefinitions.ts:15"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 367677700
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 11,
+            "line": 14,
             "name": "click the Continue button",
+            "match": {
+              "location": "src\\test\\steps\\RegisterStepDefinitions.ts:20"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 431888500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 12,
-            "name": "the user get the success message as \"Your Account Has Been Created!\"",
+            "line": 15,
+            "name": "the user get the registration success message",
+            "match": {
+              "location": "src\\test\\steps\\RegisterStepDefinitions.ts:25"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "failed",
+              "duration": 118569199,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading')\nExpected: \u001b[32m\"\"\u001b[39m\nError: strict mode violation: getByRole('heading') resolved to 6 elements:\n    1) <h1>…</h1> aka getByRole('heading', { name: 'Qafox.com' })\n    2) <h1>Register Account</h1> aka getByRole('heading', { name: 'Register Account' })\n    3) <h5>Information</h5> aka getByRole('heading', { name: 'Information' })\n    4) <h5>Customer Service</h5> aka getByRole('heading', { name: 'Customer Service' })\n    5) <h5>Extras</h5> aka getByRole('heading', { name: 'Extras' })\n    6) <h5>My Account</h5> aka getByRole('heading', { name: 'My Account' })\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading')\u001b[22m\n\n    at captureRawStack (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPlaywrigtWithPOM\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPlaywrigtWithPOM\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveText (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPlaywrigtWithPOM\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at AllureCucumberWorld.<anonymous> (D:\\EXPLEO SMARTCLIFF\\Phase - 12 Playwright Automation\\BDDPlaywrigtWithPOM\\src\\test\\steps\\RegisterStepDefinitions.ts:29:11)"
             }
           },
           {
@@ -287,7 +485,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 95393799
+              "duration": 255712800
             }
           }
         ],
@@ -296,17 +494,17 @@
       },
       {
         "description": "",
-        "id": "user-registration-feature;to-verify-the-valid-registration-without-checking-privacy-policy",
+        "id": "user-registration-feature;verify-registration-without-accepting-privacy-policy",
         "keyword": "Scenario",
-        "line": 14,
-        "name": "To verify the valid registration without checking privacy policy",
+        "line": 17,
+        "name": "Verify registration without accepting privacy policy",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 313265100
+              "duration": 682491600
             }
           },
           {
@@ -314,9 +512,12 @@
             "keyword": "Given ",
             "line": 4,
             "name": "the user launches the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:6"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 3307341599
             }
           },
           {
@@ -324,9 +525,12 @@
             "keyword": "And ",
             "line": 5,
             "name": "the user clicks the My Account Icon",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:10"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 189746800
             }
           },
           {
@@ -334,49 +538,74 @@
             "keyword": "And ",
             "line": 6,
             "name": "the user clicks the register button",
+            "match": {
+              "location": "src\\test\\steps\\RegisterStepDefinitions.ts:5"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 248197000
             }
           },
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "email",
+                      "telephone",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Vignesh",
+                      "M",
+                      "test2@gmail.com",
+                      "9876543210",
+                      "Password@123"
+                    ]
+                  }
+                ]
+              }
+            ],
             "keyword": "When ",
-            "line": 15,
-            "name": "the user enters the valid registration details",
+            "line": 18,
+            "name": "the user enters the following registration details",
+            "match": {
+              "location": "src\\test\\steps\\RegisterStepDefinitions.ts:9"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1223690900
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 16,
-            "name": "checks the privacy policy option",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
+            "line": 21,
             "name": "click the Continue button",
+            "match": {
+              "location": "src\\test\\steps\\RegisterStepDefinitions.ts:20"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 394491399
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "the user get the error message as \"Error message\"",
+            "line": 22,
+            "name": "the user get the registration error message",
+            "match": {
+              "location": "src\\test\\steps\\RegisterStepDefinitions.ts:33"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 82430399
             }
           },
           {
@@ -384,7 +613,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 97036500
+              "duration": 1144451199
             }
           }
         ],
@@ -404,17 +633,17 @@
     "elements": [
       {
         "description": "",
-        "id": "search-feature;to-verify-the-valid-search-feature",
-        "keyword": "Scenario",
-        "line": 6,
-        "name": "To verify the valid search feature",
+        "id": "search-feature;verify-product-search-functionality",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Verify product search functionality",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 301074899
+              "duration": 1503082800
             }
           },
           {
@@ -422,49 +651,38 @@
             "keyword": "Given ",
             "line": 4,
             "name": "the user launches the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:6"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 3795313199
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "the user enters the \"valid\" search key in search box",
+            "name": "the user searches for \"searchKey\"",
+            "match": {
+              "location": "src\\test\\steps\\SearchStepDefinitions.ts:5"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "click the search button",
-            "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1710641100
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
-            "name": "the user navigates to the product page",
+            "line": 8,
+            "name": "the search results should be \"result\"",
+            "match": {
+              "location": "src\\test\\steps\\SearchStepDefinitions.ts:9"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "the related products should be displayed",
-            "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 177259099
             }
           },
           {
@@ -472,7 +690,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 137840699
+              "duration": 825520499
             }
           }
         ],
@@ -481,17 +699,17 @@
       },
       {
         "description": "",
-        "id": "search-feature;to-verify-the-invalid-search-featurewithout-checking-privacy-policy",
-        "keyword": "Scenario",
-        "line": 12,
-        "name": "To verify the invalid search featurewithout checking privacy policy",
+        "id": "search-feature;verify-product-search-functionality",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Verify product search functionality",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 312474900
+              "duration": 1003782399
             }
           },
           {
@@ -499,39 +717,38 @@
             "keyword": "Given ",
             "line": 4,
             "name": "the user launches the application",
+            "match": {
+              "location": "src\\test\\steps\\LoginStepDefinition.ts:6"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1264734399
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
-            "name": "the user enters the \"invalid\" search key in search box",
+            "line": 7,
+            "name": "the user searches for \"searchKey\"",
+            "match": {
+              "location": "src\\test\\steps\\SearchStepDefinitions.ts:5"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "click the search button",
-            "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 717302999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
-            "name": "the user should see the mesage as \"No products found\"",
+            "line": 8,
+            "name": "the search results should be \"result\"",
+            "match": {
+              "location": "src\\test\\steps\\SearchStepDefinitions.ts:9"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 132798399
             }
           },
           {
@@ -539,7 +756,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 108849900
+              "duration": 263738100
             }
           }
         ],
