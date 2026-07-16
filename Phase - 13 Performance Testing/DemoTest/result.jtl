@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1784111258870,1259,Find Flights,200,OK,Thread Group 1-1,text,true,,7333,240,1,1,https://blazedemo.com/reserve.php,1219,0,786
+1784111260135,449,Purchase,200,OK,Thread Group 1-1,text,true,,6719,287,1,1,https://blazedemo.com/purchase.php,441,0,0
+1784111260585,402,Confirmation,200,OK,Thread Group 1-1,text,true,,5784,444,1,1,https://blazedemo.com/confirmation.php,400,0,0
