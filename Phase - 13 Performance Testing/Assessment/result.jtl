@@ -1,0 +1,25 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1784631935254,2899,TC_01 Launch Application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,45899,707,3,3,null,0,51142,1668
+1784631934939,2698,TC_01 Launch Application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,45899,707,3,3,null,0,51659,1469
+1784631986381,2899,TC_01 Launch Application-655,200,OK,Thread Group 1-2,text,true,,45899,707,3,3,https://ecommerce-playground.lambdatest.io/,2622,0,1668
+1784631986580,2698,TC_01 Launch Application-655,200,OK,Thread Group 1-1,text,true,,45899,707,3,3,https://ecommerce-playground.lambdatest.io/,2423,0,1469
+1784631935582,2140,TC_01 Launch Application,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,45899,707,3,3,null,0,51859,863
+1784631987438,2140,TC_01 Launch Application-655,200,OK,Thread Group 1-3,text,true,,45899,707,3,3,https://ecommerce-playground.lambdatest.io/,1844,0,863
+1784631989581,4074,TC_02 Login,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,false,"The operation lasted too long: It took 4,074 milliseconds, but should not have lasted longer than 3,000 milliseconds.",63508,4119,3,3,null,0,349389,1487
+1784632224779,1144,TC_02 Login-659,200,OK,Thread Group 1-3,text,true,,21014,904,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account%2Flogin,1142,0,499
+1784632266424,914,TC_02 Login-660,200,OK,Thread Group 1-3,text,true,,21145,1357,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account/login,912,0,0
+1784632341021,2016,TC_02 Login-661,200,OK,Thread Group 1-3,text,true,,21349,1858,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account/login,1322,0,988
+1784632341021,1322,TC_02 Login-661-0,302,Found,Thread Group 1-3,text,true,,312,931,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account%2Faccount,1322,0,988
+1784632342346,691,TC_02 Login-661-1,200,OK,Thread Group 1-3,text,true,,21037,927,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account/login,689,0,0
+1784631989298,4324,TC_02 Login,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,false,"The operation lasted too long: It took 4,324 milliseconds, but should not have lasted longer than 3,000 milliseconds.",63508,4127,3,3,null,0,349759,1540
+1784632223708,1485,TC_02 Login-659,200,OK,Thread Group 1-2,text,true,,21014,904,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account%2Flogin,1482,0,757
+1784632265091,966,TC_02 Login-660,200,OK,Thread Group 1-2,text,true,,21145,1365,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account/login,963,0,0
+1784632341503,1873,TC_02 Login-661,200,OK,Thread Group 1-2,text,true,,21349,1858,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account/login,1179,0,783
+1784632341503,1179,TC_02 Login-661-0,302,Found,Thread Group 1-2,text,true,,312,931,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account%2Faccount,1179,0,783
+1784632342684,692,TC_02 Login-661-1,200,OK,Thread Group 1-2,text,true,,21037,927,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account/login,689,0,0
+1784631989298,4323,TC_02 Login,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,false,"The operation lasted too long: It took 4,323 milliseconds, but should not have lasted longer than 3,000 milliseconds.",63471,4119,3,3,null,0,350197,1464
+1784632223811,1396,TC_02 Login-659,200,OK,Thread Group 1-1,text,true,,21014,904,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account%2Flogin,1394,0,654
+1784632265380,998,TC_02 Login-660,200,OK,Thread Group 1-1,text,true,,21108,1357,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account/login,996,0,0
+1784632341886,1929,TC_02 Login-661,200,OK,Thread Group 1-1,text,true,,21349,1858,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account/login,1150,0,810
+1784632341886,1150,TC_02 Login-661-0,302,Found,Thread Group 1-1,text,true,,312,931,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account%2Faccount,1150,0,810
+1784632343037,778,TC_02 Login-661-1,200,OK,Thread Group 1-1,text,true,,21037,927,3,3,https://ecommerce-playground.lambdatest.io/index.php?route=account/login,776,0,0
