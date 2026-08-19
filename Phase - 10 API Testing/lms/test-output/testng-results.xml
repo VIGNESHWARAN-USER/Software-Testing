@@ -1,29 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-22T16:13:07 IST" name="Default suite" finished-at="2026-06-22T16:13:17 IST" duration-ms="9879">
+  <suite started-at="2026-08-19T15:58:03 IST" name="Default suite" finished-at="2026-08-19T15:58:27 IST" duration-ms="23982">
     <groups>
     </groups>
-    <test started-at="2026-06-22T16:13:07 IST" name="Default test" finished-at="2026-06-22T16:13:17 IST" duration-ms="9879">
+    <test started-at="2026-08-19T15:58:03 IST" name="Default test" finished-at="2026-08-19T15:58:27 IST" duration-ms="23982">
+      <class name="api.tests.CreateNoteTest">
+        <test-method signature="validCreateNoteTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.tests.CreateNoteTest@46d59067]" started-at="2026-08-19T15:58:18 IST" name="validCreateNoteTest" data-provider="createNoteData" finished-at="2026-08-19T15:58:21 IST" depends-on-methods="api.tests.LoginTest.validLoginTest" duration-ms="3197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCreateNoteTest -->
+        <test-method signature="validCreateNoteTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.tests.CreateNoteTest@46d59067]" started-at="2026-08-19T15:58:18 IST" name="validCreateNoteTest" data-provider="createNoteData" finished-at="2026-08-19T15:58:21 IST" depends-on-methods="api.tests.LoginTest.validLoginTest" duration-ms="3811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API Test Note]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Created by tester]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qa|demo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[#ffeb3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCreateNoteTest -->
+        <test-method signature="createNoteWithoutToken()[pri:0, instance:api.tests.CreateNoteTest@46d59067]" started-at="2026-08-19T15:58:21 IST" name="createNoteWithoutToken" finished-at="2026-08-19T15:58:22 IST" depends-on-methods="api.tests.CreateNoteTest.validCreateNoteTest" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteWithoutToken -->
+      </class> <!-- api.tests.CreateNoteTest -->
       <class name="api.tests.HealthCheckTest">
-        <test-method signature="healthCheckTest()[pri:0, instance:api.tests.HealthCheckTest@3aa078fd]" started-at="2026-06-22T16:13:07 IST" name="healthCheckTest" finished-at="2026-06-22T16:13:10 IST" duration-ms="2816" status="PASS">
+        <test-method signature="healthCheckTest()[pri:0, instance:api.tests.HealthCheckTest@51891008]" started-at="2026-08-19T15:58:03 IST" name="healthCheckTest" finished-at="2026-08-19T15:58:07 IST" duration-ms="3995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- healthCheckTest -->
       </class> <!-- api.tests.HealthCheckTest -->
-      <class name="api.tests.GetAllNotesTest">
-        <test-method signature="getAllNodesWithNoParamsTest()[pri:0, instance:api.tests.GetAllNotesTest@5dafbe45]" started-at="2026-06-22T16:13:15 IST" name="getAllNodesWithNoParamsTest" finished-at="2026-06-22T16:13:17 IST" depends-on-methods="api.tests.LoginTest.validLoginTest" duration-ms="1731" status="PASS">
+      <class name="api.tests.LoginTest">
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String,java.lang.Object)[pri:0, instance:api.tests.LoginTest@f68f0dc]" started-at="2026-08-19T15:58:09 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-08-19T15:58:10 IST" depends-on-methods="api.tests.HealthCheckTest.healthCheckTest" duration-ms="1413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid Email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sam1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllNodesWithNoParamsTest -->
-      </class> <!-- api.tests.GetAllNotesTest -->
-      <class name="api.tests.LoginTest">
-        <test-method signature="validLoginTest()[pri:0, instance:api.tests.LoginTest@2254127a]" started-at="2026-06-22T16:13:10 IST" name="validLoginTest" finished-at="2026-06-22T16:13:15 IST" depends-on-methods="api.tests.HealthCheckTest.healthCheckTest" duration-ms="5143" status="PASS">
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String,java.lang.Object)[pri:0, instance:api.tests.LoginTest@f68f0dc]" started-at="2026-08-19T15:58:09 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-08-19T15:58:12 IST" depends-on-methods="api.tests.HealthCheckTest.healthCheckTest" duration-ms="2791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid Password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sam1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String,java.lang.Object)[pri:0, instance:api.tests.LoginTest@f68f0dc]" started-at="2026-08-19T15:58:09 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-08-19T15:58:11 IST" depends-on-methods="api.tests.HealthCheckTest.healthCheckTest" duration-ms="1952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Empty Email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String,java.lang.Object)[pri:0, instance:api.tests.LoginTest@f68f0dc]" started-at="2026-08-19T15:58:09 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-08-19T15:58:10 IST" depends-on-methods="api.tests.HealthCheckTest.healthCheckTest" duration-ms="1337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Empty Password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sam1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String,java.lang.Object)[pri:0, instance:api.tests.LoginTest@f68f0dc]" started-at="2026-08-19T15:58:09 IST" name="invalidLoginTest" data-provider="invalidLoginData" finished-at="2026-08-19T15:58:11 IST" depends-on-methods="api.tests.HealthCheckTest.healthCheckTest" duration-ms="1951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Empty Email and Password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method signature="validLoginTest()[pri:0, instance:api.tests.LoginTest@f68f0dc]" started-at="2026-08-19T15:58:12 IST" name="validLoginTest" finished-at="2026-08-19T15:58:18 IST" depends-on-methods="api.tests.HealthCheckTest.healthCheckTest" duration-ms="5926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
       </class> <!-- api.tests.LoginTest -->
+      <class name="api.tests.GetNoteByID">
+        <test-method signature="getNoteWithoutToken()[pri:0, instance:api.tests.GetNoteByID@2f953efd]" started-at="2026-08-19T15:58:07 IST" name="getNoteWithoutToken" finished-at="2026-08-19T15:58:07 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNoteWithoutToken -->
+        <test-method signature="getNoteByInvalidId()[pri:0, instance:api.tests.GetNoteByID@2f953efd]" started-at="2026-08-19T15:58:22 IST" name="getNoteByInvalidId" finished-at="2026-08-19T15:58:24 IST" depends-on-methods="api.tests.LoginTest.validLoginTest" duration-ms="2249" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <404> but was <500>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <500>.
+
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139)
+at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at api.tests.GetNoteByID.getNoteByInvalidId(GetNoteByID.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNoteByInvalidId -->
+        <test-method signature="getNoteByValidId()[pri:0, instance:api.tests.GetNoteByID@2f953efd]" started-at="2026-08-19T15:58:25 IST" name="getNoteByValidId" finished-at="2026-08-19T15:58:27 IST" depends-on-methods="api.tests.CreateNoteTest.validCreateNoteTest" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNoteByValidId -->
+      </class> <!-- api.tests.GetNoteByID -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

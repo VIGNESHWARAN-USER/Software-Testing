@@ -5,7 +5,7 @@ import api.payload.Note;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class NotesServive {
+public class NotesService {
 	
 	public static Response createNoteService(Note payload, boolean isAuthRequired) {
 		
@@ -43,13 +43,15 @@ public class NotesServive {
 	}
 
 	
-	public static Response getNoteById(boolean isAuthRequired, int id) {
+	public static Response getNoteById(boolean isAuthRequired, String id) {
 		
 		Response response = BaseService.request(isAuthRequired)
-							.queryParam("id", id)
+							.pathParam("id", id)
 							.when()
 							.get(Routes.GET_NOTES_BY_ID_URL);
 		
 		return response;
 	}
+	
+
 }

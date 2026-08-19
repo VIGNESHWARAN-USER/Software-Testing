@@ -17,8 +17,8 @@ public class TestContext {
     	return noteId;
     }
     
-    public static void setNoteId()  {
-    	
+    public static void setNoteId(String noteId)  {
+    	TestContext.noteId = noteId;
     }
 
 }

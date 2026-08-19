@@ -2,8 +2,9 @@ package api.tests;
 
 import org.testng.annotations.Test;
 
+
 import api.dataproviders.GetAllNotesDataProvider;
-import api.services.NotesServive;
+import api.services.NotesService;
 
 import static org.hamcrest.Matchers.*;
 import io.restassured.response.Response;
@@ -14,7 +15,7 @@ public class GetAllNotesTest {
 	public void getAllNodesWithValidParamsTest(boolean isAuthRequired, int page, int limit, String search, String tags,
 			boolean isPinned, String sortBy, String sortOrder) {
 
-		Response response = NotesServive.getAllNotes(isAuthRequired, page, limit, search, tags, isPinned, sortBy,
+		Response response = NotesService.getAllNotes(isAuthRequired, page, limit, search, tags, isPinned, sortBy,
 				sortOrder);
 
 		response.then().statusCode(200).body("success", is(true)).body("data", notNullValue()).body("pagination",
@@ -24,7 +25,7 @@ public class GetAllNotesTest {
 	@Test(dependsOnMethods = "api.tests.LoginTest.validLoginTest")
 	public void getAllNodesWithNoParamsTest() {
 
-		Response response = NotesServive.getAllNotesWithNoParams(true);
+		Response response = NotesService.getAllNotesWithNoParams(true);
 
 		response.then().statusCode(200).body("success", is(true)).body("data", notNullValue()).body("pagination",
 				notNullValue());
@@ -36,7 +37,7 @@ public class GetAllNotesTest {
 			String tags, boolean isPinned, String sortBy, String sortOrder, int expectedStatusCode,
 			String expectedMessage) {
 
-		Response response = NotesServive.getAllNotes(isAuthRequired, page, limit, search, tags, isPinned, sortBy,
+		Response response = NotesService.getAllNotes(isAuthRequired, page, limit, search, tags, isPinned, sortBy,
 				sortOrder);
 
 		response.then().statusCode(expectedStatusCode);
@@ -50,7 +51,7 @@ public class GetAllNotesTest {
 	@Test
 	public void getAllNodesWithoutToken() {
 
-		Response response = NotesServive.getAllNotesWithNoParams(false);
+		Response response = NotesService.getAllNotesWithNoParams(false);
 
 		response.then().statusCode(401);
 	}
